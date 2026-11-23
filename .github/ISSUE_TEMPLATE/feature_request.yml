@@ -1,0 +1,29 @@
+name: Feature request
+description: Suggest a capability that would make logscope more useful for you.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: Describe the situation, not the solution. What are you trying to find out?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you would like logscope to do
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What you do today instead
+      description: Other tools, scripts, or manual work. Honest comparisons help.
+  - type: checkboxes
+    id: constraints
+    attributes:
+      label: Constraints
+      options:
+        - label: This can be implemented with the Python standard library only.
+        - label: I am willing to open a pull request.

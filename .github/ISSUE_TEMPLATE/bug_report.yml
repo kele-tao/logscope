@@ -1,0 +1,43 @@
+name: Bug report
+description: Something behaved differently from what the docs say.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please do not paste production logs unredacted. Trim to the lines that
+        reproduce the problem and replace hosts, tokens and user identifiers.
+  - type: textarea
+    id: command
+    attributes:
+      label: Command you ran
+      placeholder: logscope incidents examples/app.log --top 5
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened
+      description: Paste the output, including the exit code.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: logscope version
+      description: Output of "logscope --version".
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Python version and OS
+      placeholder: 3.12.10 on Windows 11
+    validations:
+      required: true

@@ -1,0 +1,49 @@
+{
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "machine": "AMD64",
+  "generated_by": "benchmarks/run.py",
+  "runs_per_size": 3,
+  "results": [
+    {
+      "lines": 5000,
+      "size_mb": 0.464,
+      "templates": 27,
+      "anomalies": 5,
+      "incidents": 1,
+      "median_s": 0.079,
+      "best_s": 0.078,
+      "mb_per_s": 5.89,
+      "peak_mb": 0.19
+    },
+    {
+      "lines": 20000,
+      "size_mb": 1.855,
+      "templates": 27,
+      "anomalies": 7,
+      "incidents": 2,
+      "median_s": 0.31,
+      "best_s": 0.292,
+      "mb_per_s": 5.97,
+      "peak_mb": 0.2
+    },
+    {
+      "lines": 60000,
+      "size_mb": 5.562,
+      "templates": 27,
+      "anomalies": 7,
+      "incidents": 2,
+      "median_s": 1.706,
+      "best_s": 1.648,
+      "mb_per_s": 3.26,
+      "peak_mb": 0.79
+    }
+  ],
+  "scale": {
+    "lines": 2100000,
+    "size_mb": 194.6,
+    "seconds": 44.3,
+    "peak_mib": 22.0,
+    "mb_per_s": 4.4
+  }
+}

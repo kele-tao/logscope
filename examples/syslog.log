@@ -1,0 +1,1200 @@
+<14>1 2026-05-12T09:00:01.350Z host-db db - - user 365ms authenticated from /v1/search
+<14>1 2026-05-12T09:00:02.700Z host-api api - - payment charge accepted id=61e818b9 amount=179
+<14>1 2026-05-12T09:00:04.050Z host-worker worker - - payment charge accepted id=e5a3765b amount=1185
+<14>1 2026-05-12T09:00:05.400Z host-payments payments - - email queued to=carol@example.com template=welcome
+<15>1 2026-05-12T09:00:06.750Z host-db db - - cache miss key=2d6541a5 fill=288ms
+<15>1 2026-05-12T09:00:08.099Z host-payments payments - - healthcheck ok component=checkout uptime=337s
+<14>1 2026-05-12T09:00:09.449Z host-payments payments - - request handled method=GET path=/v1/cart status=200 duration=338ms
+<15>1 2026-05-12T09:00:10.799Z host-cache cache - - db query completed table=orders rows=550 duration=485ms
+<14>1 2026-05-12T09:00:12.149Z host-api api - - request handled method=GET path=/v1/search status=200 duration=615ms
+<14>1 2026-05-12T09:00:13.499Z host-worker worker - - email queued to=carol@example.com template=receipt
+<14>1 2026-05-12T09:00:14.849Z host-payments payments - - request handled method=PUT path=/v1/catalog status=200 duration=558ms
+<14>1 2026-05-12T09:00:16.199Z host-cache cache - - user 193ms authenticated from 493ms
+<15>1 2026-05-12T09:00:17.549Z host-checkout checkout - - healthcheck ok component=checkout uptime=115s
+<15>1 2026-05-12T09:00:18.899Z host-checkout checkout - - cache miss key=abf80fc7 fill=750ms
+<14>1 2026-05-12T09:00:20.249Z host-cache cache - - user 35896 authenticated from 465ms
+<15>1 2026-05-12T09:00:21.599Z host-checkout checkout - - cache hit key=f9e92cd1 ttl=892s
+<14>1 2026-05-12T09:00:22.949Z host-checkout checkout - - payment charge accepted id=3db95b88 amount=309
+<14>1 2026-05-12T09:00:24.299Z host-payments payments - - payment charge accepted id=4bcb66e9 amount=300
+<15>1 2026-05-12T09:00:25.649Z host-checkout checkout - - cache hit key=e093e41c ttl=507s
+<14>1 2026-05-12T09:00:26.999Z host-worker worker - - request handled method=PUT path=/v1/user/me status=200 duration=361ms
+<15>1 2026-05-12T09:00:28.349Z host-cache cache - - healthcheck ok component=api uptime=708s
+<15>1 2026-05-12T09:00:29.699Z host-db db - - cache miss key=c3aea9db fill=373ms
+<15>1 2026-05-12T09:00:31.049Z host-checkout checkout - - db query completed table=orders rows=780 duration=1076ms
+<15>1 2026-05-12T09:00:32.399Z host-worker worker - - db query completed table=sessions rows=337 duration=149ms
+<14>1 2026-05-12T09:00:33.749Z host-cache cache - - request handled method=GET path=/v1/cart status=200 duration=157ms
+<14>1 2026-05-12T09:00:35.099Z host-cache cache - - request handled method=POST path=/v1/user/me status=200 duration=1098ms
+<15>1 2026-05-12T09:00:36.449Z host-worker worker - - db query completed table=users rows=28 duration=235ms
+<14>1 2026-05-12T09:00:37.799Z host-cache cache - - request handled method=GET path=/v1/cart status=200 duration=937ms
+<14>1 2026-05-12T09:00:39.149Z host-checkout checkout - - request handled method=GET path=/v1/search status=200 duration=140ms
+<15>1 2026-05-12T09:00:40.499Z host-db db - - cache hit key=983323c9 ttl=1008s
+<14>1 2026-05-12T09:00:41.849Z host-worker worker - - request handled method=POST path=/v1/user/me status=200 duration=1034ms
+<15>1 2026-05-12T09:00:43.199Z host-payments payments - - cache hit key=b6abe8b0 ttl=418s
+<14>1 2026-05-12T09:00:44.549Z host-db db - - user 68ms authenticated from 109ms
+<15>1 2026-05-12T09:00:45.899Z host-payments payments - - cache hit key=fd3026d1 ttl=109s
+<14>1 2026-05-12T09:00:47.249Z host-db db - - user /v1/checkout authenticated from 828ms
+<14>1 2026-05-12T09:00:48.599Z host-cache cache - - request handled method=POST path=/v1/user/me status=200 duration=721ms
+<14>1 2026-05-12T09:00:49.949Z host-payments payments - - request handled method=POST path=/v1/search status=200 duration=1199ms
+<14>1 2026-05-12T09:00:51.299Z host-checkout checkout - - request handled method=POST path=/v1/user/me status=200 duration=1134ms
+<15>1 2026-05-12T09:00:52.649Z host-db db - - cache hit key=2c2119ab ttl=788s
+<14>1 2026-05-12T09:00:53.999Z host-db db - - payment charge accepted id=eed88e08 amount=350
+<15>1 2026-05-12T09:00:55.349Z host-api api - - cache miss key=c5c2dd33 fill=37ms
+<14>1 2026-05-12T09:00:56.699Z host-db db - - payment charge accepted id=661e0da8 amount=270
+<14>1 2026-05-12T09:00:58.049Z host-api api - - request handled method=POST path=/v1/search status=200 duration=688ms
+<14>1 2026-05-12T09:00:59.399Z host-cache cache - - payment charge accepted id=40bb051b amount=163
+<14>1 2026-05-12T09:01:00.749Z host-checkout checkout - - user 776ms authenticated from 34304
+<14>1 2026-05-12T09:01:02.099Z host-checkout checkout - - payment charge accepted id=2485278a amount=1149
+<15>1 2026-05-12T09:01:03.449Z host-cache cache - - cache miss key=e35550bf fill=285ms
+<15>1 2026-05-12T09:01:04.799Z host-api api - - db query completed table=orders rows=994 duration=334ms
+<15>1 2026-05-12T09:01:06.149Z host-checkout checkout - - db query completed table=catalog rows=814 duration=208ms
+<14>1 2026-05-12T09:01:07.499Z host-checkout checkout - - request handled method=GET path=/v1/checkout status=200 duration=34ms
+<15>1 2026-05-12T09:01:08.849Z host-checkout checkout - - db query completed table=sessions rows=94 duration=883ms
+<15>1 2026-05-12T09:01:10.199Z host-checkout checkout - - db query completed table=orders rows=995 duration=472ms
+<14>1 2026-05-12T09:01:11.549Z host-worker worker - - kafka consumer lag group=orders partition=680 lag=360
+<15>1 2026-05-12T09:01:12.899Z host-worker worker - - cache miss key=80f4eebc fill=736ms
+<12>1 2026-05-12T09:01:14.249Z host-api api - - slow query table=catalog duration=1169ms
+<15>1 2026-05-12T09:01:15.599Z host-api api - - cache hit key=9e23d744 ttl=121s
+<15>1 2026-05-12T09:01:16.949Z host-checkout checkout - - db query completed table=orders rows=853 duration=286ms
+<14>1 2026-05-12T09:01:18.299Z host-db db - - kafka consumer lag group=orders partition=890 lag=883
+<15>1 2026-05-12T09:01:19.649Z host-worker worker - - cache hit key=f72bad80 ttl=718s
+<15>1 2026-05-12T09:01:20.999Z host-api api - - healthcheck ok component=api uptime=670s
+<14>1 2026-05-12T09:01:22.349Z host-api api - - user 258ms authenticated from 19943
+<15>1 2026-05-12T09:01:23.699Z host-db db - - db query completed table=catalog rows=1141 duration=467ms
+<15>1 2026-05-12T09:01:25.049Z host-worker worker - - healthcheck ok component=cache uptime=268s
+<15>1 2026-05-12T09:01:26.399Z host-payments payments - - db query completed table=orders rows=151 duration=802ms
+<15>1 2026-05-12T09:01:27.749Z host-checkout checkout - - cache hit key=7e9c8144 ttl=1158s
+<14>1 2026-05-12T09:01:29.099Z host-worker worker - - request handled method=PUT path=/v1/search status=200 duration=399ms
+<14>1 2026-05-12T09:01:30.449Z host-worker worker - - request handled method=POST path=/v1/cart status=200 duration=692ms
+<15>1 2026-05-12T09:01:31.799Z host-payments payments - - cache miss key=a8767055 fill=709ms
+<14>1 2026-05-12T09:01:33.149Z host-worker worker - - request handled method=PUT path=/v1/catalog status=200 duration=245ms
+<14>1 2026-05-12T09:01:34.499Z host-checkout checkout - - request handled method=POST path=/v1/user/me status=200 duration=671ms
+<15>1 2026-05-12T09:01:35.849Z host-payments payments - - cache hit key=e781806e ttl=482s
+<14>1 2026-05-12T09:01:37.199Z host-worker worker - - payment charge accepted id=1dff2dc8 amount=910
+<15>1 2026-05-12T09:01:38.549Z host-worker worker - - healthcheck ok component=cache uptime=187s
+<15>1 2026-05-12T09:01:39.899Z host-cache cache - - cache hit key=4252369b ttl=250s
+<14>1 2026-05-12T09:01:41.249Z host-cache cache - - request handled method=POST path=/v1/cart status=200 duration=323ms
+<15>1 2026-05-12T09:01:42.599Z host-checkout checkout - - healthcheck ok component=worker uptime=37s
+<15>1 2026-05-12T09:01:43.949Z host-cache cache - - cache hit key=10f080d9 ttl=493s
+<14>1 2026-05-12T09:01:45.299Z host-payments payments - - request handled method=POST path=/v1/cart status=200 duration=786ms
+<14>1 2026-05-12T09:01:46.649Z host-api api - - request handled method=GET path=/v1/checkout status=200 duration=451ms
+<14>1 2026-05-12T09:01:47.999Z host-worker worker - - email queued to=carol@example.com template=receipt
+<15>1 2026-05-12T09:01:49.349Z host-payments payments - - cache miss key=bb4c7eed fill=693ms
+<14>1 2026-05-12T09:01:50.699Z host-cache cache - - request handled method=POST path=/v1/checkout status=200 duration=822ms
+<15>1 2026-05-12T09:01:52.049Z host-cache cache - - db query completed table=users rows=923 duration=825ms
+<14>1 2026-05-12T09:01:53.399Z host-payments payments - - request handled method=PUT path=/v1/checkout status=200 duration=242ms
+<14>1 2026-05-12T09:01:54.749Z host-checkout checkout - - user /v1/user/me authenticated from 62554
+<15>1 2026-05-12T09:01:56.099Z host-worker worker - - db query completed table=orders rows=375 duration=907ms
+<14>1 2026-05-12T09:01:57.449Z host-payments payments - - request handled method=POST path=/v1/checkout status=200 duration=699ms
+<14>1 2026-05-12T09:01:58.799Z host-payments payments - - request handled method=GET path=/v1/catalog status=200 duration=699ms
+<14>1 2026-05-12T09:02:00.149Z host-db db - - request handled method=PUT path=/v1/cart status=200 duration=795ms
+<14>1 2026-05-12T09:02:01.499Z host-db db - - email queued to=alice@example.com template=reset-password
+<14>1 2026-05-12T09:02:02.849Z host-db db - - kafka consumer lag group=catalog partition=1127 lag=380
+<15>1 2026-05-12T09:02:04.199Z host-worker worker - - healthcheck ok component=payments uptime=710s
+<15>1 2026-05-12T09:02:05.549Z host-cache cache - - healthcheck ok component=worker uptime=9s
+<14>1 2026-05-12T09:02:06.899Z host-db db - - request handled method=POST path=/v1/cart status=200 duration=875ms
+<15>1 2026-05-12T09:02:08.249Z host-db db - - db query completed table=orders rows=598 duration=370ms
+<14>1 2026-05-12T09:02:09.599Z host-db db - - request handled method=GET path=/v1/catalog status=200 duration=1072ms
+<15>1 2026-05-12T09:02:10.949Z host-payments payments - - cache hit key=00fd540b ttl=960s
+<14>1 2026-05-12T09:02:12.299Z host-cache cache - - request handled method=PUT path=/v1/user/me status=200 duration=1130ms
+<14>1 2026-05-12T09:02:13.649Z host-api api - - request handled method=GET path=/v1/checkout status=200 duration=569ms
+<12>1 2026-05-12T09:02:14.999Z host-checkout checkout - - slow query table=orders duration=512ms
+<14>1 2026-05-12T09:02:16.349Z host-cache cache - - user /v1/checkout authenticated from 361ms
+<14>1 2026-05-12T09:02:17.699Z host-db db - - kafka consumer lag group=orders partition=643 lag=1046
+<14>1 2026-05-12T09:02:19.049Z host-cache cache - - request handled method=GET path=/v1/search status=200 duration=537ms
+<15>1 2026-05-12T09:02:20.399Z host-api api - - cache miss key=bf3d2238 fill=681ms
+<15>1 2026-05-12T09:02:21.749Z host-worker worker - - cache miss key=5c3fa91a fill=1013ms
+<15>1 2026-05-12T09:02:23.099Z host-api api - - cache hit key=531c2d1c ttl=759s
+<14>1 2026-05-12T09:02:24.449Z host-checkout checkout - - request handled method=PUT path=/v1/search status=200 duration=1090ms
+<15>1 2026-05-12T09:02:25.799Z host-worker worker - - cache hit key=6babeca4 ttl=594s
+<14>1 2026-05-12T09:02:27.149Z host-worker worker - - request handled method=POST path=/v1/user/me status=200 duration=12ms
+<14>1 2026-05-12T09:02:28.499Z host-worker worker - - request handled method=PUT path=/v1/checkout status=200 duration=654ms
+<15>1 2026-05-12T09:02:29.849Z host-db db - - cache miss key=0f2a7b6c fill=1011ms
+<15>1 2026-05-12T09:02:31.199Z host-db db - - healthcheck ok component=worker uptime=488s
+<14>1 2026-05-12T09:02:32.549Z host-db db - - kafka consumer lag group=orders partition=623 lag=698
+<14>1 2026-05-12T09:02:33.899Z host-api api - - request handled method=GET path=/v1/checkout status=200 duration=647ms
+<14>1 2026-05-12T09:02:35.249Z host-api api - - user /v1/search authenticated from 1170ms
+<15>1 2026-05-12T09:02:36.599Z host-worker worker - - cache hit key=0012549c ttl=1173s
+<14>1 2026-05-12T09:02:37.949Z host-api api - - payment charge accepted id=cbb537b2 amount=630
+<14>1 2026-05-12T09:02:39.299Z host-payments payments - - request handled method=PUT path=/v1/cart status=200 duration=696ms
+<14>1 2026-05-12T09:02:40.649Z host-cache cache - - request handled method=POST path=/v1/catalog status=200 duration=493ms
+<15>1 2026-05-12T09:02:41.999Z host-checkout checkout - - healthcheck ok component=checkout uptime=27s
+<15>1 2026-05-12T09:02:43.349Z host-api api - - db query completed table=catalog rows=546 duration=116ms
+<14>1 2026-05-12T09:02:44.699Z host-checkout checkout - - kafka consumer lag group=catalog partition=973 lag=1010
+<15>1 2026-05-12T09:02:46.049Z host-api api - - cache hit key=06856113 ttl=1157s
+<14>1 2026-05-12T09:02:47.399Z host-api api - - request handled method=GET path=/v1/catalog status=200 duration=881ms
+<15>1 2026-05-12T09:02:48.749Z host-payments payments - - cache hit key=b3725105 ttl=207s
+<14>1 2026-05-12T09:02:50.099Z host-api api - - user /v1/checkout authenticated from 80204
+<14>1 2026-05-12T09:02:51.449Z host-cache cache - - payment charge accepted id=652bed47 amount=189
+<14>1 2026-05-12T09:02:52.799Z host-cache cache - - user /v1/search authenticated from /v1/checkout
+<14>1 2026-05-12T09:02:54.149Z host-db db - - email queued to=bob@example.com template=reset-password
+<14>1 2026-05-12T09:02:55.499Z host-cache cache - - request handled method=POST path=/v1/cart status=200 duration=686ms
+<15>1 2026-05-12T09:02:56.849Z host-checkout checkout - - healthcheck ok component=payments uptime=142s
+<15>1 2026-05-12T09:02:58.199Z host-payments payments - - cache hit key=90f06713 ttl=220s
+<14>1 2026-05-12T09:02:59.549Z host-cache cache - - request handled method=PUT path=/v1/checkout status=200 duration=257ms
+<15>1 2026-05-12T09:03:00.899Z host-api api - - db query completed table=orders rows=672 duration=580ms
+<15>1 2026-05-12T09:03:02.249Z host-db db - - cache miss key=98380efd fill=448ms
+<14>1 2026-05-12T09:03:03.599Z host-checkout checkout - - request handled method=GET path=/v1/catalog status=200 duration=1121ms
+<15>1 2026-05-12T09:03:04.949Z host-cache cache - - db query completed table=orders rows=308 duration=517ms
+<14>1 2026-05-12T09:03:06.299Z host-cache cache - - payment charge accepted id=4e7cb893 amount=379
+<15>1 2026-05-12T09:03:07.649Z host-payments payments - - db query completed table=sessions rows=859 duration=107ms
+<14>1 2026-05-12T09:03:08.999Z host-api api - - user /v1/checkout authenticated from /v1/search
+<14>1 2026-05-12T09:03:10.349Z host-db db - - request handled method=PUT path=/v1/user/me status=200 duration=337ms
+<14>1 2026-05-12T09:03:11.699Z host-payments payments - - request handled method=PUT path=/v1/cart status=200 duration=162ms
+<14>1 2026-05-12T09:03:13.049Z host-db db - - kafka consumer lag group=catalog partition=64 lag=1115
+<14>1 2026-05-12T09:03:14.399Z host-payments payments - - user 64412 authenticated from 551
+<15>1 2026-05-12T09:03:15.749Z host-cache cache - - db query completed table=orders rows=947 duration=787ms
+<14>1 2026-05-12T09:03:17.099Z host-payments payments - - kafka consumer lag group=billing partition=601 lag=668
+<14>1 2026-05-12T09:03:18.449Z host-api api - - request handled method=POST path=/v1/user/me status=200 duration=408ms
+<14>1 2026-05-12T09:03:19.799Z host-cache cache - - email queued to=bob@example.com template=reset-password
+<14>1 2026-05-12T09:03:21.149Z host-checkout checkout - - request handled method=POST path=/v1/checkout status=200 duration=575ms
+<14>1 2026-05-12T09:03:22.499Z host-api api - - user /v1/search authenticated from 87575
+<15>1 2026-05-12T09:03:23.849Z host-worker worker - - cache miss key=56b2c2e5 fill=853ms
+<14>1 2026-05-12T09:03:25.199Z host-db db - - email queued to=bob@example.com template=welcome
+<14>1 2026-05-12T09:03:26.549Z host-cache cache - - user 313ms authenticated from 539ms
+<15>1 2026-05-12T09:03:27.899Z host-db db - - healthcheck ok component=cache uptime=1183s
+<14>1 2026-05-12T09:03:29.249Z host-api api - - payment charge accepted id=175ca612 amount=973
+<14>1 2026-05-12T09:03:30.599Z host-api api - - request handled method=POST path=/v1/checkout status=200 duration=815ms
+<14>1 2026-05-12T09:03:31.949Z host-api api - - kafka consumer lag group=billing partition=556 lag=692
+<14>1 2026-05-12T09:03:33.299Z host-payments payments - - kafka consumer lag group=billing partition=356 lag=329
+<14>1 2026-05-12T09:03:34.649Z host-payments payments - - user 721ms authenticated from 617ms
+<14>1 2026-05-12T09:03:35.999Z host-cache cache - - request handled method=POST path=/v1/catalog status=200 duration=148ms
+<15>1 2026-05-12T09:03:37.349Z host-payments payments - - cache miss key=42660fcf fill=399ms
+<14>1 2026-05-12T09:03:38.699Z host-worker worker - - payment charge accepted id=7df1a162 amount=202
+<14>1 2026-05-12T09:03:40.049Z host-worker worker - - payment charge accepted id=d722be5f amount=212
+<15>1 2026-05-12T09:03:41.399Z host-worker worker - - db query completed table=users rows=37 duration=993ms
+<15>1 2026-05-12T09:03:42.749Z host-api api - - db query completed table=sessions rows=320 duration=455ms
+<14>1 2026-05-12T09:03:44.099Z host-api api - - request handled method=GET path=/v1/checkout status=200 duration=352ms
+<15>1 2026-05-12T09:03:45.449Z host-cache cache - - db query completed table=users rows=1146 duration=1064ms
+<14>1 2026-05-12T09:03:46.799Z host-worker worker - - user /v1/catalog authenticated from /v1/user/me
+<14>1 2026-05-12T09:03:48.149Z host-payments payments - - payment charge accepted id=82322885 amount=521
+<14>1 2026-05-12T09:03:49.499Z host-payments payments - - request handled method=GET path=/v1/user/me status=200 duration=622ms
+<14>1 2026-05-12T09:03:50.849Z host-db db - - request handled method=POST path=/v1/catalog status=200 duration=315ms
+<15>1 2026-05-12T09:03:52.199Z host-cache cache - - cache hit key=50df3ac6 ttl=249s
+<14>1 2026-05-12T09:03:53.549Z host-cache cache - - request handled method=GET path=/v1/search status=200 duration=1051ms
+<15>1 2026-05-12T09:03:54.899Z host-payments payments - - db query completed table=orders rows=584 duration=12ms
+<14>1 2026-05-12T09:03:56.249Z host-checkout checkout - - request handled method=POST path=/v1/user/me status=200 duration=691ms
+<14>1 2026-05-12T09:03:57.599Z host-db db - - request handled method=PUT path=/v1/checkout status=200 duration=84ms
+<14>1 2026-05-12T09:03:58.949Z host-cache cache - - request handled method=GET path=/v1/catalog status=200 duration=921ms
+<14>1 2026-05-12T09:04:00.299Z host-cache cache - - request handled method=PUT path=/v1/catalog status=200 duration=478ms
+<14>1 2026-05-12T09:04:01.649Z host-checkout checkout - - user 1019ms authenticated from 87849
+<14>1 2026-05-12T09:04:02.999Z host-api api - - request handled method=PUT path=/v1/search status=200 duration=727ms
+<14>1 2026-05-12T09:04:04.349Z host-db db - - request handled method=POST path=/v1/search status=200 duration=1149ms
+<12>1 2026-05-12T09:04:05.699Z host-payments payments - - slow query table=orders duration=793ms
+<15>1 2026-05-12T09:04:07.049Z host-db db - - cache miss key=9568e791 fill=843ms
+<14>1 2026-05-12T09:04:08.399Z host-payments payments - - request handled method=PUT path=/v1/checkout status=200 duration=196ms
+<14>1 2026-05-12T09:04:09.749Z host-db db - - request handled method=GET path=/v1/checkout status=200 duration=753ms
+<15>1 2026-05-12T09:04:11.099Z host-db db - - db query completed table=users rows=97 duration=834ms
+<14>1 2026-05-12T09:04:12.449Z host-api api - - request handled method=PUT path=/v1/cart status=200 duration=770ms
+<15>1 2026-05-12T09:04:13.799Z host-worker worker - - healthcheck ok component=cache uptime=380s
+<14>1 2026-05-12T09:04:15.149Z host-api api - - request handled method=PUT path=/v1/checkout status=200 duration=584ms
+<15>1 2026-05-12T09:04:16.499Z host-checkout checkout - - healthcheck ok component=api uptime=709s
+<14>1 2026-05-12T09:04:17.849Z host-cache cache - - payment charge accepted id=3c510b44 amount=500
+<14>1 2026-05-12T09:04:19.199Z host-db db - - request handled method=GET path=/v1/catalog status=200 duration=854ms
+<15>1 2026-05-12T09:04:20.549Z host-worker worker - - db query completed table=sessions rows=246 duration=414ms
+<15>1 2026-05-12T09:04:21.899Z host-payments payments - - db query completed table=catalog rows=127 duration=677ms
+<14>1 2026-05-12T09:04:23.249Z host-checkout checkout - - request handled method=PUT path=/v1/cart status=200 duration=9ms
+<14>1 2026-05-12T09:04:24.599Z host-cache cache - - user 154ms authenticated from /v1/checkout
+<14>1 2026-05-12T09:04:25.949Z host-api api - - user 543ms authenticated from 106ms
+<14>1 2026-05-12T09:04:27.299Z host-cache cache - - request handled method=PUT path=/v1/user/me status=200 duration=427ms
+<15>1 2026-05-12T09:04:28.649Z host-checkout checkout - - cache hit key=381b4f25 ttl=138s
+<15>1 2026-05-12T09:04:29.999Z host-worker worker - - cache miss key=3c93c9aa fill=303ms
+<14>1 2026-05-12T09:04:31.349Z host-worker worker - - kafka consumer lag group=orders partition=682 lag=517
+<14>1 2026-05-12T09:04:32.699Z host-payments payments - - user 538ms authenticated from 5515
+<14>1 2026-05-12T09:04:34.049Z host-worker worker - - request handled method=POST path=/v1/catalog status=200 duration=83ms
+<14>1 2026-05-12T09:04:35.399Z host-db db - - user /v1/catalog authenticated from /v1/search
+<14>1 2026-05-12T09:04:36.749Z host-cache cache - - payment charge accepted id=26caae56 amount=215
+<15>1 2026-05-12T09:04:38.099Z host-checkout checkout - - cache miss key=cc13e1e3 fill=111ms
+<15>1 2026-05-12T09:04:39.449Z host-cache cache - - cache miss key=be47f158 fill=1097ms
+<14>1 2026-05-12T09:04:40.799Z host-checkout checkout - - request handled method=POST path=/v1/catalog status=200 duration=1139ms
+<15>1 2026-05-12T09:04:42.149Z host-api api - - cache hit key=6a0af03e ttl=82s
+<14>1 2026-05-12T09:04:43.499Z host-worker worker - - request handled method=POST path=/v1/search status=200 duration=1070ms
+<15>1 2026-05-12T09:04:44.849Z host-db db - - healthcheck ok component=checkout uptime=137s
+<14>1 2026-05-12T09:04:46.199Z host-api api - - request handled method=GET path=/v1/user/me status=200 duration=772ms
+<15>1 2026-05-12T09:04:47.549Z host-worker worker - - cache hit key=8f6cca93 ttl=3s
+<14>1 2026-05-12T09:04:48.899Z host-cache cache - - request handled method=POST path=/v1/catalog status=200 duration=624ms
+<12>1 2026-05-12T09:04:50.249Z host-cache cache - - slow query table=catalog duration=642ms
+<15>1 2026-05-12T09:04:51.599Z host-worker worker - - healthcheck ok component=db uptime=1162s
+<14>1 2026-05-12T09:04:52.949Z host-db db - - request handled method=GET path=/v1/checkout status=200 duration=568ms
+<14>1 2026-05-12T09:04:54.299Z host-api api - - request handled method=PUT path=/v1/checkout status=200 duration=1145ms
+<15>1 2026-05-12T09:04:55.649Z host-db db - - cache hit key=d2190d8c ttl=599s
+<15>1 2026-05-12T09:04:56.999Z host-db db - - healthcheck ok component=worker uptime=564s
+<14>1 2026-05-12T09:04:58.349Z host-api api - - request handled method=PUT path=/v1/cart status=200 duration=1012ms
+<14>1 2026-05-12T09:04:59.699Z host-worker worker - - request handled method=PUT path=/v1/user/me status=200 duration=1007ms
+<14>1 2026-05-12T09:05:01.049Z host-db db - - request handled method=POST path=/v1/cart status=200 duration=847ms
+<14>1 2026-05-12T09:05:02.399Z host-worker worker - - request handled method=GET path=/v1/search status=200 duration=1046ms
+<15>1 2026-05-12T09:05:03.749Z host-db db - - cache miss key=a7f2c757 fill=274ms
+<15>1 2026-05-12T09:05:05.099Z host-payments payments - - cache miss key=8ae9fd80 fill=670ms
+<14>1 2026-05-12T09:05:06.449Z host-checkout checkout - - user 21252 authenticated from 88561
+<15>1 2026-05-12T09:05:07.799Z host-db db - - cache miss key=4f2f61e5 fill=902ms
+<14>1 2026-05-12T09:05:09.149Z host-worker worker - - request handled method=GET path=/v1/catalog status=200 duration=152ms
+<14>1 2026-05-12T09:05:10.499Z host-checkout checkout - - request handled method=PUT path=/v1/search status=200 duration=93ms
+<15>1 2026-05-12T09:05:11.849Z host-worker worker - - healthcheck ok component=checkout uptime=383s
+<14>1 2026-05-12T09:05:13.199Z host-cache cache - - request handled method=PUT path=/v1/checkout status=200 duration=531ms
+<14>1 2026-05-12T09:05:14.549Z host-checkout checkout - - request handled method=GET path=/v1/search status=200 duration=528ms
+<15>1 2026-05-12T09:05:15.899Z host-db db - - db query completed table=sessions rows=185 duration=335ms
+<15>1 2026-05-12T09:05:17.249Z host-cache cache - - cache hit key=1e1f66a7 ttl=11s
+<14>1 2026-05-12T09:05:18.599Z host-db db - - request handled method=PUT path=/v1/user/me status=200 duration=107ms
+<14>1 2026-05-12T09:05:19.949Z host-cache cache - - request handled method=POST path=/v1/user/me status=200 duration=1180ms
+<14>1 2026-05-12T09:05:21.299Z host-cache cache - - kafka consumer lag group=billing partition=1181 lag=477
+<14>1 2026-05-12T09:05:22.649Z host-worker worker - - payment charge accepted id=035ed462 amount=256
+<15>1 2026-05-12T09:05:23.999Z host-cache cache - - healthcheck ok component=api uptime=27s
+<14>1 2026-05-12T09:05:25.349Z host-db db - - user /v1/search authenticated from 837ms
+<14>1 2026-05-12T09:05:26.699Z host-checkout checkout - - request handled method=POST path=/v1/checkout status=200 duration=1122ms
+<14>1 2026-05-12T09:05:28.049Z host-api api - - request handled method=GET path=/v1/checkout status=200 duration=1133ms
+<15>1 2026-05-12T09:05:29.399Z host-worker worker - - cache hit key=4ed7f09a ttl=70s
+<15>1 2026-05-12T09:05:30.749Z host-worker worker - - cache hit key=a25f196b ttl=670s
+<15>1 2026-05-12T09:05:32.099Z host-checkout checkout - - db query completed table=catalog rows=99 duration=633ms
+<15>1 2026-05-12T09:05:33.449Z host-api api - - cache miss key=7cfcd3bd fill=255ms
+<14>1 2026-05-12T09:05:34.799Z host-db db - - request handled method=POST path=/v1/cart status=200 duration=895ms
+<15>1 2026-05-12T09:05:36.149Z host-db db - - healthcheck ok component=worker uptime=125s
+<15>1 2026-05-12T09:05:37.499Z host-cache cache - - cache hit key=66e09c0b ttl=1048s
+<14>1 2026-05-12T09:05:38.849Z host-payments payments - - request handled method=POST path=/v1/cart status=200 duration=130ms
+<14>1 2026-05-12T09:05:40.199Z host-payments payments - - request handled method=GET path=/v1/checkout status=200 duration=346ms
+<14>1 2026-05-12T09:05:41.549Z host-payments payments - - user 836ms authenticated from /v1/cart
+<14>1 2026-05-12T09:05:42.899Z host-cache cache - - email queued to=bob@example.com template=reset-password
+<14>1 2026-05-12T09:05:44.249Z host-db db - - kafka consumer lag group=billing partition=182 lag=480
+<12>1 2026-05-12T09:05:45.599Z host-worker worker - - slow query table=orders duration=337ms
+<14>1 2026-05-12T09:05:46.949Z host-db db - - request handled method=PUT path=/v1/user/me status=200 duration=223ms
+<14>1 2026-05-12T09:05:48.299Z host-db db - - request handled method=PUT path=/v1/catalog status=200 duration=1020ms
+<14>1 2026-05-12T09:05:49.649Z host-checkout checkout - - request handled method=POST path=/v1/user/me status=200 duration=742ms
+<14>1 2026-05-12T09:05:50.999Z host-api api - - user /v1/cart authenticated from 733ms
+<15>1 2026-05-12T09:05:52.349Z host-worker worker - - db query completed table=catalog rows=418 duration=492ms
+<14>1 2026-05-12T09:05:53.699Z host-checkout checkout - - email queued to=carol@example.com template=welcome
+<15>1 2026-05-12T09:05:55.049Z host-db db - - cache hit key=ea350ca3 ttl=211s
+<15>1 2026-05-12T09:05:56.399Z host-worker worker - - cache hit key=b7126ee0 ttl=71s
+<14>1 2026-05-12T09:05:57.749Z host-db db - - request handled method=PUT path=/v1/user/me status=200 duration=105ms
+<14>1 2026-05-12T09:05:59.099Z host-payments payments - - request handled method=GET path=/v1/checkout status=200 duration=902ms
+<15>1 2026-05-12T09:06:00.449Z host-checkout checkout - - cache hit key=f2611936 ttl=1182s
+<14>1 2026-05-12T09:06:01.799Z host-checkout checkout - - request handled method=PUT path=/v1/cart status=200 duration=610ms
+<14>1 2026-05-12T09:06:03.149Z host-db db - - payment charge accepted id=8ac48218 amount=1103
+<15>1 2026-05-12T09:06:04.499Z host-db db - - cache hit key=6a7705ea ttl=738s
+<15>1 2026-05-12T09:06:05.849Z host-payments payments - - cache miss key=e2e24b02 fill=822ms
+<14>1 2026-05-12T09:06:07.199Z host-checkout checkout - - request handled method=GET path=/v1/search status=200 duration=876ms
+<14>1 2026-05-12T09:06:08.549Z host-checkout checkout - - email queued to=alice@example.com template=reset-password
+<14>1 2026-05-12T09:06:09.899Z host-worker worker - - request handled method=GET path=/v1/checkout status=200 duration=1139ms
+<15>1 2026-05-12T09:06:11.249Z host-checkout checkout - - healthcheck ok component=db uptime=92s
+<15>1 2026-05-12T09:06:12.599Z host-payments payments - - db query completed table=orders rows=964 duration=1056ms
+<14>1 2026-05-12T09:06:13.949Z host-cache cache - - request handled method=GET path=/v1/search status=200 duration=222ms
+<14>1 2026-05-12T09:06:15.299Z host-cache cache - - request handled method=PUT path=/v1/catalog status=200 duration=867ms
+<15>1 2026-05-12T09:06:16.649Z host-cache cache - - healthcheck ok component=db uptime=193s
+<14>1 2026-05-12T09:06:17.999Z host-checkout checkout - - payment charge accepted id=be9fe684 amount=776
+<14>1 2026-05-12T09:06:19.349Z host-payments payments - - user 45491 authenticated from 802ms
+<14>1 2026-05-12T09:06:20.699Z host-db db - - request handled method=PUT path=/v1/search status=200 duration=754ms
+<15>1 2026-05-12T09:06:22.049Z host-api api - - healthcheck ok component=cache uptime=744s
+<14>1 2026-05-12T09:06:23.399Z host-checkout checkout - - request handled method=POST path=/v1/search status=200 duration=847ms
+<14>1 2026-05-12T09:06:24.749Z host-payments payments - - email queued to=carol@example.com template=reset-password
+<14>1 2026-05-12T09:06:26.099Z host-cache cache - - request handled method=POST path=/v1/catalog status=200 duration=197ms
+<14>1 2026-05-12T09:06:27.449Z host-db db - - request handled method=PUT path=/v1/user/me status=200 duration=1161ms
+<15>1 2026-05-12T09:06:28.799Z host-db db - - cache hit key=263b9d02 ttl=822s
+<15>1 2026-05-12T09:06:30.149Z host-worker worker - - healthcheck ok component=payments uptime=454s
+<15>1 2026-05-12T09:06:31.499Z host-checkout checkout - - db query completed table=catalog rows=908 duration=7ms
+<14>1 2026-05-12T09:06:32.849Z host-db db - - request handled method=GET path=/v1/user/me status=200 duration=267ms
+<15>1 2026-05-12T09:06:34.199Z host-worker worker - - cache miss key=2abceeaf fill=61ms
+<14>1 2026-05-12T09:06:35.549Z host-api api - - request handled method=POST path=/v1/cart status=200 duration=34ms
+<15>1 2026-05-12T09:06:36.899Z host-cache cache - - db query completed table=users rows=980 duration=39ms
+<15>1 2026-05-12T09:06:38.249Z host-payments payments - - cache hit key=6a4f4ec5 ttl=141s
+<14>1 2026-05-12T09:06:39.599Z host-cache cache - - request handled method=PUT path=/v1/checkout status=200 duration=44ms
+<15>1 2026-05-12T09:06:40.949Z host-api api - - cache hit key=63b714ef ttl=456s
+<14>1 2026-05-12T09:06:42.299Z host-cache cache - - kafka consumer lag group=billing partition=709 lag=582
+<14>1 2026-05-12T09:06:43.649Z host-db db - - user 94156 authenticated from 50831
+<14>1 2026-05-12T09:06:44.999Z host-cache cache - - request handled method=POST path=/v1/checkout status=200 duration=698ms
+<14>1 2026-05-12T09:06:46.349Z host-checkout checkout - - request handled method=PUT path=/v1/checkout status=200 duration=204ms
+<15>1 2026-05-12T09:06:47.699Z host-checkout checkout - - db query completed table=sessions rows=120 duration=900ms
+<14>1 2026-05-12T09:06:49.049Z host-checkout checkout - - request handled method=PUT path=/v1/search status=200 duration=1030ms
+<15>1 2026-05-12T09:06:50.399Z host-checkout checkout - - cache hit key=2dfae56f ttl=1064s
+<14>1 2026-05-12T09:06:51.749Z host-checkout checkout - - request handled method=GET path=/v1/checkout status=200 duration=696ms
+<14>1 2026-05-12T09:06:53.099Z host-checkout checkout - - user /v1/catalog authenticated from /v1/catalog
+<14>1 2026-05-12T09:06:54.449Z host-payments payments - - request handled method=PUT path=/v1/user/me status=200 duration=692ms
+<14>1 2026-05-12T09:06:55.799Z host-db db - - request handled method=GET path=/v1/catalog status=200 duration=556ms
+<14>1 2026-05-12T09:06:57.149Z host-checkout checkout - - user 596ms authenticated from /v1/user/me
+<14>1 2026-05-12T09:06:58.499Z host-payments payments - - user /v1/user/me authenticated from 45988
+<15>1 2026-05-12T09:06:59.849Z host-payments payments - - cache miss key=0f01b4e6 fill=324ms
+<15>1 2026-05-12T09:07:01.199Z host-db db - - healthcheck ok component=db uptime=53s
+<14>1 2026-05-12T09:07:02.549Z host-checkout checkout - - request handled method=GET path=/v1/checkout status=200 duration=104ms
+<14>1 2026-05-12T09:07:03.899Z host-worker worker - - request handled method=POST path=/v1/cart status=200 duration=662ms
+<14>1 2026-05-12T09:07:05.249Z host-payments payments - - request handled method=GET path=/v1/search status=200 duration=394ms
+<15>1 2026-05-12T09:07:06.599Z host-checkout checkout - - db query completed table=orders rows=424 duration=645ms
+<14>1 2026-05-12T09:07:07.949Z host-cache cache - - user /v1/search authenticated from /v1/cart
+<15>1 2026-05-12T09:07:09.299Z host-checkout checkout - - healthcheck ok component=worker uptime=874s
+<15>1 2026-05-12T09:07:10.649Z host-payments payments - - db query completed table=sessions rows=1052 duration=543ms
+<14>1 2026-05-12T09:07:11.999Z host-cache cache - - payment charge accepted id=763a6ab8 amount=719
+<14>1 2026-05-12T09:07:13.349Z host-checkout checkout - - request handled method=GET path=/v1/user/me status=200 duration=209ms
+<14>1 2026-05-12T09:07:14.699Z host-worker worker - - request handled method=PUT path=/v1/search status=200 duration=1170ms
+<15>1 2026-05-12T09:07:16.049Z host-api api - - cache hit key=3c33e016 ttl=294s
+<14>1 2026-05-12T09:07:17.399Z host-cache cache - - user 3031 authenticated from 70995
+<14>1 2026-05-12T09:07:18.749Z host-payments payments - - payment charge accepted id=195b88f4 amount=194
+<14>1 2026-05-12T09:07:20.099Z host-checkout checkout - - request handled method=GET path=/v1/checkout status=200 duration=74ms
+<14>1 2026-05-12T09:07:21.449Z host-api api - - request handled method=PUT path=/v1/checkout status=200 duration=462ms
+<14>1 2026-05-12T09:07:22.799Z host-api api - - request handled method=GET path=/v1/search status=200 duration=43ms
+<14>1 2026-05-12T09:07:24.149Z host-checkout checkout - - request handled method=GET path=/v1/checkout status=200 duration=990ms
+<15>1 2026-05-12T09:07:25.499Z host-api api - - cache miss key=fecbc5c1 fill=929ms
+<14>1 2026-05-12T09:07:26.849Z host-payments payments - - request handled method=GET path=/v1/search status=200 duration=590ms
+<14>1 2026-05-12T09:07:28.199Z host-payments payments - - request handled method=GET path=/v1/search status=200 duration=458ms
+<14>1 2026-05-12T09:07:29.549Z host-worker worker - - user /v1/checkout authenticated from 67299
+<15>1 2026-05-12T09:07:30.899Z host-payments payments - - cache hit key=764b0b80 ttl=429s
+<14>1 2026-05-12T09:07:32.249Z host-cache cache - - request handled method=POST path=/v1/checkout status=200 duration=783ms
+<15>1 2026-05-12T09:07:33.599Z host-cache cache - - cache hit key=021d17e7 ttl=549s
+<15>1 2026-05-12T09:07:34.949Z host-worker worker - - db query completed table=orders rows=186 duration=802ms
+<14>1 2026-05-12T09:07:36.299Z host-api api - - request handled method=POST path=/v1/catalog status=200 duration=521ms
+<15>1 2026-05-12T09:07:37.649Z host-worker worker - - cache miss key=30d11d18 fill=32ms
+<15>1 2026-05-12T09:07:38.999Z host-api api - - db query completed table=users rows=443 duration=381ms
+<15>1 2026-05-12T09:07:40.349Z host-payments payments - - cache hit key=93f5e918 ttl=161s
+<15>1 2026-05-12T09:07:41.699Z host-cache cache - - healthcheck ok component=checkout uptime=11s
+<15>1 2026-05-12T09:07:43.049Z host-worker worker - - db query completed table=catalog rows=672 duration=266ms
+<14>1 2026-05-12T09:07:44.399Z host-worker worker - - request handled method=PUT path=/v1/catalog status=200 duration=398ms
+<15>1 2026-05-12T09:07:45.749Z host-worker worker - - healthcheck ok component=checkout uptime=1161s
+<14>1 2026-05-12T09:07:47.099Z host-payments payments - - user /v1/checkout authenticated from 426ms
+<14>1 2026-05-12T09:07:48.449Z host-db db - - kafka consumer lag group=orders partition=211 lag=332
+<15>1 2026-05-12T09:07:49.799Z host-api api - - db query completed table=catalog rows=10 duration=65ms
+<14>1 2026-05-12T09:07:51.149Z host-db db - - request handled method=GET path=/v1/catalog status=200 duration=419ms
+<15>1 2026-05-12T09:07:52.499Z host-worker worker - - cache hit key=01c560f0 ttl=177s
+<14>1 2026-05-12T09:07:53.849Z host-worker worker - - user /v1/cart authenticated from 7668
+<14>1 2026-05-12T09:07:55.199Z host-checkout checkout - - request handled method=PUT path=/v1/checkout status=200 duration=356ms
+<14>1 2026-05-12T09:07:56.549Z host-cache cache - - payment charge accepted id=a48afa65 amount=775
+<14>1 2026-05-12T09:07:57.899Z host-cache cache - - request handled method=POST path=/v1/search status=200 duration=990ms
+<14>1 2026-05-12T09:07:59.249Z host-cache cache - - request handled method=PUT path=/v1/checkout status=200 duration=1167ms
+<15>1 2026-05-12T09:08:00.599Z host-checkout checkout - - db query completed table=users rows=157 duration=810ms
+<14>1 2026-05-12T09:08:01.949Z host-api api - - request handled method=GET path=/v1/checkout status=200 duration=938ms
+<14>1 2026-05-12T09:08:03.299Z host-worker worker - - payment charge accepted id=24a15e72 amount=665
+<14>1 2026-05-12T09:08:04.649Z host-worker worker - - payment charge accepted id=d0b73d8a amount=788
+<14>1 2026-05-12T09:08:05.999Z host-db db - - request handled method=PUT path=/v1/checkout status=200 duration=787ms
+<15>1 2026-05-12T09:08:07.349Z host-cache cache - - healthcheck ok component=db uptime=222s
+<14>1 2026-05-12T09:08:08.699Z host-api api - - payment charge accepted id=e17a284a amount=685
+<15>1 2026-05-12T09:08:10.049Z host-payments payments - - cache hit key=19b9cef8 ttl=201s
+<14>1 2026-05-12T09:08:11.399Z host-cache cache - - request handled method=GET path=/v1/search status=200 duration=146ms
+<15>1 2026-05-12T09:08:12.749Z host-api api - - cache hit key=4a558bbc ttl=1048s
+<15>1 2026-05-12T09:08:14.099Z host-db db - - healthcheck ok component=checkout uptime=119s
+<15>1 2026-05-12T09:08:15.449Z host-payments payments - - cache hit key=6b21ffce ttl=912s
+<14>1 2026-05-12T09:08:16.799Z host-payments payments - - kafka consumer lag group=billing partition=350 lag=927
+<14>1 2026-05-12T09:08:18.149Z host-worker worker - - request handled method=GET path=/v1/catalog status=200 duration=917ms
+<15>1 2026-05-12T09:08:19.499Z host-cache cache - - db query completed table=sessions rows=1085 duration=960ms
+<14>1 2026-05-12T09:08:20.849Z host-cache cache - - request handled method=GET path=/v1/checkout status=200 duration=882ms
+<15>1 2026-05-12T09:08:22.199Z host-db db - - cache hit key=72c794f5 ttl=404s
+<15>1 2026-05-12T09:08:23.549Z host-worker worker - - cache hit key=b714fa45 ttl=344s
+<14>1 2026-05-12T09:08:24.899Z host-worker worker - - email queued to=bob@example.com template=reset-password
+<14>1 2026-05-12T09:08:26.249Z host-db db - - request handled method=GET path=/v1/cart status=200 duration=849ms
+<14>1 2026-05-12T09:08:27.599Z host-db db - - request handled method=POST path=/v1/catalog status=200 duration=702ms
+<15>1 2026-05-12T09:08:28.949Z host-payments payments - - cache miss key=fe991e79 fill=1178ms
+<15>1 2026-05-12T09:08:30.299Z host-db db - - db query completed table=catalog rows=1135 duration=639ms
+<14>1 2026-05-12T09:08:31.649Z host-worker worker - - user 59669 authenticated from 716ms
+<15>1 2026-05-12T09:08:32.999Z host-worker worker - - db query completed table=sessions rows=1137 duration=1168ms
+<14>1 2026-05-12T09:08:34.349Z host-db db - - kafka consumer lag group=catalog partition=263 lag=741
+<14>1 2026-05-12T09:08:35.699Z host-api api - - user 1172ms authenticated from /v1/catalog
+<15>1 2026-05-12T09:08:37.049Z host-api api - - cache hit key=c97fdf95 ttl=246s
+<14>1 2026-05-12T09:08:38.399Z host-db db - - payment charge accepted id=46b7fe50 amount=1044
+<14>1 2026-05-12T09:08:39.749Z host-checkout checkout - - request handled method=PUT path=/v1/checkout status=200 duration=979ms
+<14>1 2026-05-12T09:08:41.099Z host-payments payments - - request handled method=PUT path=/v1/checkout status=200 duration=37ms
+<14>1 2026-05-12T09:08:42.449Z host-api api - - user /v1/catalog authenticated from 84062
+<14>1 2026-05-12T09:08:43.799Z host-cache cache - - payment charge accepted id=adc48d28 amount=763
+<15>1 2026-05-12T09:08:45.149Z host-checkout checkout - - healthcheck ok component=api uptime=1080s
+<14>1 2026-05-12T09:08:46.499Z host-checkout checkout - - payment charge accepted id=b11892dc amount=754
+<15>1 2026-05-12T09:08:47.849Z host-api api - - cache hit key=2971a793 ttl=300s
+<15>1 2026-05-12T09:08:49.199Z host-cache cache - - cache miss key=04313a8b fill=995ms
+<15>1 2026-05-12T09:08:50.549Z host-payments payments - - healthcheck ok component=checkout uptime=897s
+<14>1 2026-05-12T09:08:51.899Z host-worker worker - - request handled method=PUT path=/v1/cart status=200 duration=720ms
+<14>1 2026-05-12T09:08:53.249Z host-worker worker - - request handled method=PUT path=/v1/search status=200 duration=892ms
+<14>1 2026-05-12T09:08:54.599Z host-cache cache - - request handled method=POST path=/v1/search status=200 duration=826ms
+<14>1 2026-05-12T09:08:55.949Z host-payments payments - - request handled method=PUT path=/v1/user/me status=200 duration=986ms
+<14>1 2026-05-12T09:08:57.299Z host-api api - - user /v1/cart authenticated from /v1/checkout
+<14>1 2026-05-12T09:08:58.649Z host-cache cache - - email queued to=bob@example.com template=receipt
+<14>1 2026-05-12T09:08:59.999Z host-db db - - request handled method=GET path=/v1/cart status=200 duration=177ms
+<14>1 2026-05-12T09:09:01.349Z host-payments payments - - request handled method=POST path=/v1/checkout status=200 duration=1025ms
+<15>1 2026-05-12T09:09:02.699Z host-api api - - cache hit key=147e9cc7 ttl=178s
+<15>1 2026-05-12T09:09:04.049Z host-db db - - db query completed table=sessions rows=1116 duration=1029ms
+<14>1 2026-05-12T09:09:05.399Z host-payments payments - - request handled method=GET path=/v1/catalog status=200 duration=33ms
+<15>1 2026-05-12T09:09:06.749Z host-cache cache - - cache hit key=545725ae ttl=637s
+<15>1 2026-05-12T09:09:08.099Z host-payments payments - - healthcheck ok component=payments uptime=172s
+<14>1 2026-05-12T09:09:09.449Z host-checkout checkout - - user 87834 authenticated from 1103ms
+<14>1 2026-05-12T09:09:10.799Z host-worker worker - - payment charge accepted id=cffc0fc4 amount=1181
+<15>1 2026-05-12T09:09:12.149Z host-worker worker - - cache hit key=1dff061a ttl=1113s
+<14>1 2026-05-12T09:09:13.499Z host-api api - - request handled method=POST path=/v1/user/me status=200 duration=353ms
+<14>1 2026-05-12T09:09:14.849Z host-worker worker - - request handled method=PUT path=/v1/checkout status=200 duration=565ms
+<14>1 2026-05-12T09:09:16.199Z host-api api - - request handled method=GET path=/v1/catalog status=200 duration=898ms
+<15>1 2026-05-12T09:09:17.549Z host-db db - - db query completed table=orders rows=174 duration=322ms
+<15>1 2026-05-12T09:09:18.899Z host-cache cache - - db query completed table=sessions rows=839 duration=585ms
+<14>1 2026-05-12T09:09:20.249Z host-db db - - request handled method=GET path=/v1/user/me status=200 duration=1051ms
+<14>1 2026-05-12T09:09:21.599Z host-worker worker - - request handled method=GET path=/v1/cart status=200 duration=718ms
+<14>1 2026-05-12T09:09:22.949Z host-api api - - request handled method=POST path=/v1/user/me status=200 duration=91ms
+<14>1 2026-05-12T09:09:24.299Z host-checkout checkout - - payment charge accepted id=fc905c36 amount=167
+<15>1 2026-05-12T09:09:25.649Z host-checkout checkout - - cache hit key=b94b3d53 ttl=418s
+<12>1 2026-05-12T09:09:26.999Z host-api api - - slow query table=users duration=38ms
+<14>1 2026-05-12T09:09:28.349Z host-cache cache - - user /v1/checkout authenticated from 37612
+<14>1 2026-05-12T09:09:29.699Z host-cache cache - - email queued to=alice@example.com template=welcome
+<15>1 2026-05-12T09:09:31.049Z host-cache cache - - db query completed table=catalog rows=472 duration=761ms
+<14>1 2026-05-12T09:09:32.399Z host-api api - - request handled method=PUT path=/v1/search status=200 duration=540ms
+<14>1 2026-05-12T09:09:33.749Z host-checkout checkout - - request handled method=POST path=/v1/catalog status=200 duration=620ms
+<15>1 2026-05-12T09:09:35.099Z host-payments payments - - db query completed table=catalog rows=217 duration=754ms
+<14>1 2026-05-12T09:09:36.449Z host-worker worker - - request handled method=PUT path=/v1/checkout status=200 duration=750ms
+<14>1 2026-05-12T09:09:37.799Z host-cache cache - - request handled method=POST path=/v1/catalog status=200 duration=942ms
+<14>1 2026-05-12T09:09:39.149Z host-api api - - request handled method=GET path=/v1/user/me status=200 duration=566ms
+<14>1 2026-05-12T09:09:40.499Z host-worker worker - - request handled method=POST path=/v1/checkout status=200 duration=455ms
+<14>1 2026-05-12T09:09:41.849Z host-db db - - request handled method=POST path=/v1/cart status=200 duration=417ms
+<15>1 2026-05-12T09:09:43.199Z host-worker worker - - cache miss key=ae0b9e54 fill=278ms
+<14>1 2026-05-12T09:09:44.549Z host-payments payments - - kafka consumer lag group=orders partition=1180 lag=728
+<14>1 2026-05-12T09:09:45.899Z host-payments payments - - request handled method=GET path=/v1/search status=200 duration=227ms
+<14>1 2026-05-12T09:09:47.249Z host-api api - - payment charge accepted id=269d6660 amount=963
+<14>1 2026-05-12T09:09:48.599Z host-checkout checkout - - request handled method=PUT path=/v1/checkout status=200 duration=53ms
+<14>1 2026-05-12T09:09:49.949Z host-db db - - request handled method=GET path=/v1/user/me status=200 duration=1019ms
+<14>1 2026-05-12T09:09:51.299Z host-worker worker - - request handled method=POST path=/v1/user/me status=200 duration=562ms
+<15>1 2026-05-12T09:09:52.649Z host-checkout checkout - - cache miss key=49a07c3f fill=58ms
+<15>1 2026-05-12T09:09:53.999Z host-payments payments - - cache miss key=d3231029 fill=454ms
+<14>1 2026-05-12T09:09:55.349Z host-worker worker - - request handled method=GET path=/v1/user/me status=200 duration=1001ms
+<15>1 2026-05-12T09:09:56.699Z host-cache cache - - cache hit key=a4c73b4a ttl=617s
+<14>1 2026-05-12T09:09:58.049Z host-api api - - request handled method=POST path=/v1/catalog status=200 duration=1170ms
+<14>1 2026-05-12T09:09:59.399Z host-payments payments - - request handled method=PUT path=/v1/user/me status=200 duration=156ms
+<14>1 2026-05-12T09:10:00.749Z host-checkout checkout - - payment charge accepted id=2f5f1eb6 amount=332
+<15>1 2026-05-12T09:10:02.099Z host-cache cache - - healthcheck ok component=checkout uptime=64s
+<14>1 2026-05-12T09:10:03.449Z host-checkout checkout - - request handled method=GET path=/v1/cart status=200 duration=1033ms
+<15>1 2026-05-12T09:10:04.799Z host-worker worker - - db query completed table=sessions rows=1162 duration=357ms
+<14>1 2026-05-12T09:10:06.149Z host-worker worker - - email queued to=bob@example.com template=receipt
+<14>1 2026-05-12T09:10:07.499Z host-api api - - user /v1/search authenticated from /v1/cart
+<15>1 2026-05-12T09:10:08.849Z host-cache cache - - cache miss key=c1d27157 fill=299ms
+<14>1 2026-05-12T09:10:10.199Z host-api api - - request handled method=PUT path=/v1/catalog status=200 duration=125ms
+<14>1 2026-05-12T09:10:11.549Z host-db db - - request handled method=POST path=/v1/cart status=200 duration=1199ms
+<15>1 2026-05-12T09:10:12.899Z host-payments payments - - db query completed table=catalog rows=922 duration=605ms
+<15>1 2026-05-12T09:10:14.249Z host-cache cache - - cache hit key=9c863511 ttl=781s
+<14>1 2026-05-12T09:10:15.599Z host-db db - - request handled method=POST path=/v1/checkout status=200 duration=763ms
+<14>1 2026-05-12T09:10:16.949Z host-checkout checkout - - kafka consumer lag group=orders partition=829 lag=668
+<14>1 2026-05-12T09:10:18.299Z host-db db - - kafka consumer lag group=catalog partition=7 lag=216
+<14>1 2026-05-12T09:10:19.649Z host-cache cache - - request handled method=POST path=/v1/search status=200 duration=544ms
+<14>1 2026-05-12T09:10:20.999Z host-db db - - request handled method=POST path=/v1/checkout status=200 duration=132ms
+<14>1 2026-05-12T09:10:22.349Z host-api api - - payment charge accepted id=99a6a151 amount=852
+<15>1 2026-05-12T09:10:23.699Z host-payments payments - - cache hit key=231e4839 ttl=600s
+<14>1 2026-05-12T09:10:25.049Z host-payments payments - - kafka consumer lag group=orders partition=364 lag=781
+<14>1 2026-05-12T09:10:26.399Z host-cache cache - - user /v1/checkout authenticated from 1128ms
+<15>1 2026-05-12T09:10:27.749Z host-worker worker - - cache hit key=0686941e ttl=329s
+<15>1 2026-05-12T09:10:29.099Z host-worker worker - - cache hit key=00b21716 ttl=1170s
+<15>1 2026-05-12T09:10:30.449Z host-db db - - cache hit key=6669dacb ttl=489s
+<15>1 2026-05-12T09:10:31.799Z host-db db - - db query completed table=sessions rows=210 duration=947ms
+<14>1 2026-05-12T09:10:33.149Z host-cache cache - - user /v1/cart authenticated from /v1/cart
+<15>1 2026-05-12T09:10:34.499Z host-db db - - db query completed table=orders rows=259 duration=838ms
+<15>1 2026-05-12T09:10:35.849Z host-cache cache - - healthcheck ok component=payments uptime=100s
+<14>1 2026-05-12T09:10:37.199Z host-checkout checkout - - request handled method=PUT path=/v1/catalog status=200 duration=1144ms
+<12>1 2026-05-12T09:10:38.549Z host-db db - - slow query table=users duration=272ms
+<14>1 2026-05-12T09:10:39.899Z host-api api - - request handled method=GET path=/v1/catalog status=200 duration=424ms
+<14>1 2026-05-12T09:10:41.249Z host-api api - - request handled method=PUT path=/v1/catalog status=200 duration=591ms
+<14>1 2026-05-12T09:10:42.599Z host-checkout checkout - - user /v1/user/me authenticated from 1067ms
+<14>1 2026-05-12T09:10:43.949Z host-payments payments - - request handled method=PUT path=/v1/checkout status=200 duration=255ms
+<14>1 2026-05-12T09:10:45.299Z host-checkout checkout - - request handled method=PUT path=/v1/search status=200 duration=1040ms
+<14>1 2026-05-12T09:10:46.649Z host-worker worker - - payment charge accepted id=99ca8325 amount=94
+<14>1 2026-05-12T09:10:47.999Z host-db db - - request handled method=PUT path=/v1/checkout status=200 duration=300ms
+<15>1 2026-05-12T09:10:49.349Z host-api api - - cache miss key=ca5805d6 fill=717ms
+<15>1 2026-05-12T09:10:50.699Z host-api api - - db query completed table=catalog rows=56 duration=99ms
+<15>1 2026-05-12T09:10:52.049Z host-api api - - db query completed table=orders rows=1029 duration=888ms
+<15>1 2026-05-12T09:10:53.399Z host-checkout checkout - - cache hit key=6ca649c3 ttl=377s
+<14>1 2026-05-12T09:10:54.749Z host-payments payments - - request handled method=POST path=/v1/user/me status=200 duration=672ms
+<14>1 2026-05-12T09:10:56.099Z host-db db - - request handled method=PUT path=/v1/search status=200 duration=1141ms
+<15>1 2026-05-12T09:10:57.449Z host-api api - - cache hit key=8b85781e ttl=423s
+<14>1 2026-05-12T09:10:58.799Z host-payments payments - - user /v1/search authenticated from 620ms
+<14>1 2026-05-12T09:11:00.149Z host-payments payments - - user 67677 authenticated from 34ms
+<14>1 2026-05-12T09:11:01.499Z host-cache cache - - request handled method=GET path=/v1/search status=200 duration=1040ms
+<15>1 2026-05-12T09:11:02.849Z host-worker worker - - cache hit key=7d1f1068 ttl=1153s
+<14>1 2026-05-12T09:11:04.199Z host-payments payments - - request handled method=POST path=/v1/checkout status=200 duration=430ms
+<14>1 2026-05-12T09:11:05.549Z host-worker worker - - request handled method=GET path=/v1/user/me status=200 duration=1056ms
+<15>1 2026-05-12T09:11:06.899Z host-cache cache - - db query completed table=orders rows=903 duration=1094ms
+<12>1 2026-05-12T09:11:08.249Z host-api api - - slow query table=sessions duration=831ms
+<14>1 2026-05-12T09:11:09.599Z host-payments payments - - payment charge accepted id=a5556285 amount=284
+<15>1 2026-05-12T09:11:10.949Z host-payments payments - - db query completed table=orders rows=728 duration=364ms
+<14>1 2026-05-12T09:11:12.299Z host-worker worker - - request handled method=PUT path=/v1/user/me status=200 duration=80ms
+<15>1 2026-05-12T09:11:13.649Z host-payments payments - - db query completed table=users rows=849 duration=959ms
+<15>1 2026-05-12T09:11:14.999Z host-worker worker - - cache hit key=36264567 ttl=1094s
+<14>1 2026-05-12T09:11:16.349Z host-api api - - request handled method=PUT path=/v1/checkout status=200 duration=588ms
+<15>1 2026-05-12T09:11:17.699Z host-checkout checkout - - db query completed table=users rows=47 duration=448ms
+<14>1 2026-05-12T09:11:19.049Z host-checkout checkout - - request handled method=POST path=/v1/cart status=200 duration=897ms
+<15>1 2026-05-12T09:11:20.399Z host-db db - - healthcheck ok component=worker uptime=153s
+<14>1 2026-05-12T09:11:21.749Z host-checkout checkout - - request handled method=POST path=/v1/cart status=200 duration=859ms
+<15>1 2026-05-12T09:11:23.099Z host-db db - - cache hit key=4b55bfe6 ttl=1017s
+<14>1 2026-05-12T09:11:24.449Z host-db db - - request handled method=PUT path=/v1/cart status=200 duration=609ms
+<14>1 2026-05-12T09:11:25.799Z host-checkout checkout - - request handled method=GET path=/v1/cart status=200 duration=624ms
+<15>1 2026-05-12T09:11:27.149Z host-db db - - db query completed table=orders rows=25 duration=1134ms
+<15>1 2026-05-12T09:11:28.499Z host-cache cache - - db query completed table=users rows=202 duration=862ms
+<14>1 2026-05-12T09:11:29.849Z host-payments payments - - email queued to=alice@example.com template=reset-password
+<14>1 2026-05-12T09:11:31.199Z host-db db - - request handled method=GET path=/v1/user/me status=200 duration=611ms
+<15>1 2026-05-12T09:11:32.549Z host-api api - - cache miss key=1f294ffe fill=311ms
+<15>1 2026-05-12T09:11:33.899Z host-worker worker - - cache miss key=fba53a3f fill=718ms
+<15>1 2026-05-12T09:11:35.249Z host-api api - - db query completed table=users rows=349 duration=955ms
+<15>1 2026-05-12T09:11:36.599Z host-db db - - cache miss key=c9d53547 fill=516ms
+<14>1 2026-05-12T09:11:37.949Z host-api api - - request handled method=POST path=/v1/search status=200 duration=432ms
+<14>1 2026-05-12T09:11:39.299Z host-payments payments - - request handled method=PUT path=/v1/catalog status=200 duration=89ms
+<14>1 2026-05-12T09:11:40.649Z host-payments payments - - request handled method=POST path=/v1/search status=200 duration=359ms
+<14>1 2026-05-12T09:11:41.999Z host-worker worker - - user 202ms authenticated from 32226
+<14>1 2026-05-12T09:11:43.349Z host-worker worker - - kafka consumer lag group=catalog partition=655 lag=791
+<14>1 2026-05-12T09:11:44.699Z host-worker worker - - request handled method=POST path=/v1/cart status=200 duration=515ms
+<15>1 2026-05-12T09:11:46.049Z host-cache cache - - cache hit key=3b528e96 ttl=949s
+<15>1 2026-05-12T09:11:47.399Z host-cache cache - - cache hit key=ecd99e55 ttl=842s
+<14>1 2026-05-12T09:11:48.749Z host-checkout checkout - - email queued to=alice@example.com template=welcome
+<14>1 2026-05-12T09:11:50.099Z host-api api - - payment charge accepted id=6e158ab5 amount=304
+<15>1 2026-05-12T09:11:51.449Z host-payments payments - - db query completed table=catalog rows=67 duration=513ms
+<14>1 2026-05-12T09:11:52.799Z host-db db - - kafka consumer lag group=catalog partition=821 lag=133
+<14>1 2026-05-12T09:11:54.149Z host-checkout checkout - - request handled method=PUT path=/v1/user/me status=200 duration=351ms
+<15>1 2026-05-12T09:11:55.499Z host-payments payments - - db query completed table=orders rows=220 duration=316ms
+<14>1 2026-05-12T09:11:56.849Z host-api api - - user 14176 authenticated from 74524
+<15>1 2026-05-12T09:11:58.199Z host-cache cache - - cache hit key=51cc5f75 ttl=112s
+<14>1 2026-05-12T09:11:59.549Z host-db db - - request handled method=GET path=/v1/checkout status=200 duration=76ms
+<14>1 2026-05-12T09:12:00.899Z host-worker worker - - deploy starting version=2.14.0 commit=225abe8d
+<14>1 2026-05-12T09:12:02.249Z host-payments payments - - deploy starting version=2.15.0 commit=0d070d25
+<14>1 2026-05-12T09:12:03.599Z host-checkout checkout - - deploy starting version=2.15.0 commit=a8a873b1
+<14>1 2026-05-12T09:12:04.949Z host-cache cache - - deploy starting version=2.14.0 commit=b6356f17
+<14>1 2026-05-12T09:12:06.299Z host-cache cache - - deploy starting version=2.15.0 commit=12689712
+<14>1 2026-05-12T09:12:07.649Z host-worker worker - - deploy finished version=2.15.0 replicas=1174 duration=947s
+<14>1 2026-05-12T09:12:08.999Z host-worker worker - - deploy finished version=2.15.0 replicas=579 duration=309s
+<14>1 2026-05-12T09:12:10.349Z host-api api - - deploy finished version=2.14.0 replicas=152 duration=291s
+<14>1 2026-05-12T09:12:11.699Z host-worker worker - - deploy finished version=2.14.0 replicas=299 duration=383s
+<14>1 2026-05-12T09:12:13.049Z host-payments payments - - deploy finished version=2.14.0 replicas=736 duration=255s
+<14>1 2026-05-12T09:12:14.399Z host-worker worker - - deploy finished version=2.15.0 replicas=701 duration=904s
+<14>1 2026-05-12T09:12:15.749Z host-db db - - config reloaded file=routes.yaml keys=648
+<14>1 2026-05-12T09:12:17.099Z host-checkout checkout - - config reloaded file=limits.yaml keys=1036
+<14>1 2026-05-12T09:12:18.449Z host-payments payments - - config reloaded file=app.yaml keys=310
+<14>1 2026-05-12T09:12:19.799Z host-worker worker - - config reloaded file=app.yaml keys=535
+<14>1 2026-05-12T09:12:21.149Z host-worker worker - - config reloaded file=app.yaml keys=930
+<14>1 2026-05-12T09:12:22.499Z host-worker worker - - config reloaded file=routes.yaml keys=1006
+<14>1 2026-05-12T09:12:23.849Z host-payments payments - - cache warm started shards=32 entries=1065
+<15>1 2026-05-12T09:12:25.199Z host-worker worker - - db query completed table=users rows=864 duration=336ms
+<15>1 2026-05-12T09:12:26.549Z host-cache cache - - cache miss key=94051432 fill=584ms
+<14>1 2026-05-12T09:12:27.899Z host-checkout checkout - - request handled method=GET path=/v1/search status=200 duration=1027ms
+<14>1 2026-05-12T09:12:29.249Z host-worker worker - - kafka consumer lag group=catalog partition=1081 lag=197
+<14>1 2026-05-12T09:12:30.599Z host-payments payments - - request handled method=PUT path=/v1/search status=200 duration=896ms
+<14>1 2026-05-12T09:12:31.949Z host-checkout checkout - - request handled method=POST path=/v1/catalog status=200 duration=562ms
+<14>1 2026-05-12T09:12:33.299Z host-worker worker - - request handled method=PUT path=/v1/user/me status=200 duration=173ms
+<14>1 2026-05-12T09:12:34.649Z host-checkout checkout - - request handled method=GET path=/v1/catalog status=200 duration=572ms
+<14>1 2026-05-12T09:12:35.999Z host-db db - - request handled method=POST path=/v1/catalog status=200 duration=616ms
+<11>1 2026-05-12T09:12:37.349Z host-payments payments - - connection pool exhausted pool=29042 waiting=21ms
+<14>1 2026-05-12T09:12:38.699Z host-checkout checkout - - request handled method=POST path=/v1/user/me status=200 duration=1125ms
+<14>1 2026-05-12T09:12:40.049Z host-payments payments - - request handled method=POST path=/v1/user/me status=200 duration=652ms
+<14>1 2026-05-12T09:12:41.399Z host-api api - - request handled method=GET path=/v1/catalog status=200 duration=999ms
+<11>1 2026-05-12T09:12:42.749Z host-cache cache - - connection pool exhausted pool=/v1/catalog waiting=460ms
+<15>1 2026-05-12T09:12:44.099Z host-api api - - db query completed table=catalog rows=778 duration=910ms
+<14>1 2026-05-12T09:12:45.449Z host-payments payments - - user 86192 authenticated from /v1/checkout
+<15>1 2026-05-12T09:12:46.799Z host-db db - - cache miss key=54447cf0 fill=29ms
+<11>1 2026-05-12T09:12:48.149Z host-cache cache - - connection pool exhausted pool=/v1/catalog waiting=/v1/catalog
+<14>1 2026-05-12T09:12:49.499Z host-cache cache - - kafka consumer lag group=billing partition=1198 lag=671
+<11>1 2026-05-12T09:12:50.849Z host-payments payments - - connection pool exhausted pool=1148ms waiting=84574
+<14>1 2026-05-12T09:12:52.199Z host-api api - - request handled method=POST path=/v1/catalog status=200 duration=1125ms
+<14>1 2026-05-12T09:12:53.549Z host-cache cache - - request handled method=POST path=/v1/cart status=200 duration=606ms
+<14>1 2026-05-12T09:12:54.899Z host-db db - - request handled method=POST path=/v1/search status=200 duration=1097ms
+<14>1 2026-05-12T09:12:56.249Z host-payments payments - - payment charge accepted id=d86e215d amount=438
+<14>1 2026-05-12T09:12:57.599Z host-api api - - kafka consumer lag group=billing partition=106 lag=660
+<14>1 2026-05-12T09:12:58.949Z host-db db - - payment charge accepted id=acd15973 amount=438
+<15>1 2026-05-12T09:13:00.299Z host-api api - - cache hit key=4528f324 ttl=1162s
+<15>1 2026-05-12T09:13:01.649Z host-payments payments - - db query completed table=orders rows=1111 duration=903ms
+<15>1 2026-05-12T09:13:02.999Z host-payments payments - - cache miss key=c5eb9442 fill=453ms
+<12>1 2026-05-12T09:13:04.349Z host-checkout checkout - - slow query table=orders duration=61ms
+<11>1 2026-05-12T09:13:05.699Z host-checkout checkout - - circuit breaker open dependency=catalog failures=720
+<14>1 2026-05-12T09:13:07.049Z host-payments payments - - request handled method=POST path=/v1/search status=200 duration=393ms
+<14>1 2026-05-12T09:13:08.399Z host-worker worker - - user 6425 authenticated from 702ms
+<14>1 2026-05-12T09:13:09.749Z host-api api - - user 932ms authenticated from /v1/user/me
+<14>1 2026-05-12T09:13:11.099Z host-checkout checkout - - user 13115 authenticated from /v1/catalog
+<15>1 2026-05-12T09:13:12.449Z host-cache cache - - cache miss key=c64a9574 fill=205ms
+<14>1 2026-05-12T09:13:13.799Z host-payments payments - - request handled method=GET path=/v1/user/me status=200 duration=48ms
+<15>1 2026-05-12T09:13:15.149Z host-db db - - cache hit key=43d2deae ttl=544s
+<15>1 2026-05-12T09:13:16.499Z host-db db - - db query completed table=users rows=673 duration=1104ms
+<14>1 2026-05-12T09:13:17.849Z host-api api - - request handled method=PUT path=/v1/search status=200 duration=663ms
+<14>1 2026-05-12T09:13:19.199Z host-cache cache - - request handled method=POST path=/v1/user/me status=200 duration=766ms
+<12>1 2026-05-12T09:13:20.549Z host-payments payments - - retry scheduled attempt=179 operation=order.create backoff=67ms
+<14>1 2026-05-12T09:13:21.899Z host-worker worker - - request handled method=GET path=/v1/user/me status=200 duration=37ms
+<14>1 2026-05-12T09:13:23.249Z host-db db - - request handled method=POST path=/v1/checkout status=200 duration=1020ms
+<15>1 2026-05-12T09:13:24.599Z host-api api - - healthcheck ok component=api uptime=930s
+<14>1 2026-05-12T09:13:25.949Z host-api api - - email queued to=bob@example.com template=reset-password
+<15>1 2026-05-12T09:13:27.299Z host-api api - - cache miss key=58dceb0d fill=888ms
+<15>1 2026-05-12T09:13:28.649Z host-cache cache - - db query completed table=catalog rows=1112 duration=245ms
+<14>1 2026-05-12T09:13:29.999Z host-cache cache - - email queued to=bob@example.com template=reset-password
+<14>1 2026-05-12T09:13:31.349Z host-api api - - kafka consumer lag group=orders partition=763 lag=354
+<15>1 2026-05-12T09:13:32.699Z host-cache cache - - db query completed table=users rows=536 duration=5ms
+<14>1 2026-05-12T09:13:34.049Z host-payments payments - - email queued to=carol@example.com template=reset-password
+<14>1 2026-05-12T09:13:35.399Z host-db db - - payment charge accepted id=60035d36 amount=1198
+<14>1 2026-05-12T09:13:36.749Z host-api api - - request handled method=POST path=/v1/search status=200 duration=1019ms
+<14>1 2026-05-12T09:13:38.099Z host-cache cache - - kafka consumer lag group=billing partition=677 lag=1172
+<15>1 2026-05-12T09:13:39.449Z host-worker worker - - db query completed table=users rows=1181 duration=820ms
+<15>1 2026-05-12T09:13:40.799Z host-api api - - healthcheck ok component=checkout uptime=389s
+<14>1 2026-05-12T09:13:42.149Z host-cache cache - - user /v1/cart authenticated from 43574
+<15>1 2026-05-12T09:13:43.499Z host-payments payments - - cache hit key=cd3c656e ttl=196s
+<14>1 2026-05-12T09:13:44.849Z host-payments payments - - request handled method=GET path=/v1/checkout status=200 duration=1176ms
+<15>1 2026-05-12T09:13:46.199Z host-db db - - cache hit key=b043c446 ttl=608s
+<11>1 2026-05-12T09:13:47.549Z host-db db - - checkout failed user=erin reason=upstream_timeout order=b65e1403
+<15>1 2026-05-12T09:13:48.899Z host-api api - - db query completed table=sessions rows=312 duration=79ms
+<15>1 2026-05-12T09:13:50.249Z host-checkout checkout - - cache hit key=cce1d80d ttl=791s
+<14>1 2026-05-12T09:13:51.599Z host-checkout checkout - - kafka consumer lag group=orders partition=436 lag=334
+<11>1 2026-05-12T09:13:52.949Z host-cache cache - - checkout failed user=alice reason=upstream_timeout order=fc620371
+<15>1 2026-05-12T09:13:54.299Z host-payments payments - - cache hit key=dbd3ec98 ttl=964s
+<12>1 2026-05-12T09:13:55.649Z host-worker worker - - slow query table=users duration=44ms
+<15>1 2026-05-12T09:13:56.999Z host-payments payments - - cache hit key=cf5758d9 ttl=75s
+<14>1 2026-05-12T09:13:58.349Z host-payments payments - - payment charge accepted id=1c6e286c amount=959
+<11>1 2026-05-12T09:13:59.699Z host-checkout checkout - - circuit breaker open dependency=identity failures=171
+<15>1 2026-05-12T09:14:01.049Z host-payments payments - - cache hit key=2ce9beab ttl=994s
+<11>1 2026-05-12T09:14:02.399Z host-checkout checkout - - circuit breaker open dependency=search failures=308
+<14>1 2026-05-12T09:14:03.749Z host-checkout checkout - - request handled method=GET path=/v1/cart status=200 duration=318ms
+<11>1 2026-05-12T09:14:05.099Z host-checkout checkout - - checkout failed user=erin reason=upstream_timeout order=6cd675de
+<14>1 2026-05-12T09:14:06.449Z host-cache cache - - email queued to=carol@example.com template=reset-password
+<14>1 2026-05-12T09:14:07.799Z host-worker worker - - user 806ms authenticated from 248
+<12>1 2026-05-12T09:14:09.149Z host-checkout checkout - - retry scheduled attempt=108 operation=order.create backoff=298ms
+<12>1 2026-05-12T09:14:10.499Z host-api api - - retry scheduled attempt=90 operation=cart.update backoff=653ms
+<14>1 2026-05-12T09:14:11.849Z host-checkout checkout - - kafka consumer lag group=catalog partition=76 lag=207
+<11>1 2026-05-12T09:14:13.199Z host-cache cache - - checkout failed user=bob reason=upstream_timeout order=e9d6687c
+<14>1 2026-05-12T09:14:14.549Z host-worker worker - - request handled method=PUT path=/v1/user/me status=200 duration=653ms
+<14>1 2026-05-12T09:14:15.899Z host-api api - - request handled method=PUT path=/v1/cart status=200 duration=603ms
+<14>1 2026-05-12T09:14:17.249Z host-api api - - user /v1/user/me authenticated from /v1/cart
+<15>1 2026-05-12T09:14:18.599Z host-cache cache - - cache hit key=1b726ea2 ttl=132s
+<14>1 2026-05-12T09:14:19.949Z host-worker worker - - request handled method=POST path=/v1/catalog status=200 duration=942ms
+<15>1 2026-05-12T09:14:21.299Z host-worker worker - - db query completed table=users rows=871 duration=643ms
+<15>1 2026-05-12T09:14:22.649Z host-checkout checkout - - cache hit key=d7235739 ttl=766s
+<11>1 2026-05-12T09:14:23.999Z host-worker worker - - checkout failed user=frank reason=upstream_timeout order=acacbe06
+<14>1 2026-05-12T09:14:25.349Z host-worker worker - - kafka consumer lag group=billing partition=365 lag=699
+<14>1 2026-05-12T09:14:26.699Z host-api api - - kafka consumer lag group=billing partition=191 lag=709
+<11>1 2026-05-12T09:14:28.049Z host-payments payments - - circuit breaker open dependency=catalog failures=1161
+<12>1 2026-05-12T09:14:29.399Z host-checkout checkout - - retry scheduled attempt=880 operation=payment.charge backoff=1096ms
+<12>1 2026-05-12T09:14:30.749Z host-api api - - retry scheduled attempt=1180 operation=cart.update backoff=837ms
+<14>1 2026-05-12T09:14:32.099Z host-payments payments - - request handled method=POST path=/v1/catalog status=200 duration=881ms
+<14>1 2026-05-12T09:14:33.449Z host-cache cache - - request handled method=GET path=/v1/checkout status=200 duration=260ms
+<11>1 2026-05-12T09:14:34.799Z host-api api - - checkout failed user=frank reason=upstream_timeout order=5ee602ff
+<11>1 2026-05-12T09:14:36.149Z host-checkout checkout - - circuit breaker open dependency=search failures=827
+<14>1 2026-05-12T09:14:37.499Z host-payments payments - - payment charge accepted id=8ee6ac1c amount=169
+<14>1 2026-05-12T09:14:38.849Z host-cache cache - - payment charge accepted id=7fb29ac9 amount=854
+<11>1 2026-05-12T09:14:40.199Z host-checkout checkout - - checkout failed user=erin reason=upstream_timeout order=7fd33e99
+<14>1 2026-05-12T09:14:41.549Z host-api api - - request handled method=POST path=/v1/search status=200 duration=222ms
+<14>1 2026-05-12T09:14:42.899Z host-payments payments - - user 600ms authenticated from /v1/user/me
+<14>1 2026-05-12T09:14:44.249Z host-worker worker - - kafka consumer lag group=orders partition=508 lag=850
+<15>1 2026-05-12T09:14:45.599Z host-payments payments - - db query completed table=catalog rows=155 duration=1055ms
+<12>1 2026-05-12T09:14:46.949Z host-db db - - slow query table=sessions duration=1156ms
+<15>1 2026-05-12T09:14:48.299Z host-cache cache - - cache hit key=ad9d2905 ttl=414s
+<12>1 2026-05-12T09:14:49.649Z host-checkout checkout - - slow query table=sessions duration=1127ms
+<11>1 2026-05-12T09:14:50.999Z host-payments payments - - circuit breaker open dependency=identity failures=985
+<11>1 2026-05-12T09:14:52.349Z host-payments payments - - checkout failed user=bob reason=upstream_timeout order=cfad5f8e
+<14>1 2026-05-12T09:14:53.699Z host-checkout checkout - - email queued to=alice@example.com template=reset-password
+<14>1 2026-05-12T09:14:55.049Z host-cache cache - - request handled method=GET path=/v1/catalog status=200 duration=1191ms
+<15>1 2026-05-12T09:14:56.399Z host-db db - - cache hit key=ffe7e3cf ttl=961s
+<12>1 2026-05-12T09:14:57.749Z host-api api - - retry scheduled attempt=711 operation=order.create backoff=1160ms
+<11>1 2026-05-12T09:14:59.099Z host-checkout checkout - - checkout failed user=alice reason=upstream_timeout order=878cc5db
+<12>1 2026-05-12T09:15:00.449Z host-worker worker - - slow query table=orders duration=859ms
+<14>1 2026-05-12T09:15:01.799Z host-payments payments - - payment charge accepted id=c78fbfb5 amount=511
+<15>1 2026-05-12T09:15:03.149Z host-cache cache - - db query completed table=catalog rows=583 duration=520ms
+<11>1 2026-05-12T09:15:04.499Z host-payments payments - - checkout failed user=carol reason=upstream_timeout order=acc26069
+<11>1 2026-05-12T09:15:05.849Z host-payments payments - - checkout failed user=dave reason=upstream_timeout order=85f97aa0
+<15>1 2026-05-12T09:15:07.199Z host-api api - - cache hit key=8db11760 ttl=229s
+<11>1 2026-05-12T09:15:08.549Z host-checkout checkout - - checkout failed user=frank reason=upstream_timeout order=333dc086
+<11>1 2026-05-12T09:15:09.899Z host-checkout checkout - - circuit breaker open dependency=search failures=405
+<15>1 2026-05-12T09:15:11.249Z host-api api - - db query completed table=catalog rows=35 duration=1128ms
+<15>1 2026-05-12T09:15:12.599Z host-checkout checkout - - healthcheck ok component=db uptime=974s
+<14>1 2026-05-12T09:15:13.949Z host-payments payments - - request handled method=GET path=/v1/catalog status=200 duration=194ms
+<11>1 2026-05-12T09:15:15.299Z host-api api - - circuit breaker open dependency=catalog failures=866
+<12>1 2026-05-12T09:15:16.649Z host-payments payments - - retry scheduled attempt=240 operation=payment.charge backoff=444ms
+<14>1 2026-05-12T09:15:17.999Z host-checkout checkout - - email queued to=bob@example.com template=receipt
+<14>1 2026-05-12T09:15:19.349Z host-checkout checkout - - request handled method=GET path=/v1/user/me status=200 duration=65ms
+<15>1 2026-05-12T09:15:20.699Z host-cache cache - - cache hit key=a7f3dcb5 ttl=98s
+<14>1 2026-05-12T09:15:22.049Z host-api api - - request handled method=PUT path=/v1/cart status=200 duration=833ms
+<12>1 2026-05-12T09:15:23.399Z host-api api - - retry scheduled attempt=178 operation=payment.charge backoff=157ms
+<11>1 2026-05-12T09:15:24.749Z host-checkout checkout - - circuit breaker open dependency=search failures=755
+<11>1 2026-05-12T09:15:26.099Z host-payments payments - - checkout failed user=bob reason=upstream_timeout order=a34b9703
+<11>1 2026-05-12T09:15:27.449Z host-worker worker - - circuit breaker open dependency=payments failures=150
+<15>1 2026-05-12T09:15:28.799Z host-api api - - cache hit key=97ab6acb ttl=144s
+<11>1 2026-05-12T09:15:30.149Z host-api api - - circuit breaker open dependency=payments failures=533
+<11>1 2026-05-12T09:15:31.499Z host-payments payments - - circuit breaker open dependency=payments failures=245
+<15>1 2026-05-12T09:15:32.849Z host-worker worker - - db query completed table=users rows=976 duration=11ms
+<15>1 2026-05-12T09:15:34.199Z host-payments payments - - db query completed table=orders rows=1127 duration=341ms
+<11>1 2026-05-12T09:15:35.549Z host-cache cache - - circuit breaker open dependency=search failures=676
+<15>1 2026-05-12T09:15:36.899Z host-api api - - db query completed table=users rows=355 duration=415ms
+<14>1 2026-05-12T09:15:38.249Z host-api api - - request handled method=GET path=/v1/cart status=200 duration=1005ms
+<14>1 2026-05-12T09:15:39.599Z host-payments payments - - payment charge accepted id=4a802384 amount=550
+<14>1 2026-05-12T09:15:40.949Z host-db db - - request handled method=GET path=/v1/search status=200 duration=58ms
+<11>1 2026-05-12T09:15:42.299Z host-db db - - circuit breaker open dependency=search failures=864
+<14>1 2026-05-12T09:15:43.649Z host-worker worker - - request handled method=PUT path=/v1/catalog status=200 duration=159ms
+<11>1 2026-05-12T09:15:44.999Z host-payments payments - - circuit breaker open dependency=identity failures=128
+<15>1 2026-05-12T09:15:46.349Z host-cache cache - - cache hit key=2a775309 ttl=181s
+<12>1 2026-05-12T09:15:47.699Z host-checkout checkout - - slow query table=users duration=345ms
+<11>1 2026-05-12T09:15:49.049Z host-db db - - circuit breaker open dependency=search failures=1136
+<11>1 2026-05-12T09:15:50.399Z host-worker worker - - checkout failed user=alice reason=upstream_timeout order=b2cce934
+<12>1 2026-05-12T09:15:51.749Z host-api api - - retry scheduled attempt=485 operation=order.create backoff=526ms
+<11>1 2026-05-12T09:15:53.099Z host-db db - - checkout failed user=erin reason=upstream_timeout order=d2ed9437
+<14>1 2026-05-12T09:15:54.449Z host-api api - - user /v1/cart authenticated from 687ms
+<12>1 2026-05-12T09:15:55.799Z host-checkout checkout - - retry scheduled attempt=352 operation=cart.update backoff=966ms
+<11>1 2026-05-12T09:15:57.149Z host-worker worker - - circuit breaker open dependency=identity failures=674
+<14>1 2026-05-12T09:15:58.499Z host-db db - - user /v1/search authenticated from 67ms
+<14>1 2026-05-12T09:15:59.849Z host-cache cache - - request handled method=PUT path=/v1/search status=200 duration=394ms
+<11>1 2026-05-12T09:16:01.199Z host-api api - - circuit breaker open dependency=payments failures=344
+<12>1 2026-05-12T09:16:02.549Z host-payments payments - - retry scheduled attempt=591 operation=payment.charge backoff=641ms
+<14>1 2026-05-12T09:16:03.899Z host-worker worker - - payment charge accepted id=d33acb21 amount=623
+<11>1 2026-05-12T09:16:05.249Z host-worker worker - - checkout failed user=frank reason=upstream_timeout order=a86ef233
+<11>1 2026-05-12T09:16:06.599Z host-db db - - circuit breaker open dependency=search failures=373
+<12>1 2026-05-12T09:16:07.949Z host-payments payments - - retry scheduled attempt=471 operation=cart.update backoff=495ms
+<11>1 2026-05-12T09:16:09.299Z host-payments payments - - circuit breaker open dependency=search failures=111
+<11>1 2026-05-12T09:16:10.649Z host-api api - - circuit breaker open dependency=search failures=976
+<15>1 2026-05-12T09:16:11.999Z host-worker worker - - cache hit key=8c59d785 ttl=902s
+<11>1 2026-05-12T09:16:13.349Z host-payments payments - - circuit breaker open dependency=search failures=585
+<11>1 2026-05-12T09:16:14.699Z host-cache cache - - circuit breaker open dependency=catalog failures=919
+<14>1 2026-05-12T09:16:16.049Z host-db db - - user 6445 authenticated from /v1/checkout
+<11>1 2026-05-12T09:16:17.399Z host-db db - - checkout failed user=dave reason=upstream_timeout order=823ff269
+<12>1 2026-05-12T09:16:18.749Z host-payments payments - - retry scheduled attempt=920 operation=cart.update backoff=806ms
+<14>1 2026-05-12T09:16:20.099Z host-checkout checkout - - user /v1/checkout authenticated from /v1/checkout
+<11>1 2026-05-12T09:16:21.449Z host-api api - - circuit breaker open dependency=catalog failures=884
+<11>1 2026-05-12T09:16:22.799Z host-db db - - circuit breaker open dependency=identity failures=222
+<11>1 2026-05-12T09:16:24.149Z host-cache cache - - checkout failed user=frank reason=upstream_timeout order=7daf2302
+<11>1 2026-05-12T09:16:25.499Z host-payments payments - - checkout failed user=erin reason=upstream_timeout order=5aa97914
+<14>1 2026-05-12T09:16:26.849Z host-api api - - payment charge accepted id=92376e7f amount=42
+<12>1 2026-05-12T09:16:28.199Z host-db db - - retry scheduled attempt=1008 operation=cart.update backoff=594ms
+<11>1 2026-05-12T09:16:29.549Z host-db db - - checkout failed user=alice reason=upstream_timeout order=8168b19b
+<12>1 2026-05-12T09:16:30.899Z host-db db - - retry scheduled attempt=896 operation=order.create backoff=1136ms
+<14>1 2026-05-12T09:16:32.249Z host-cache cache - - user 47381 authenticated from 223ms
+<14>1 2026-05-12T09:16:33.599Z host-checkout checkout - - request handled method=POST path=/v1/cart status=200 duration=750ms
+<11>1 2026-05-12T09:16:34.949Z host-cache cache - - checkout failed user=frank reason=upstream_timeout order=d502d008
+<12>1 2026-05-12T09:16:36.299Z host-worker worker - - retry scheduled attempt=326 operation=payment.charge backoff=875ms
+<12>1 2026-05-12T09:16:37.649Z host-api api - - retry scheduled attempt=170 operation=cart.update backoff=201ms
+<12>1 2026-05-12T09:16:38.999Z host-api api - - retry scheduled attempt=48 operation=payment.charge backoff=384ms
+<14>1 2026-05-12T09:16:40.349Z host-payments payments - - request handled method=POST path=/v1/cart status=200 duration=568ms
+<11>1 2026-05-12T09:16:41.699Z host-cache cache - - checkout failed user=erin reason=upstream_timeout order=f9fc6fa8
+<14>1 2026-05-12T09:16:43.049Z host-db db - - kafka consumer lag group=catalog partition=751 lag=1169
+<12>1 2026-05-12T09:16:44.399Z host-cache cache - - retry scheduled attempt=909 operation=cart.update backoff=59ms
+<11>1 2026-05-12T09:16:45.749Z host-api api - - circuit breaker open dependency=search failures=920
+<12>1 2026-05-12T09:16:47.099Z host-cache cache - - retry scheduled attempt=571 operation=cart.update backoff=924ms
+<15>1 2026-05-12T09:16:48.449Z host-api api - - cache hit key=36736a2f ttl=424s
+<11>1 2026-05-12T09:16:49.799Z host-db db - - checkout failed user=erin reason=upstream_timeout order=0be02944
+<11>1 2026-05-12T09:16:51.149Z host-payments payments - - checkout failed user=frank reason=upstream_timeout order=a3b433e0
+<15>1 2026-05-12T09:16:52.499Z host-api api - - cache miss key=c961c75f fill=413ms
+<15>1 2026-05-12T09:16:53.849Z host-payments payments - - cache miss key=464d61ba fill=1199ms
+<11>1 2026-05-12T09:16:55.199Z host-checkout checkout - - checkout failed user=erin reason=upstream_timeout order=75509a86
+<11>1 2026-05-12T09:16:56.549Z host-api api - - circuit breaker open dependency=catalog failures=656
+<11>1 2026-05-12T09:16:57.899Z host-cache cache - - circuit breaker open dependency=payments failures=27
+<11>1 2026-05-12T09:16:59.249Z host-worker worker - - checkout failed user=alice reason=upstream_timeout order=7bd694bd
+<11>1 2026-05-12T09:17:00.599Z host-worker worker - - checkout failed user=alice reason=upstream_timeout order=211b00df
+<15>1 2026-05-12T09:17:01.949Z host-worker worker - - cache miss key=9c86eba8 fill=134ms
+<15>1 2026-05-12T09:17:03.299Z host-api api - - db query completed table=sessions rows=1010 duration=199ms
+<11>1 2026-05-12T09:17:04.649Z host-db db - - circuit breaker open dependency=catalog failures=13
+<15>1 2026-05-12T09:17:05.999Z host-api api - - cache hit key=92cac2e5 ttl=705s
+<15>1 2026-05-12T09:17:07.349Z host-checkout checkout - - db query completed table=orders rows=285 duration=25ms
+<14>1 2026-05-12T09:17:08.699Z host-db db - - email queued to=alice@example.com template=welcome
+<15>1 2026-05-12T09:17:10.049Z host-cache cache - - healthcheck ok component=cache uptime=43s
+<11>1 2026-05-12T09:17:11.399Z host-api api - - checkout failed user=carol reason=upstream_timeout order=8ce83c81
+<11>1 2026-05-12T09:17:12.749Z host-worker worker - - checkout failed user=bob reason=upstream_timeout order=a561d191
+<14>1 2026-05-12T09:17:14.099Z host-payments payments - - request handled method=PUT path=/v1/search status=200 duration=783ms
+<14>1 2026-05-12T09:17:15.449Z host-cache cache - - request handled method=POST path=/v1/user/me status=200 duration=85ms
+<12>1 2026-05-12T09:17:16.799Z host-checkout checkout - - retry scheduled attempt=702 operation=payment.charge backoff=256ms
+<15>1 2026-05-12T09:17:18.149Z host-db db - - cache hit key=3b3e3829 ttl=26s
+<14>1 2026-05-12T09:17:19.499Z host-api api - - request handled method=PUT path=/v1/checkout status=200 duration=1197ms
+<12>1 2026-05-12T09:17:20.849Z host-payments payments - - retry scheduled attempt=181 operation=order.create backoff=194ms
+<14>1 2026-05-12T09:17:22.199Z host-api api - - request handled method=GET path=/v1/search status=200 duration=355ms
+<15>1 2026-05-12T09:17:23.549Z host-api api - - cache miss key=6b781650 fill=3ms
+<15>1 2026-05-12T09:17:24.899Z host-checkout checkout - - cache hit key=6b83bb7e ttl=443s
+<15>1 2026-05-12T09:17:26.249Z host-checkout checkout - - healthcheck ok component=cache uptime=406s
+<12>1 2026-05-12T09:17:27.599Z host-payments payments - - retry scheduled attempt=934 operation=cart.update backoff=381ms
+<14>1 2026-05-12T09:17:28.949Z host-db db - - request handled method=GET path=/v1/cart status=200 duration=773ms
+<14>1 2026-05-12T09:17:30.299Z host-payments payments - - user /v1/checkout authenticated from 69462
+<12>1 2026-05-12T09:17:31.649Z host-checkout checkout - - retry scheduled attempt=785 operation=cart.update backoff=35ms
+<11>1 2026-05-12T09:17:32.999Z host-cache cache - - circuit breaker open dependency=payments failures=479
+<15>1 2026-05-12T09:17:34.349Z host-worker worker - - db query completed table=catalog rows=760 duration=798ms
+<14>1 2026-05-12T09:17:35.699Z host-worker worker - - user /v1/search authenticated from 36963
+<12>1 2026-05-12T09:17:37.049Z host-api api - - retry scheduled attempt=24 operation=payment.charge backoff=401ms
+<11>1 2026-05-12T09:17:38.399Z host-db db - - circuit breaker open dependency=payments failures=1002
+<15>1 2026-05-12T09:17:39.749Z host-worker worker - - cache miss key=ab0678be fill=630ms
+<15>1 2026-05-12T09:17:41.099Z host-db db - - cache hit key=38ada430 ttl=1191s
+<14>1 2026-05-12T09:17:42.449Z host-cache cache - - email queued to=bob@example.com template=reset-password
+<14>1 2026-05-12T09:17:43.799Z host-checkout checkout - - user 214ms authenticated from 440ms
+<15>1 2026-05-12T09:17:45.149Z host-api api - - healthcheck ok component=worker uptime=1100s
+<15>1 2026-05-12T09:17:46.499Z host-payments payments - - cache miss key=496f41f5 fill=1104ms
+<15>1 2026-05-12T09:17:47.849Z host-worker worker - - db query completed table=sessions rows=708 duration=667ms
+<11>1 2026-05-12T09:17:49.199Z host-api api - - checkout failed user=carol reason=upstream_timeout order=939531b9
+<12>1 2026-05-12T09:17:50.549Z host-cache cache - - retry scheduled attempt=417 operation=cart.update backoff=941ms
+<11>1 2026-05-12T09:17:51.899Z host-worker worker - - circuit breaker open dependency=catalog failures=429
+<14>1 2026-05-12T09:17:53.249Z host-db db - - request handled method=PUT path=/v1/catalog status=200 duration=774ms
+<11>1 2026-05-12T09:17:54.599Z host-worker worker - - circuit breaker open dependency=catalog failures=235
+<14>1 2026-05-12T09:17:55.949Z host-worker worker - - user 24520 authenticated from /v1/user/me
+<14>1 2026-05-12T09:17:57.299Z host-cache cache - - request handled method=GET path=/v1/catalog status=200 duration=442ms
+<11>1 2026-05-12T09:17:58.649Z host-api api - - checkout failed user=erin reason=upstream_timeout order=85f49bb1
+<14>1 2026-05-12T09:17:59.999Z host-payments payments - - request handled method=POST path=/v1/cart status=200 duration=635ms
+<15>1 2026-05-12T09:18:01.349Z host-payments payments - - db query completed table=sessions rows=502 duration=224ms
+<11>1 2026-05-12T09:18:02.699Z host-worker worker - - circuit breaker open dependency=catalog failures=443
+<11>1 2026-05-12T09:18:04.049Z host-db db - - checkout failed user=dave reason=upstream_timeout order=ae943a24
+<14>1 2026-05-12T09:18:05.399Z host-checkout checkout - - payment charge accepted id=5784efbb amount=610
+<14>1 2026-05-12T09:18:06.749Z host-worker worker - - payment charge accepted id=91587abc amount=779
+<11>1 2026-05-12T09:18:08.099Z host-cache cache - - checkout failed user=frank reason=upstream_timeout order=c94e5e66
+<14>1 2026-05-12T09:18:09.449Z host-db db - - request handled method=POST path=/v1/checkout status=200 duration=813ms
+<11>1 2026-05-12T09:18:10.799Z host-checkout checkout - - circuit breaker open dependency=catalog failures=822
+<14>1 2026-05-12T09:18:12.149Z host-payments payments - - request handled method=GET path=/v1/catalog status=200 duration=284ms
+<12>1 2026-05-12T09:18:13.499Z host-db db - - retry scheduled attempt=160 operation=cart.update backoff=660ms
+<14>1 2026-05-12T09:18:14.849Z host-payments payments - - request handled method=PUT path=/v1/search status=200 duration=919ms
+<15>1 2026-05-12T09:18:16.199Z host-cache cache - - db query completed table=sessions rows=560 duration=74ms
+<15>1 2026-05-12T09:18:17.549Z host-worker worker - - cache hit key=dde1800e ttl=1154s
+<11>1 2026-05-12T09:18:18.899Z host-payments payments - - checkout failed user=alice reason=upstream_timeout order=c66b51e7
+<12>1 2026-05-12T09:18:20.249Z host-payments payments - - slow query table=orders duration=168ms
+<11>1 2026-05-12T09:18:21.599Z host-worker worker - - checkout failed user=bob reason=upstream_timeout order=1ff9d928
+<11>1 2026-05-12T09:18:22.949Z host-api api - - checkout failed user=bob reason=upstream_timeout order=e51e2769
+<11>1 2026-05-12T09:18:24.299Z host-db db - - checkout failed user=erin reason=upstream_timeout order=7f56f322
+<12>1 2026-05-12T09:18:25.649Z host-worker worker - - retry scheduled attempt=483 operation=order.create backoff=839ms
+<12>1 2026-05-12T09:18:26.999Z host-db db - - retry scheduled attempt=63 operation=cart.update backoff=102ms
+<14>1 2026-05-12T09:18:28.349Z host-cache cache - - request handled method=PUT path=/v1/user/me status=200 duration=212ms
+<11>1 2026-05-12T09:18:29.699Z host-cache cache - - checkout failed user=alice reason=upstream_timeout order=5f3df0bf
+<11>1 2026-05-12T09:18:31.049Z host-payments payments - - circuit breaker open dependency=search failures=233
+<11>1 2026-05-12T09:18:32.399Z host-payments payments - - circuit breaker open dependency=identity failures=472
+<11>1 2026-05-12T09:18:33.749Z host-worker worker - - checkout failed user=bob reason=upstream_timeout order=e1d83ac5
+<11>1 2026-05-12T09:18:35.099Z host-checkout checkout - - circuit breaker open dependency=catalog failures=852
+<14>1 2026-05-12T09:18:36.449Z host-worker worker - - request handled method=POST path=/v1/user/me status=200 duration=573ms
+<14>1 2026-05-12T09:18:37.799Z host-cache cache - - request handled method=POST path=/v1/checkout status=200 duration=335ms
+<15>1 2026-05-12T09:18:39.149Z host-payments payments - - db query completed table=users rows=872 duration=1198ms
+<15>1 2026-05-12T09:18:40.499Z host-checkout checkout - - db query completed table=sessions rows=971 duration=349ms
+<14>1 2026-05-12T09:18:41.849Z host-payments payments - - kafka consumer lag group=orders partition=349 lag=1177
+<11>1 2026-05-12T09:18:43.199Z host-api api - - checkout failed user=erin reason=upstream_timeout order=3429eb13
+<14>1 2026-05-12T09:18:44.549Z host-worker worker - - payment charge accepted id=31b26bf1 amount=263
+<11>1 2026-05-12T09:18:45.899Z host-worker worker - - circuit breaker open dependency=catalog failures=440
+<15>1 2026-05-12T09:18:47.249Z host-api api - - db query completed table=users rows=45 duration=1139ms
+<11>1 2026-05-12T09:18:48.599Z host-db db - - circuit breaker open dependency=identity failures=251
+<11>1 2026-05-12T09:18:49.949Z host-db db - - checkout failed user=frank reason=upstream_timeout order=c961016b
+<11>1 2026-05-12T09:18:51.299Z host-api api - - circuit breaker open dependency=identity failures=1064
+<14>1 2026-05-12T09:18:52.649Z host-payments payments - - kafka consumer lag group=billing partition=468 lag=1142
+<11>1 2026-05-12T09:18:53.999Z host-api api - - circuit breaker open dependency=identity failures=465
+<14>1 2026-05-12T09:18:55.349Z host-payments payments - - request handled method=GET path=/v1/catalog status=200 duration=923ms
+<14>1 2026-05-12T09:18:56.699Z host-payments payments - - request handled method=POST path=/v1/search status=200 duration=694ms
+<11>1 2026-05-12T09:18:58.049Z host-cache cache - - circuit breaker open dependency=payments failures=1027
+<11>1 2026-05-12T09:18:59.399Z host-cache cache - - checkout failed user=erin reason=upstream_timeout order=ddb2632d
+<11>1 2026-05-12T09:19:00.749Z host-api api - - checkout failed user=carol reason=upstream_timeout order=591e597d
+<12>1 2026-05-12T09:19:02.099Z host-cache cache - - retry scheduled attempt=1146 operation=order.create backoff=559ms
+<11>1 2026-05-12T09:19:03.449Z host-worker worker - - checkout failed user=erin reason=upstream_timeout order=4f921bbe
+<12>1 2026-05-12T09:19:04.799Z host-db db - - retry scheduled attempt=574 operation=cart.update backoff=422ms
+<15>1 2026-05-12T09:19:06.149Z host-db db - - cache hit key=aec03fb5 ttl=409s
+<15>1 2026-05-12T09:19:07.499Z host-worker worker - - healthcheck ok component=api uptime=261s
+<14>1 2026-05-12T09:19:08.849Z host-worker worker - - request handled method=PUT path=/v1/user/me status=200 duration=432ms
+<11>1 2026-05-12T09:19:10.199Z host-worker worker - - checkout failed user=dave reason=upstream_timeout order=5e83f0c1
+<14>1 2026-05-12T09:19:11.549Z host-worker worker - - request handled method=PUT path=/v1/catalog status=200 duration=584ms
+<14>1 2026-05-12T09:19:12.899Z host-db db - - request handled method=PUT path=/v1/user/me status=200 duration=536ms
+<14>1 2026-05-12T09:19:14.249Z host-api api - - request handled method=PUT path=/v1/catalog status=200 duration=606ms
+<14>1 2026-05-12T09:19:15.599Z host-checkout checkout - - user 75474 authenticated from /v1/user/me
+<12>1 2026-05-12T09:19:16.949Z host-cache cache - - retry scheduled attempt=472 operation=payment.charge backoff=200ms
+<11>1 2026-05-12T09:19:18.299Z host-payments payments - - circuit breaker open dependency=search failures=286
+<15>1 2026-05-12T09:19:19.649Z host-api api - - db query completed table=sessions rows=376 duration=431ms
+<14>1 2026-05-12T09:19:20.999Z host-cache cache - - payment charge accepted id=6521fe6e amount=796
+<11>1 2026-05-12T09:19:22.349Z host-cache cache - - circuit breaker open dependency=payments failures=624
+<14>1 2026-05-12T09:19:23.699Z host-api api - - request handled method=PUT path=/v1/cart status=200 duration=1019ms
+<14>1 2026-05-12T09:19:25.049Z host-payments payments - - request handled method=POST path=/v1/user/me status=200 duration=103ms
+<12>1 2026-05-12T09:19:26.399Z host-payments payments - - retry scheduled attempt=246 operation=payment.charge backoff=723ms
+<15>1 2026-05-12T09:19:27.749Z host-cache cache - - db query completed table=users rows=528 duration=922ms
+<15>1 2026-05-12T09:19:29.099Z host-payments payments - - cache hit key=b796b685 ttl=1180s
+<14>1 2026-05-12T09:19:30.449Z host-db db - - user 57935 authenticated from 678ms
+<15>1 2026-05-12T09:19:31.799Z host-api api - - db query completed table=users rows=887 duration=406ms
+<14>1 2026-05-12T09:19:33.149Z host-cache cache - - user 12517 authenticated from /v1/cart
+<14>1 2026-05-12T09:19:34.499Z host-payments payments - - request handled method=PUT path=/v1/cart status=200 duration=251ms
+<15>1 2026-05-12T09:19:35.849Z host-db db - - db query completed table=orders rows=353 duration=750ms
+<15>1 2026-05-12T09:19:37.199Z host-worker worker - - cache hit key=fb12b75a ttl=919s
+<11>1 2026-05-12T09:19:38.549Z host-worker worker - - circuit breaker open dependency=catalog failures=1044
+<14>1 2026-05-12T09:19:39.899Z host-cache cache - - email queued to=bob@example.com template=welcome
+<11>1 2026-05-12T09:19:41.249Z host-api api - - circuit breaker open dependency=catalog failures=184
+<14>1 2026-05-12T09:19:42.599Z host-db db - - request handled method=GET path=/v1/cart status=200 duration=1186ms
+<14>1 2026-05-12T09:19:43.949Z host-api api - - request handled method=PUT path=/v1/search status=200 duration=521ms
+<12>1 2026-05-12T09:19:45.299Z host-api api - - retry scheduled attempt=1113 operation=order.create backoff=437ms
+<12>1 2026-05-12T09:19:46.649Z host-cache cache - - retry scheduled attempt=919 operation=order.create backoff=97ms
+<14>1 2026-05-12T09:19:47.999Z host-api api - - email queued to=bob@example.com template=welcome
+<14>1 2026-05-12T09:19:49.349Z host-cache cache - - user /v1/catalog authenticated from /v1/cart
+<14>1 2026-05-12T09:19:50.699Z host-db db - - request handled method=POST path=/v1/catalog status=200 duration=1174ms
+<15>1 2026-05-12T09:19:52.049Z host-db db - - healthcheck ok component=payments uptime=584s
+<11>1 2026-05-12T09:19:53.399Z host-checkout checkout - - circuit breaker open dependency=search failures=926
+<11>1 2026-05-12T09:19:54.749Z host-checkout checkout - - circuit breaker open dependency=catalog failures=775
+<15>1 2026-05-12T09:19:56.099Z host-api api - - cache hit key=3d8fe3e1 ttl=446s
+<14>1 2026-05-12T09:19:57.449Z host-db db - - request handled method=PUT path=/v1/user/me status=200 duration=1029ms
+<14>1 2026-05-12T09:19:58.799Z host-checkout checkout - - payment charge accepted id=bceb4c00 amount=60
+<14>1 2026-05-12T09:20:00.149Z host-worker worker - - user 71040 authenticated from 206ms
+<14>1 2026-05-12T09:20:01.499Z host-worker worker - - user 929ms authenticated from /v1/catalog
+<11>1 2026-05-12T09:20:02.849Z host-db db - - circuit breaker open dependency=identity failures=275
+<14>1 2026-05-12T09:20:04.199Z host-payments payments - - user 518ms authenticated from 14753
+<11>1 2026-05-12T09:20:05.549Z host-api api - - circuit breaker open dependency=catalog failures=1094
+<11>1 2026-05-12T09:20:06.899Z host-api api - - checkout failed user=bob reason=upstream_timeout order=6c845264
+<12>1 2026-05-12T09:20:08.249Z host-worker worker - - slow query table=users duration=157ms
+<11>1 2026-05-12T09:20:09.599Z host-api api - - circuit breaker open dependency=search failures=1100
+<14>1 2026-05-12T09:20:10.949Z host-payments payments - - payment charge accepted id=8311d6bd amount=53
+<15>1 2026-05-12T09:20:12.299Z host-cache cache - - healthcheck ok component=api uptime=200s
+<14>1 2026-05-12T09:20:13.649Z host-api api - - request handled method=PUT path=/v1/catalog status=200 duration=376ms
+<14>1 2026-05-12T09:20:14.999Z host-db db - - request handled method=PUT path=/v1/catalog status=200 duration=646ms
+<14>1 2026-05-12T09:20:16.349Z host-worker worker - - request handled method=PUT path=/v1/search status=200 duration=595ms
+<14>1 2026-05-12T09:20:17.699Z host-api api - - request handled method=GET path=/v1/catalog status=200 duration=1080ms
+<14>1 2026-05-12T09:20:19.049Z host-checkout checkout - - request handled method=GET path=/v1/checkout status=200 duration=1146ms
+<15>1 2026-05-12T09:20:20.399Z host-db db - - cache miss key=a972e610 fill=61ms
+<11>1 2026-05-12T09:20:21.749Z host-cache cache - - circuit breaker open dependency=catalog failures=171
+<12>1 2026-05-12T09:20:23.099Z host-payments payments - - slow query table=users duration=1008ms
+<14>1 2026-05-12T09:20:24.449Z host-payments payments - - request handled method=GET path=/v1/user/me status=200 duration=472ms
+<15>1 2026-05-12T09:20:25.799Z host-db db - - db query completed table=users rows=237 duration=250ms
+<14>1 2026-05-12T09:20:27.149Z host-db db - - request handled method=POST path=/v1/cart status=200 duration=944ms
+<11>1 2026-05-12T09:20:28.499Z host-worker worker - - circuit breaker open dependency=search failures=141
+<15>1 2026-05-12T09:20:29.849Z host-db db - - db query completed table=orders rows=619 duration=406ms
+<14>1 2026-05-12T09:20:31.199Z host-worker worker - - request handled method=GET path=/v1/search status=200 duration=127ms
+<12>1 2026-05-12T09:20:32.549Z host-checkout checkout - - slow query table=catalog duration=325ms
+<14>1 2026-05-12T09:20:33.899Z host-db db - - request handled method=PUT path=/v1/checkout status=200 duration=750ms
+<14>1 2026-05-12T09:20:35.249Z host-payments payments - - request handled method=POST path=/v1/cart status=200 duration=15ms
+<15>1 2026-05-12T09:20:36.599Z host-db db - - cache miss key=a173b4b5 fill=933ms
+<12>1 2026-05-12T09:20:37.949Z host-worker worker - - retry scheduled attempt=1193 operation=order.create backoff=689ms
+<11>1 2026-05-12T09:20:39.299Z host-worker worker - - circuit breaker open dependency=identity failures=650
+<15>1 2026-05-12T09:20:40.649Z host-cache cache - - db query completed table=catalog rows=1128 duration=42ms
+<15>1 2026-05-12T09:20:41.999Z host-worker worker - - cache miss key=8299b313 fill=58ms
+<15>1 2026-05-12T09:20:43.349Z host-payments payments - - db query completed table=orders rows=198 duration=915ms
+<15>1 2026-05-12T09:20:44.699Z host-payments payments - - healthcheck ok component=worker uptime=184s
+<11>1 2026-05-12T09:20:46.049Z host-db db - - checkout failed user=dave reason=upstream_timeout order=2b0b8a5c
+<11>1 2026-05-12T09:20:47.399Z host-db db - - circuit breaker open dependency=identity failures=15
+<15>1 2026-05-12T09:20:48.749Z host-checkout checkout - - db query completed table=orders rows=979 duration=600ms
+<14>1 2026-05-12T09:20:50.099Z host-api api - - request handled method=POST path=/v1/cart status=200 duration=818ms
+<14>1 2026-05-12T09:20:51.449Z host-cache cache - - user 581ms authenticated from 795ms
+<15>1 2026-05-12T09:20:52.799Z host-api api - - cache miss key=e6345706 fill=305ms
+<14>1 2026-05-12T09:20:54.149Z host-checkout checkout - - request handled method=PUT path=/v1/user/me status=200 duration=744ms
+<14>1 2026-05-12T09:20:55.499Z host-db db - - request handled method=GET path=/v1/cart status=200 duration=49ms
+<14>1 2026-05-12T09:20:56.849Z host-api api - - payment charge accepted id=a759caac amount=287
+<15>1 2026-05-12T09:20:58.199Z host-payments payments - - db query completed table=orders rows=440 duration=97ms
+<11>1 2026-05-12T09:20:59.549Z host-worker worker - - circuit breaker open dependency=identity failures=252
+<15>1 2026-05-12T09:21:00.899Z host-api api - - cache hit key=432a5d76 ttl=279s
+<11>1 2026-05-12T09:21:02.249Z host-api api - - checkout failed user=erin reason=upstream_timeout order=220d0cd9
+<15>1 2026-05-12T09:21:03.599Z host-cache cache - - cache hit key=b9a74a0a ttl=805s
+<14>1 2026-05-12T09:21:04.949Z host-payments payments - - payment charge accepted id=cc9f44c4 amount=537
+<12>1 2026-05-12T09:21:06.299Z host-db db - - retry scheduled attempt=762 operation=order.create backoff=994ms
+<12>1 2026-05-12T09:21:07.649Z host-payments payments - - retry scheduled attempt=853 operation=payment.charge backoff=102ms
+<15>1 2026-05-12T09:21:08.999Z host-payments payments - - healthcheck ok component=api uptime=90s
+<14>1 2026-05-12T09:21:10.349Z host-api api - - request handled method=PUT path=/v1/checkout status=200 duration=646ms
+<15>1 2026-05-12T09:21:11.699Z host-payments payments - - cache hit key=8c86bc11 ttl=791s
+<14>1 2026-05-12T09:21:13.049Z host-worker worker - - request handled method=POST path=/v1/checkout status=200 duration=1123ms
+<15>1 2026-05-12T09:21:14.399Z host-db db - - cache hit key=c313b0eb ttl=561s
+<14>1 2026-05-12T09:21:15.749Z host-cache cache - - payment charge accepted id=02c9716c amount=206
+<15>1 2026-05-12T09:21:17.099Z host-payments payments - - cache hit key=0b5e76e6 ttl=219s
+<12>1 2026-05-12T09:21:18.449Z host-api api - - retry scheduled attempt=27 operation=payment.charge backoff=649ms
+<14>1 2026-05-12T09:21:19.799Z host-worker worker - - request handled method=POST path=/v1/cart status=200 duration=538ms
+<14>1 2026-05-12T09:21:21.149Z host-cache cache - - user 1115ms authenticated from 128ms
+<14>1 2026-05-12T09:21:22.499Z host-cache cache - - request handled method=PUT path=/v1/checkout status=200 duration=640ms
+<14>1 2026-05-12T09:21:23.849Z host-cache cache - - request handled method=GET path=/v1/checkout status=200 duration=729ms
+<14>1 2026-05-12T09:21:25.199Z host-checkout checkout - - user 27973 authenticated from 728ms
+<14>1 2026-05-12T09:21:26.549Z host-worker worker - - request handled method=POST path=/v1/catalog status=200 duration=248ms
+<15>1 2026-05-12T09:21:27.899Z host-cache cache - - cache hit key=5e616125 ttl=849s
+<14>1 2026-05-12T09:21:29.249Z host-worker worker - - request handled method=POST path=/v1/catalog status=200 duration=276ms
+<14>1 2026-05-12T09:21:30.599Z host-cache cache - - request handled method=PUT path=/v1/user/me status=200 duration=328ms
+<14>1 2026-05-12T09:21:31.949Z host-cache cache - - request handled method=PUT path=/v1/search status=200 duration=893ms
+<14>1 2026-05-12T09:21:33.299Z host-cache cache - - request handled method=GET path=/v1/search status=200 duration=14ms
+<14>1 2026-05-12T09:21:34.649Z host-db db - - request handled method=GET path=/v1/cart status=200 duration=1130ms
+<15>1 2026-05-12T09:21:35.999Z host-api api - - cache hit key=d4d8831b ttl=237s
+<11>1 2026-05-12T09:21:37.349Z host-api api - - circuit breaker open dependency=payments failures=952
+<14>1 2026-05-12T09:21:38.699Z host-payments payments - - kafka consumer lag group=billing partition=274 lag=639
+<11>1 2026-05-12T09:21:40.049Z host-payments payments - - checkout failed user=frank reason=upstream_timeout order=08756320
+<15>1 2026-05-12T09:21:41.399Z host-cache cache - - cache miss key=874c74f7 fill=564ms
+<11>1 2026-05-12T09:21:42.749Z host-worker worker - - circuit breaker open dependency=payments failures=713
+<15>1 2026-05-12T09:21:44.099Z host-db db - - db query completed table=orders rows=915 duration=301ms
+<15>1 2026-05-12T09:21:45.449Z host-api api - - db query completed table=users rows=773 duration=886ms
+<15>1 2026-05-12T09:21:46.799Z host-db db - - db query completed table=sessions rows=387 duration=392ms
+<15>1 2026-05-12T09:21:48.149Z host-db db - - healthcheck ok component=api uptime=640s
+<14>1 2026-05-12T09:21:49.499Z host-worker worker - - request handled method=POST path=/v1/checkout status=200 duration=112ms
+<15>1 2026-05-12T09:21:50.849Z host-api api - - healthcheck ok component=checkout uptime=268s
+<15>1 2026-05-12T09:21:52.199Z host-payments payments - - cache hit key=a5bdb639 ttl=926s
+<15>1 2026-05-12T09:21:53.549Z host-payments payments - - cache miss key=8b7461dd fill=814ms
+<14>1 2026-05-12T09:21:54.899Z host-cache cache - - user 823ms authenticated from 636ms
+<15>1 2026-05-12T09:21:56.249Z host-api api - - db query completed table=orders rows=1088 duration=623ms
+<11>1 2026-05-12T09:21:57.599Z host-api api - - circuit breaker open dependency=identity failures=1108
+<11>1 2026-05-12T09:21:58.949Z host-checkout checkout - - checkout failed user=carol reason=upstream_timeout order=2f12b43b
+<14>1 2026-05-12T09:22:00.299Z host-db db - - request handled method=GET path=/v1/cart status=200 duration=216ms
+<15>1 2026-05-12T09:22:01.649Z host-worker worker - - cache hit key=d15cfe8b ttl=587s
+<15>1 2026-05-12T09:22:02.999Z host-payments payments - - db query completed table=orders rows=753 duration=66ms
+<11>1 2026-05-12T09:22:04.349Z host-api api - - circuit breaker open dependency=search failures=929
+<15>1 2026-05-12T09:22:05.699Z host-checkout checkout - - healthcheck ok component=worker uptime=932s
+<14>1 2026-05-12T09:22:07.049Z host-checkout checkout - - user /v1/catalog authenticated from /v1/catalog
+<12>1 2026-05-12T09:22:08.399Z host-worker worker - - retry scheduled attempt=1155 operation=order.create backoff=118ms
+<12>1 2026-05-12T09:22:09.749Z host-worker worker - - retry scheduled attempt=1 operation=payment.charge backoff=657ms
+<12>1 2026-05-12T09:22:11.099Z host-worker worker - - retry scheduled attempt=987 operation=order.create backoff=342ms
+<14>1 2026-05-12T09:22:12.449Z host-api api - - kafka consumer lag group=billing partition=575 lag=54
+<15>1 2026-05-12T09:22:13.799Z host-payments payments - - db query completed table=sessions rows=535 duration=988ms
+<15>1 2026-05-12T09:22:15.149Z host-worker worker - - healthcheck ok component=worker uptime=742s
+<15>1 2026-05-12T09:22:16.499Z host-cache cache - - healthcheck ok component=cache uptime=1062s
+<15>1 2026-05-12T09:22:17.849Z host-db db - - db query completed table=catalog rows=180 duration=654ms
+<14>1 2026-05-12T09:22:19.199Z host-payments payments - - request handled method=PUT path=/v1/checkout status=200 duration=1073ms
+<12>1 2026-05-12T09:22:20.549Z host-worker worker - - slow query table=orders duration=1115ms
+<15>1 2026-05-12T09:22:21.899Z host-payments payments - - healthcheck ok component=worker uptime=713s
+<14>1 2026-05-12T09:22:23.249Z host-worker worker - - user 166ms authenticated from /v1/cart
+<14>1 2026-05-12T09:22:24.599Z host-worker worker - - request handled method=GET path=/v1/checkout status=200 duration=914ms
+<15>1 2026-05-12T09:22:25.949Z host-checkout checkout - - db query completed table=orders rows=186 duration=431ms
+<15>1 2026-05-12T09:22:27.299Z host-checkout checkout - - cache hit key=a42e8492 ttl=60s
+<15>1 2026-05-12T09:22:28.649Z host-payments payments - - cache hit key=1e2cd408 ttl=1063s
+<14>1 2026-05-12T09:22:29.999Z host-api api - - request handled method=POST path=/v1/checkout status=200 duration=551ms
+<15>1 2026-05-12T09:22:31.349Z host-cache cache - - healthcheck ok component=worker uptime=1063s
+<15>1 2026-05-12T09:22:32.699Z host-cache cache - - cache hit key=b5e0ed08 ttl=960s
+<15>1 2026-05-12T09:22:34.049Z host-cache cache - - db query completed table=catalog rows=985 duration=774ms
+<15>1 2026-05-12T09:22:35.399Z host-worker worker - - cache hit key=117d8254 ttl=655s
+<15>1 2026-05-12T09:22:36.749Z host-cache cache - - db query completed table=users rows=839 duration=473ms
+<14>1 2026-05-12T09:22:38.099Z host-checkout checkout - - request handled method=PUT path=/v1/checkout status=200 duration=900ms
+<15>1 2026-05-12T09:22:39.449Z host-api api - - db query completed table=users rows=440 duration=159ms
+<11>1 2026-05-12T09:22:40.799Z host-api api - - checkout failed user=erin reason=upstream_timeout order=45699562
+<14>1 2026-05-12T09:22:42.149Z host-db db - - email queued to=bob@example.com template=reset-password
+<14>1 2026-05-12T09:22:43.499Z host-checkout checkout - - payment charge accepted id=e0919abe amount=83
+<12>1 2026-05-12T09:22:44.849Z host-payments payments - - slow query table=users duration=1030ms
+<14>1 2026-05-12T09:22:46.199Z host-checkout checkout - - request handled method=GET path=/v1/user/me status=200 duration=574ms
+<14>1 2026-05-12T09:22:47.549Z host-payments payments - - request handled method=POST path=/v1/cart status=200 duration=565ms
+<14>1 2026-05-12T09:22:48.899Z host-worker worker - - request handled method=GET path=/v1/user/me status=200 duration=1178ms
+<15>1 2026-05-12T09:22:50.249Z host-cache cache - - cache hit key=d05109f2 ttl=226s
+<14>1 2026-05-12T09:22:51.599Z host-api api - - payment charge accepted id=25feb45e amount=454
+<14>1 2026-05-12T09:22:52.949Z host-checkout checkout - - request handled method=GET path=/v1/search status=200 duration=290ms
+<11>1 2026-05-12T09:22:54.299Z host-payments payments - - checkout failed user=dave reason=upstream_timeout order=a7071dbd
+<11>1 2026-05-12T09:22:55.649Z host-db db - - checkout failed user=bob reason=upstream_timeout order=b932b0db
+<14>1 2026-05-12T09:22:56.999Z host-checkout checkout - - kafka consumer lag group=billing partition=885 lag=523
+<12>1 2026-05-12T09:22:58.349Z host-api api - - retry scheduled attempt=48 operation=payment.charge backoff=716ms
+<14>1 2026-05-12T09:22:59.699Z host-api api - - request handled method=POST path=/v1/checkout status=200 duration=922ms
+<14>1 2026-05-12T09:23:01.049Z host-worker worker - - request handled method=GET path=/v1/search status=200 duration=813ms
+<15>1 2026-05-12T09:23:02.399Z host-worker worker - - cache miss key=467a9e71 fill=176ms
+<14>1 2026-05-12T09:23:03.749Z host-checkout checkout - - user 1150ms authenticated from /v1/user/me
+<11>1 2026-05-12T09:23:05.099Z host-cache cache - - circuit breaker open dependency=search failures=838
+<15>1 2026-05-12T09:23:06.449Z host-cache cache - - db query completed table=orders rows=173 duration=978ms
+<15>1 2026-05-12T09:23:07.799Z host-worker worker - - cache miss key=d5a39845 fill=244ms
+<11>1 2026-05-12T09:23:09.149Z host-worker worker - - checkout failed user=dave reason=upstream_timeout order=9f0aab05
+<14>1 2026-05-12T09:23:10.499Z host-payments payments - - payment charge accepted id=28f58a80 amount=1117
+<14>1 2026-05-12T09:23:11.849Z host-cache cache - - request handled method=GET path=/v1/checkout status=200 duration=189ms
+<14>1 2026-05-12T09:23:13.199Z host-db db - - payment charge accepted id=195129ce amount=1089
+<14>1 2026-05-12T09:23:14.549Z host-checkout checkout - - payment charge accepted id=d85063da amount=1015
+<12>1 2026-05-12T09:23:15.899Z host-cache cache - - retry scheduled attempt=785 operation=order.create backoff=942ms
+<14>1 2026-05-12T09:23:17.249Z host-cache cache - - request handled method=PUT path=/v1/search status=200 duration=863ms
+<14>1 2026-05-12T09:23:18.599Z host-api api - - request handled method=PUT path=/v1/catalog status=200 duration=572ms
+<14>1 2026-05-12T09:23:19.949Z host-api api - - request handled method=POST path=/v1/cart status=200 duration=1132ms
+<14>1 2026-05-12T09:23:21.299Z host-checkout checkout - - user 449ms authenticated from 1022ms
+<14>1 2026-05-12T09:23:22.649Z host-checkout checkout - - request handled method=PUT path=/v1/user/me status=200 duration=132ms
+<14>1 2026-05-12T09:23:23.999Z host-worker worker - - user /v1/search authenticated from 402ms
+<12>1 2026-05-12T09:23:25.349Z host-cache cache - - slow query table=catalog duration=683ms
+<15>1 2026-05-12T09:23:26.699Z host-api api - - db query completed table=orders rows=798 duration=1007ms
+<15>1 2026-05-12T09:23:28.049Z host-payments payments - - cache miss key=2fd816a2 fill=1141ms
+<14>1 2026-05-12T09:23:29.399Z host-cache cache - - email queued to=carol@example.com template=reset-password
+<15>1 2026-05-12T09:23:30.749Z host-db db - - db query completed table=catalog rows=929 duration=809ms
+<14>1 2026-05-12T09:23:32.099Z host-worker worker - - request handled method=PUT path=/v1/catalog status=200 duration=190ms
+<12>1 2026-05-12T09:23:33.449Z host-worker worker - - retry scheduled attempt=1166 operation=order.create backoff=831ms
+<14>1 2026-05-12T09:23:34.799Z host-cache cache - - request handled method=GET path=/v1/search status=200 duration=349ms
+<14>1 2026-05-12T09:23:36.149Z host-db db - - payment charge accepted id=462f3673 amount=883
+<15>1 2026-05-12T09:23:37.499Z host-db db - - db query completed table=catalog rows=778 duration=273ms
+<14>1 2026-05-12T09:23:38.849Z host-checkout checkout - - payment charge accepted id=db63d075 amount=429
+<14>1 2026-05-12T09:23:40.199Z host-checkout checkout - - email queued to=alice@example.com template=welcome
+<12>1 2026-05-12T09:23:41.549Z host-db db - - retry scheduled attempt=898 operation=cart.update backoff=931ms
+<15>1 2026-05-12T09:23:42.899Z host-worker worker - - cache hit key=bb8c4588 ttl=856s
+<14>1 2026-05-12T09:23:44.249Z host-db db - - request handled method=PUT path=/v1/checkout status=200 duration=280ms
+<14>1 2026-05-12T09:23:45.599Z host-cache cache - - request handled method=GET path=/v1/search status=200 duration=504ms
+<15>1 2026-05-12T09:23:46.949Z host-worker worker - - db query completed table=users rows=1096 duration=408ms
+<15>1 2026-05-12T09:23:48.299Z host-checkout checkout - - healthcheck ok component=checkout uptime=1048s
+<14>1 2026-05-12T09:23:49.649Z host-payments payments - - kafka consumer lag group=catalog partition=628 lag=1072
+<14>1 2026-05-12T09:23:50.999Z host-worker worker - - payment charge accepted id=261eb334 amount=460
+<14>1 2026-05-12T09:23:52.349Z host-worker worker - - email queued to=bob@example.com template=welcome
+<14>1 2026-05-12T09:23:53.699Z host-db db - - request handled method=GET path=/v1/user/me status=200 duration=523ms
+<14>1 2026-05-12T09:23:55.049Z host-worker worker - - request handled method=POST path=/v1/user/me status=200 duration=15ms
+<12>1 2026-05-12T09:23:56.399Z host-api api - - retry scheduled attempt=1109 operation=cart.update backoff=924ms
+<14>1 2026-05-12T09:23:57.749Z host-payments payments - - user /v1/user/me authenticated from 16440
+<14>1 2026-05-12T09:23:59.099Z host-db db - - request handled method=POST path=/v1/search status=200 duration=1005ms
+<15>1 2026-05-12T09:24:00.449Z host-worker worker - - db query completed table=users rows=18 duration=571ms
+<12>1 2026-05-12T09:24:01.799Z host-checkout checkout - - slow query table=catalog duration=808ms
+<11>1 2026-05-12T09:24:03.149Z host-api api - - circuit breaker open dependency=payments failures=695
+<11>1 2026-05-12T09:24:04.499Z host-payments payments - - circuit breaker open dependency=identity failures=221
+<11>1 2026-05-12T09:24:05.849Z host-api api - - circuit breaker open dependency=search failures=1016
+<11>1 2026-05-12T09:24:07.199Z host-checkout checkout - - checkout failed user=carol reason=upstream_timeout order=37df0dee
+<12>1 2026-05-12T09:24:08.549Z host-checkout checkout - - retry scheduled attempt=527 operation=payment.charge backoff=1178ms
+<15>1 2026-05-12T09:24:09.899Z host-api api - - healthcheck ok component=checkout uptime=518s
+<14>1 2026-05-12T09:24:11.249Z host-worker worker - - request handled method=POST path=/v1/user/me status=200 duration=476ms
+<14>1 2026-05-12T09:24:12.599Z host-cache cache - - request handled method=POST path=/v1/search status=200 duration=348ms
+<14>1 2026-05-12T09:24:13.949Z host-cache cache - - request handled method=PUT path=/v1/catalog status=200 duration=774ms
+<14>1 2026-05-12T09:24:15.299Z host-checkout checkout - - email queued to=alice@example.com template=welcome
+<15>1 2026-05-12T09:24:16.649Z host-payments payments - - db query completed table=sessions rows=4 duration=200ms
+<14>1 2026-05-12T09:24:17.999Z host-payments payments - - request handled method=GET path=/v1/catalog status=200 duration=1094ms
+<15>1 2026-05-12T09:24:19.349Z host-api api - - db query completed table=catalog rows=889 duration=533ms
+<15>1 2026-05-12T09:24:20.699Z host-api api - - db query completed table=sessions rows=535 duration=186ms
+<14>1 2026-05-12T09:24:22.049Z host-payments payments - - request handled method=POST path=/v1/cart status=200 duration=1011ms
+<11>1 2026-05-12T09:24:23.399Z host-cache cache - - checkout failed user=frank reason=upstream_timeout order=f9a2b73e
+<14>1 2026-05-12T09:24:24.749Z host-cache cache - - user 1048ms authenticated from 31378
+<14>1 2026-05-12T09:24:26.099Z host-payments payments - - request handled method=GET path=/v1/cart status=200 duration=1133ms
+<15>1 2026-05-12T09:24:27.449Z host-api api - - db query completed table=orders rows=43 duration=976ms
+<14>1 2026-05-12T09:24:28.799Z host-cache cache - - request handled method=POST path=/v1/search status=200 duration=1094ms
+<14>1 2026-05-12T09:24:30.149Z host-api api - - request handled method=GET path=/v1/checkout status=200 duration=800ms
+<14>1 2026-05-12T09:24:31.499Z host-api api - - request handled method=PUT path=/v1/catalog status=200 duration=1161ms
+<14>1 2026-05-12T09:24:32.849Z host-db db - - user /v1/cart authenticated from 17ms
+<12>1 2026-05-12T09:24:34.199Z host-payments payments - - slow query table=users duration=191ms
+<15>1 2026-05-12T09:24:35.549Z host-worker worker - - db query completed table=sessions rows=1196 duration=1009ms
+<15>1 2026-05-12T09:24:36.899Z host-worker worker - - db query completed table=catalog rows=859 duration=1136ms
+<11>1 2026-05-12T09:24:38.249Z host-api api - - circuit breaker open dependency=catalog failures=14
+<15>1 2026-05-12T09:24:39.599Z host-db db - - db query completed table=users rows=65 duration=339ms
+<15>1 2026-05-12T09:24:40.949Z host-checkout checkout - - db query completed table=catalog rows=1093 duration=1026ms
+<14>1 2026-05-12T09:24:42.299Z host-db db - - request handled method=PUT path=/v1/user/me status=200 duration=500ms
+<14>1 2026-05-12T09:24:43.649Z host-checkout checkout - - request handled method=POST path=/v1/user/me status=200 duration=955ms
+<15>1 2026-05-12T09:24:44.999Z host-db db - - healthcheck ok component=worker uptime=53s
+<14>1 2026-05-12T09:24:46.349Z host-api api - - kafka consumer lag group=billing partition=2 lag=985
+<14>1 2026-05-12T09:24:47.699Z host-payments payments - - request handled method=POST path=/v1/checkout status=200 duration=301ms
+<11>1 2026-05-12T09:24:49.049Z host-db db - - circuit breaker open dependency=identity failures=331
+<15>1 2026-05-12T09:24:50.399Z host-api api - - db query completed table=users rows=190 duration=114ms
+<15>1 2026-05-12T09:24:51.749Z host-db db - - cache hit key=36cdaeac ttl=37s
+<11>1 2026-05-12T09:24:53.099Z host-checkout checkout - - checkout failed user=erin reason=upstream_timeout order=b4afc8b0
+<15>1 2026-05-12T09:24:54.449Z host-cache cache - - db query completed table=users rows=127 duration=53ms
+<15>1 2026-05-12T09:24:55.799Z host-api api - - cache miss key=f7a6d223 fill=822ms
+<14>1 2026-05-12T09:24:57.149Z host-db db - - request handled method=PUT path=/v1/catalog status=200 duration=93ms
+<15>1 2026-05-12T09:24:58.499Z host-worker worker - - db query completed table=sessions rows=891 duration=447ms
+<14>1 2026-05-12T09:24:59.849Z host-checkout checkout - - request handled method=POST path=/v1/search status=200 duration=418ms
+<14>1 2026-05-12T09:25:01.199Z host-payments payments - - request handled method=GET path=/v1/cart status=200 duration=271ms
+<14>1 2026-05-12T09:25:02.549Z host-api api - - payment charge accepted id=8853c564 amount=1064
+<15>1 2026-05-12T09:25:03.899Z host-cache cache - - cache miss key=395e81ac fill=422ms
+<11>1 2026-05-12T09:25:05.249Z host-db db - - circuit breaker open dependency=payments failures=1028
+<15>1 2026-05-12T09:25:06.599Z host-worker worker - - db query completed table=users rows=222 duration=702ms
+<14>1 2026-05-12T09:25:07.949Z host-payments payments - - request handled method=PUT path=/v1/catalog status=200 duration=1148ms
+<14>1 2026-05-12T09:25:09.299Z host-payments payments - - request handled method=GET path=/v1/search status=200 duration=419ms
+<15>1 2026-05-12T09:25:10.649Z host-cache cache - - db query completed table=users rows=1034 duration=875ms
+<14>1 2026-05-12T09:25:11.999Z host-worker worker - - request handled method=PUT path=/v1/catalog status=200 duration=598ms
+<15>1 2026-05-12T09:25:13.349Z host-cache cache - - cache hit key=e9523cad ttl=1083s
+<11>1 2026-05-12T09:25:14.699Z host-db db - - circuit breaker open dependency=catalog failures=109
+<15>1 2026-05-12T09:25:16.049Z host-db db - - healthcheck ok component=checkout uptime=148s
+<14>1 2026-05-12T09:25:17.399Z host-cache cache - - request handled method=GET path=/v1/catalog status=200 duration=260ms
+<15>1 2026-05-12T09:25:18.749Z host-api api - - db query completed table=catalog rows=907 duration=860ms
+<14>1 2026-05-12T09:25:20.099Z host-worker worker - - kafka consumer lag group=catalog partition=151 lag=972
+<15>1 2026-05-12T09:25:21.449Z host-payments payments - - db query completed table=orders rows=709 duration=417ms
+<14>1 2026-05-12T09:25:22.799Z host-payments payments - - request handled method=GET path=/v1/user/me status=200 duration=167ms
+<14>1 2026-05-12T09:25:24.149Z host-api api - - request handled method=PUT path=/v1/cart status=200 duration=1188ms
+<14>1 2026-05-12T09:25:25.499Z host-payments payments - - user 50519 authenticated from 32985
+<14>1 2026-05-12T09:25:26.849Z host-api api - - request handled method=PUT path=/v1/search status=200 duration=440ms
+<15>1 2026-05-12T09:25:28.199Z host-db db - - healthcheck ok component=cache uptime=1074s
+<14>1 2026-05-12T09:25:29.549Z host-worker worker - - request handled method=POST path=/v1/user/me status=200 duration=939ms
+<14>1 2026-05-12T09:25:30.899Z host-cache cache - - kafka consumer lag group=billing partition=360 lag=977
+<15>1 2026-05-12T09:25:32.249Z host-checkout checkout - - healthcheck ok component=api uptime=985s
+<14>1 2026-05-12T09:25:33.599Z host-worker worker - - user 938ms authenticated from 74753
+<14>1 2026-05-12T09:25:34.949Z host-payments payments - - request handled method=GET path=/v1/checkout status=200 duration=425ms
+<15>1 2026-05-12T09:25:36.299Z host-worker worker - - healthcheck ok component=db uptime=1086s
+<15>1 2026-05-12T09:25:37.649Z host-api api - - db query completed table=sessions rows=260 duration=1159ms
+<15>1 2026-05-12T09:25:38.999Z host-cache cache - - healthcheck ok component=checkout uptime=468s
+<11>1 2026-05-12T09:25:40.349Z host-cache cache - - checkout failed user=alice reason=upstream_timeout order=881acbd8
+<14>1 2026-05-12T09:25:41.699Z host-payments payments - - request handled method=PUT path=/v1/cart status=200 duration=113ms
+<14>1 2026-05-12T09:25:43.049Z host-db db - - request handled method=POST path=/v1/cart status=200 duration=865ms
+<14>1 2026-05-12T09:25:44.399Z host-worker worker - - user 88597 authenticated from /v1/cart
+<11>1 2026-05-12T09:25:45.749Z host-db db - - checkout failed user=dave reason=upstream_timeout order=efc63613
+<14>1 2026-05-12T09:25:47.099Z host-db db - - request handled method=GET path=/v1/catalog status=200 duration=656ms
+<14>1 2026-05-12T09:25:48.449Z host-checkout checkout - - request handled method=POST path=/v1/user/me status=200 duration=1103ms
+<14>1 2026-05-12T09:25:49.799Z host-checkout checkout - - user 92523 authenticated from 1039ms
+<15>1 2026-05-12T09:25:51.149Z host-payments payments - - cache hit key=7ed7e4c8 ttl=401s
+<11>1 2026-05-12T09:25:52.499Z host-checkout checkout - - circuit breaker open dependency=catalog failures=333
+<14>1 2026-05-12T09:25:53.849Z host-cache cache - - kafka consumer lag group=orders partition=808 lag=985
+<15>1 2026-05-12T09:25:55.199Z host-cache cache - - healthcheck ok component=worker uptime=525s
+<14>1 2026-05-12T09:25:56.549Z host-db db - - user /v1/user/me authenticated from 932ms
+<15>1 2026-05-12T09:25:57.899Z host-payments payments - - db query completed table=sessions rows=28 duration=628ms
+<14>1 2026-05-12T09:25:59.249Z host-db db - - email queued to=bob@example.com template=reset-password
+<15>1 2026-05-12T09:26:00.599Z host-db db - - cache hit key=65717f6d ttl=63s
+<15>1 2026-05-12T09:26:01.949Z host-cache cache - - healthcheck ok component=checkout uptime=344s
+<15>1 2026-05-12T09:26:03.299Z host-cache cache - - cache hit key=51cffa13 ttl=709s
+<14>1 2026-05-12T09:26:04.649Z host-db db - - payment charge accepted id=a77a2444 amount=321
+<14>1 2026-05-12T09:26:05.999Z host-worker worker - - request handled method=POST path=/v1/catalog status=200 duration=1080ms
+<15>1 2026-05-12T09:26:07.349Z host-cache cache - - cache hit key=f4599076 ttl=655s
+<14>1 2026-05-12T09:26:08.699Z host-db db - - request handled method=GET path=/v1/catalog status=200 duration=521ms
+<14>1 2026-05-12T09:26:10.049Z host-api api - - payment settled id=8e4dae72 attempts=821ms duration=775ms
+<15>1 2026-05-12T09:26:11.399Z host-db db - - db query completed table=sessions rows=858 duration=693ms
+<15>1 2026-05-12T09:26:12.749Z host-checkout checkout - - healthcheck ok component=db uptime=182s
+<14>1 2026-05-12T09:26:14.099Z host-cache cache - - kafka consumer lag group=orders partition=867 lag=847
+<14>1 2026-05-12T09:26:15.449Z host-checkout checkout - - request handled method=PUT path=/v1/cart status=200 duration=363ms
+<15>1 2026-05-12T09:26:16.799Z host-payments payments - - cache hit key=ab56e5a0 ttl=123s
+<15>1 2026-05-12T09:26:18.149Z host-cache cache - - healthcheck ok component=checkout uptime=112s
+<14>1 2026-05-12T09:26:19.499Z host-checkout checkout - - request handled method=GET path=/v1/cart status=200 duration=597ms
+<15>1 2026-05-12T09:26:20.849Z host-db db - - healthcheck ok component=checkout uptime=613s
+<15>1 2026-05-12T09:26:22.199Z host-payments payments - - cache hit key=ff517d9d ttl=821s
+<14>1 2026-05-12T09:26:23.549Z host-checkout checkout - - request handled method=POST path=/v1/cart status=200 duration=905ms
+<15>1 2026-05-12T09:26:24.899Z host-worker worker - - db query completed table=orders rows=700 duration=417ms
+<15>1 2026-05-12T09:26:26.249Z host-api api - - healthcheck ok component=payments uptime=40s
+<15>1 2026-05-12T09:26:27.599Z host-db db - - db query completed table=orders rows=1059 duration=668ms
+<14>1 2026-05-12T09:26:28.949Z host-api api - - payment charge accepted id=2c26d79b amount=922
+<15>1 2026-05-12T09:26:30.299Z host-cache cache - - cache hit key=b07f0ce1 ttl=655s
+<12>1 2026-05-12T09:26:31.649Z host-worker worker - - still degraded replicas=269 target=12
+<14>1 2026-05-12T09:26:32.999Z host-api api - - user 48145 authenticated from 79ms
+<15>1 2026-05-12T09:26:34.349Z host-api api - - cache miss key=b6636a2a fill=1166ms
+<14>1 2026-05-12T09:26:35.699Z host-payments payments - - request handled method=GET path=/v1/catalog status=200 duration=934ms
+<14>1 2026-05-12T09:26:37.049Z host-db db - - user /v1/cart authenticated from 179ms
+<14>1 2026-05-12T09:26:38.399Z host-cache cache - - request handled method=PUT path=/v1/catalog status=200 duration=362ms
+<14>1 2026-05-12T09:26:39.749Z host-cache cache - - user 765ms authenticated from 486ms
+<14>1 2026-05-12T09:26:41.099Z host-cache cache - - request handled method=GET path=/v1/search status=200 duration=393ms
+<15>1 2026-05-12T09:26:42.449Z host-checkout checkout - - healthcheck ok component=worker uptime=814s
+<14>1 2026-05-12T09:26:43.799Z host-cache cache - - payment settled id=9eab621c attempts=952ms duration=179ms
+<14>1 2026-05-12T09:26:45.149Z host-worker worker - - user 82541 authenticated from /v1/user/me
+<15>1 2026-05-12T09:26:46.499Z host-worker worker - - db query completed table=sessions rows=1113 duration=215ms
+<15>1 2026-05-12T09:26:47.849Z host-payments payments - - cache hit key=e2a2ffd6 ttl=835s
+<15>1 2026-05-12T09:26:49.199Z host-checkout checkout - - cache miss key=1a4ce200 fill=288ms
+<14>1 2026-05-12T09:26:50.549Z host-cache cache - - request handled method=GET path=/v1/catalog status=200 duration=90ms
+<15>1 2026-05-12T09:26:51.899Z host-api api - - db query completed table=users rows=155 duration=585ms
+<15>1 2026-05-12T09:26:53.249Z host-checkout checkout - - cache hit key=cd95337e ttl=908s
+<14>1 2026-05-12T09:26:54.599Z host-worker worker - - request handled method=GET path=/v1/user/me status=200 duration=690ms
+<15>1 2026-05-12T09:26:55.949Z host-worker worker - - cache hit key=da6c2145 ttl=449s
+<14>1 2026-05-12T09:26:57.299Z host-db db - - request handled method=POST path=/v1/search status=200 duration=458ms
+<14>1 2026-05-12T09:26:58.649Z host-cache cache - - request handled method=POST path=/v1/user/me status=200 duration=246ms
+<14>1 2026-05-12T09:26:59.999Z host-worker worker - - request handled method=POST path=/v1/cart status=200 duration=451ms

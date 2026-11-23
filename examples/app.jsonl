@@ -1,0 +1,800 @@
+{"timestamp": "2026-05-12 09:00:02.025", "level": "INFO", "logger": "db", "message": "user 365ms authenticated from /v1/search"}
+{"timestamp": "2026-05-12 09:00:04.050", "level": "INFO", "logger": "api", "message": "payment charge accepted id=61e818b9 amount=179"}
+{"timestamp": "2026-05-12 09:00:06.075", "level": "INFO", "logger": "worker", "message": "payment charge accepted id=e5a3765b amount=1185"}
+{"timestamp": "2026-05-12 09:00:08.100", "level": "INFO", "logger": "payments", "message": "email queued to=carol@example.com template=welcome"}
+{"timestamp": "2026-05-12 09:00:10.125", "level": "DEBUG", "logger": "db", "message": "cache miss key=2d6541a5 fill=288ms"}
+{"timestamp": "2026-05-12 09:00:12.150", "level": "DEBUG", "logger": "payments", "message": "healthcheck ok component=checkout uptime=337s"}
+{"timestamp": "2026-05-12 09:00:14.175", "level": "INFO", "logger": "payments", "message": "request handled method=GET path=/v1/cart status=200 duration=338ms"}
+{"timestamp": "2026-05-12 09:00:16.200", "level": "DEBUG", "logger": "cache", "message": "db query completed table=orders rows=550 duration=485ms"}
+{"timestamp": "2026-05-12 09:00:18.225", "level": "INFO", "logger": "api", "message": "request handled method=GET path=/v1/search status=200 duration=615ms"}
+{"timestamp": "2026-05-12 09:00:20.250", "level": "INFO", "logger": "worker", "message": "email queued to=carol@example.com template=receipt"}
+{"timestamp": "2026-05-12 09:00:22.275", "level": "INFO", "logger": "payments", "message": "request handled method=PUT path=/v1/catalog status=200 duration=558ms"}
+{"timestamp": "2026-05-12 09:00:24.300", "level": "INFO", "logger": "cache", "message": "user 193ms authenticated from 493ms"}
+{"timestamp": "2026-05-12 09:00:26.325", "level": "DEBUG", "logger": "checkout", "message": "healthcheck ok component=checkout uptime=115s"}
+{"timestamp": "2026-05-12 09:00:28.350", "level": "DEBUG", "logger": "checkout", "message": "cache miss key=abf80fc7 fill=750ms"}
+{"timestamp": "2026-05-12 09:00:30.375", "level": "INFO", "logger": "cache", "message": "user 35896 authenticated from 465ms"}
+{"timestamp": "2026-05-12 09:00:32.400", "level": "DEBUG", "logger": "checkout", "message": "cache hit key=f9e92cd1 ttl=892s"}
+{"timestamp": "2026-05-12 09:00:34.425", "level": "INFO", "logger": "checkout", "message": "payment charge accepted id=3db95b88 amount=309"}
+{"timestamp": "2026-05-12 09:00:36.450", "level": "INFO", "logger": "payments", "message": "payment charge accepted id=4bcb66e9 amount=300"}
+{"timestamp": "2026-05-12 09:00:38.475", "level": "DEBUG", "logger": "checkout", "message": "cache hit key=e093e41c ttl=507s"}
+{"timestamp": "2026-05-12 09:00:40.500", "level": "INFO", "logger": "worker", "message": "request handled method=PUT path=/v1/user/me status=200 duration=361ms"}
+{"timestamp": "2026-05-12 09:00:42.525", "level": "DEBUG", "logger": "cache", "message": "healthcheck ok component=api uptime=708s"}
+{"timestamp": "2026-05-12 09:00:44.550", "level": "DEBUG", "logger": "db", "message": "cache miss key=c3aea9db fill=373ms"}
+{"timestamp": "2026-05-12 09:00:46.575", "level": "DEBUG", "logger": "checkout", "message": "db query completed table=orders rows=780 duration=1076ms"}
+{"timestamp": "2026-05-12 09:00:48.600", "level": "DEBUG", "logger": "worker", "message": "db query completed table=sessions rows=337 duration=149ms"}
+{"timestamp": "2026-05-12 09:00:50.625", "level": "INFO", "logger": "cache", "message": "request handled method=GET path=/v1/cart status=200 duration=157ms"}
+{"timestamp": "2026-05-12 09:00:52.650", "level": "INFO", "logger": "cache", "message": "request handled method=POST path=/v1/user/me status=200 duration=1098ms"}
+{"timestamp": "2026-05-12 09:00:54.675", "level": "DEBUG", "logger": "worker", "message": "db query completed table=users rows=28 duration=235ms"}
+{"timestamp": "2026-05-12 09:00:56.700", "level": "INFO", "logger": "cache", "message": "request handled method=GET path=/v1/cart status=200 duration=937ms"}
+{"timestamp": "2026-05-12 09:00:58.725", "level": "INFO", "logger": "checkout", "message": "request handled method=GET path=/v1/search status=200 duration=140ms"}
+{"timestamp": "2026-05-12 09:01:00.750", "level": "DEBUG", "logger": "db", "message": "cache hit key=983323c9 ttl=1008s"}
+{"timestamp": "2026-05-12 09:01:02.775", "level": "INFO", "logger": "worker", "message": "request handled method=POST path=/v1/user/me status=200 duration=1034ms"}
+{"timestamp": "2026-05-12 09:01:04.800", "level": "DEBUG", "logger": "payments", "message": "cache hit key=b6abe8b0 ttl=418s"}
+{"timestamp": "2026-05-12 09:01:06.825", "level": "INFO", "logger": "db", "message": "user 68ms authenticated from 109ms"}
+{"timestamp": "2026-05-12 09:01:08.850", "level": "DEBUG", "logger": "payments", "message": "cache hit key=fd3026d1 ttl=109s"}
+{"timestamp": "2026-05-12 09:01:10.875", "level": "INFO", "logger": "db", "message": "user /v1/checkout authenticated from 828ms"}
+{"timestamp": "2026-05-12 09:01:12.900", "level": "INFO", "logger": "cache", "message": "request handled method=POST path=/v1/user/me status=200 duration=721ms"}
+{"timestamp": "2026-05-12 09:01:14.925", "level": "INFO", "logger": "payments", "message": "request handled method=POST path=/v1/search status=200 duration=1199ms"}
+{"timestamp": "2026-05-12 09:01:16.950", "level": "INFO", "logger": "checkout", "message": "request handled method=POST path=/v1/user/me status=200 duration=1134ms"}
+{"timestamp": "2026-05-12 09:01:18.975", "level": "DEBUG", "logger": "db", "message": "cache hit key=2c2119ab ttl=788s"}
+{"timestamp": "2026-05-12 09:01:21.000", "level": "INFO", "logger": "db", "message": "payment charge accepted id=eed88e08 amount=350"}
+{"timestamp": "2026-05-12 09:01:23.025", "level": "DEBUG", "logger": "api", "message": "cache miss key=c5c2dd33 fill=37ms"}
+{"timestamp": "2026-05-12 09:01:25.050", "level": "INFO", "logger": "db", "message": "payment charge accepted id=661e0da8 amount=270"}
+{"timestamp": "2026-05-12 09:01:27.075", "level": "INFO", "logger": "api", "message": "request handled method=POST path=/v1/search status=200 duration=688ms"}
+{"timestamp": "2026-05-12 09:01:29.100", "level": "INFO", "logger": "cache", "message": "payment charge accepted id=40bb051b amount=163"}
+{"timestamp": "2026-05-12 09:01:31.125", "level": "INFO", "logger": "checkout", "message": "user 776ms authenticated from 34304"}
+{"timestamp": "2026-05-12 09:01:33.150", "level": "INFO", "logger": "checkout", "message": "payment charge accepted id=2485278a amount=1149"}
+{"timestamp": "2026-05-12 09:01:35.175", "level": "DEBUG", "logger": "cache", "message": "cache miss key=e35550bf fill=285ms"}
+{"timestamp": "2026-05-12 09:01:37.200", "level": "DEBUG", "logger": "api", "message": "db query completed table=orders rows=994 duration=334ms"}
+{"timestamp": "2026-05-12 09:01:39.225", "level": "DEBUG", "logger": "checkout", "message": "db query completed table=catalog rows=814 duration=208ms"}
+{"timestamp": "2026-05-12 09:01:41.250", "level": "INFO", "logger": "checkout", "message": "request handled method=GET path=/v1/checkout status=200 duration=34ms"}
+{"timestamp": "2026-05-12 09:01:43.275", "level": "DEBUG", "logger": "checkout", "message": "db query completed table=sessions rows=94 duration=883ms"}
+{"timestamp": "2026-05-12 09:01:45.300", "level": "DEBUG", "logger": "checkout", "message": "db query completed table=orders rows=995 duration=472ms"}
+{"timestamp": "2026-05-12 09:01:47.325", "level": "INFO", "logger": "worker", "message": "kafka consumer lag group=orders partition=680 lag=360"}
+{"timestamp": "2026-05-12 09:01:49.350", "level": "DEBUG", "logger": "worker", "message": "cache miss key=80f4eebc fill=736ms"}
+{"timestamp": "2026-05-12 09:01:51.375", "level": "WARNING", "logger": "api", "message": "slow query table=catalog duration=1169ms"}
+{"timestamp": "2026-05-12 09:01:53.400", "level": "DEBUG", "logger": "api", "message": "cache hit key=9e23d744 ttl=121s"}
+{"timestamp": "2026-05-12 09:01:55.425", "level": "DEBUG", "logger": "checkout", "message": "db query completed table=orders rows=853 duration=286ms"}
+{"timestamp": "2026-05-12 09:01:57.450", "level": "INFO", "logger": "db", "message": "kafka consumer lag group=orders partition=890 lag=883"}
+{"timestamp": "2026-05-12 09:01:59.475", "level": "DEBUG", "logger": "worker", "message": "cache hit key=f72bad80 ttl=718s"}
+{"timestamp": "2026-05-12 09:02:01.500", "level": "DEBUG", "logger": "api", "message": "healthcheck ok component=api uptime=670s"}
+{"timestamp": "2026-05-12 09:02:03.525", "level": "INFO", "logger": "api", "message": "user 258ms authenticated from 19943"}
+{"timestamp": "2026-05-12 09:02:05.550", "level": "DEBUG", "logger": "db", "message": "db query completed table=catalog rows=1141 duration=467ms"}
+{"timestamp": "2026-05-12 09:02:07.575", "level": "DEBUG", "logger": "worker", "message": "healthcheck ok component=cache uptime=268s"}
+{"timestamp": "2026-05-12 09:02:09.600", "level": "DEBUG", "logger": "payments", "message": "db query completed table=orders rows=151 duration=802ms"}
+{"timestamp": "2026-05-12 09:02:11.625", "level": "DEBUG", "logger": "checkout", "message": "cache hit key=7e9c8144 ttl=1158s"}
+{"timestamp": "2026-05-12 09:02:13.650", "level": "INFO", "logger": "worker", "message": "request handled method=PUT path=/v1/search status=200 duration=399ms"}
+{"timestamp": "2026-05-12 09:02:15.675", "level": "INFO", "logger": "worker", "message": "request handled method=POST path=/v1/cart status=200 duration=692ms"}
+{"timestamp": "2026-05-12 09:02:17.700", "level": "DEBUG", "logger": "payments", "message": "cache miss key=a8767055 fill=709ms"}
+{"timestamp": "2026-05-12 09:02:19.725", "level": "INFO", "logger": "worker", "message": "request handled method=PUT path=/v1/catalog status=200 duration=245ms"}
+{"timestamp": "2026-05-12 09:02:21.750", "level": "INFO", "logger": "checkout", "message": "request handled method=POST path=/v1/user/me status=200 duration=671ms"}
+{"timestamp": "2026-05-12 09:02:23.775", "level": "DEBUG", "logger": "payments", "message": "cache hit key=e781806e ttl=482s"}
+{"timestamp": "2026-05-12 09:02:25.800", "level": "INFO", "logger": "worker", "message": "payment charge accepted id=1dff2dc8 amount=910"}
+{"timestamp": "2026-05-12 09:02:27.825", "level": "DEBUG", "logger": "worker", "message": "healthcheck ok component=cache uptime=187s"}
+{"timestamp": "2026-05-12 09:02:29.850", "level": "DEBUG", "logger": "cache", "message": "cache hit key=4252369b ttl=250s"}
+{"timestamp": "2026-05-12 09:02:31.875", "level": "INFO", "logger": "cache", "message": "request handled method=POST path=/v1/cart status=200 duration=323ms"}
+{"timestamp": "2026-05-12 09:02:33.900", "level": "DEBUG", "logger": "checkout", "message": "healthcheck ok component=worker uptime=37s"}
+{"timestamp": "2026-05-12 09:02:35.925", "level": "DEBUG", "logger": "cache", "message": "cache hit key=10f080d9 ttl=493s"}
+{"timestamp": "2026-05-12 09:02:37.950", "level": "INFO", "logger": "payments", "message": "request handled method=POST path=/v1/cart status=200 duration=786ms"}
+{"timestamp": "2026-05-12 09:02:39.975", "level": "INFO", "logger": "api", "message": "request handled method=GET path=/v1/checkout status=200 duration=451ms"}
+{"timestamp": "2026-05-12 09:02:42.000", "level": "INFO", "logger": "worker", "message": "email queued to=carol@example.com template=receipt"}
+{"timestamp": "2026-05-12 09:02:44.025", "level": "DEBUG", "logger": "payments", "message": "cache miss key=bb4c7eed fill=693ms"}
+{"timestamp": "2026-05-12 09:02:46.050", "level": "INFO", "logger": "cache", "message": "request handled method=POST path=/v1/checkout status=200 duration=822ms"}
+{"timestamp": "2026-05-12 09:02:48.075", "level": "DEBUG", "logger": "cache", "message": "db query completed table=users rows=923 duration=825ms"}
+{"timestamp": "2026-05-12 09:02:50.100", "level": "INFO", "logger": "payments", "message": "request handled method=PUT path=/v1/checkout status=200 duration=242ms"}
+{"timestamp": "2026-05-12 09:02:52.125", "level": "INFO", "logger": "checkout", "message": "user /v1/user/me authenticated from 62554"}
+{"timestamp": "2026-05-12 09:02:54.150", "level": "DEBUG", "logger": "worker", "message": "db query completed table=orders rows=375 duration=907ms"}
+{"timestamp": "2026-05-12 09:02:56.175", "level": "INFO", "logger": "payments", "message": "request handled method=POST path=/v1/checkout status=200 duration=699ms"}
+{"timestamp": "2026-05-12 09:02:58.200", "level": "INFO", "logger": "payments", "message": "request handled method=GET path=/v1/catalog status=200 duration=699ms"}
+{"timestamp": "2026-05-12 09:03:00.225", "level": "INFO", "logger": "db", "message": "request handled method=PUT path=/v1/cart status=200 duration=795ms"}
+{"timestamp": "2026-05-12 09:03:02.250", "level": "INFO", "logger": "db", "message": "email queued to=alice@example.com template=reset-password"}
+{"timestamp": "2026-05-12 09:03:04.275", "level": "INFO", "logger": "db", "message": "kafka consumer lag group=catalog partition=1127 lag=380"}
+{"timestamp": "2026-05-12 09:03:06.300", "level": "DEBUG", "logger": "worker", "message": "healthcheck ok component=payments uptime=710s"}
+{"timestamp": "2026-05-12 09:03:08.325", "level": "DEBUG", "logger": "cache", "message": "healthcheck ok component=worker uptime=9s"}
+{"timestamp": "2026-05-12 09:03:10.350", "level": "INFO", "logger": "db", "message": "request handled method=POST path=/v1/cart status=200 duration=875ms"}
+{"timestamp": "2026-05-12 09:03:12.375", "level": "DEBUG", "logger": "db", "message": "db query completed table=orders rows=598 duration=370ms"}
+{"timestamp": "2026-05-12 09:03:14.400", "level": "INFO", "logger": "db", "message": "request handled method=GET path=/v1/catalog status=200 duration=1072ms"}
+{"timestamp": "2026-05-12 09:03:16.425", "level": "DEBUG", "logger": "payments", "message": "cache hit key=00fd540b ttl=960s"}
+{"timestamp": "2026-05-12 09:03:18.450", "level": "INFO", "logger": "cache", "message": "request handled method=PUT path=/v1/user/me status=200 duration=1130ms"}
+{"timestamp": "2026-05-12 09:03:20.475", "level": "INFO", "logger": "api", "message": "request handled method=GET path=/v1/checkout status=200 duration=569ms"}
+{"timestamp": "2026-05-12 09:03:22.500", "level": "WARNING", "logger": "checkout", "message": "slow query table=orders duration=512ms"}
+{"timestamp": "2026-05-12 09:03:24.525", "level": "INFO", "logger": "cache", "message": "user /v1/checkout authenticated from 361ms"}
+{"timestamp": "2026-05-12 09:03:26.550", "level": "INFO", "logger": "db", "message": "kafka consumer lag group=orders partition=643 lag=1046"}
+{"timestamp": "2026-05-12 09:03:28.575", "level": "INFO", "logger": "cache", "message": "request handled method=GET path=/v1/search status=200 duration=537ms"}
+{"timestamp": "2026-05-12 09:03:30.600", "level": "DEBUG", "logger": "api", "message": "cache miss key=bf3d2238 fill=681ms"}
+{"timestamp": "2026-05-12 09:03:32.625", "level": "DEBUG", "logger": "worker", "message": "cache miss key=5c3fa91a fill=1013ms"}
+{"timestamp": "2026-05-12 09:03:34.650", "level": "DEBUG", "logger": "api", "message": "cache hit key=531c2d1c ttl=759s"}
+{"timestamp": "2026-05-12 09:03:36.675", "level": "INFO", "logger": "checkout", "message": "request handled method=PUT path=/v1/search status=200 duration=1090ms"}
+{"timestamp": "2026-05-12 09:03:38.700", "level": "DEBUG", "logger": "worker", "message": "cache hit key=6babeca4 ttl=594s"}
+{"timestamp": "2026-05-12 09:03:40.725", "level": "INFO", "logger": "worker", "message": "request handled method=POST path=/v1/user/me status=200 duration=12ms"}
+{"timestamp": "2026-05-12 09:03:42.750", "level": "INFO", "logger": "worker", "message": "request handled method=PUT path=/v1/checkout status=200 duration=654ms"}
+{"timestamp": "2026-05-12 09:03:44.775", "level": "DEBUG", "logger": "db", "message": "cache miss key=0f2a7b6c fill=1011ms"}
+{"timestamp": "2026-05-12 09:03:46.800", "level": "DEBUG", "logger": "db", "message": "healthcheck ok component=worker uptime=488s"}
+{"timestamp": "2026-05-12 09:03:48.825", "level": "INFO", "logger": "db", "message": "kafka consumer lag group=orders partition=623 lag=698"}
+{"timestamp": "2026-05-12 09:03:50.850", "level": "INFO", "logger": "api", "message": "request handled method=GET path=/v1/checkout status=200 duration=647ms"}
+{"timestamp": "2026-05-12 09:03:52.875", "level": "INFO", "logger": "api", "message": "user /v1/search authenticated from 1170ms"}
+{"timestamp": "2026-05-12 09:03:54.900", "level": "DEBUG", "logger": "worker", "message": "cache hit key=0012549c ttl=1173s"}
+{"timestamp": "2026-05-12 09:03:56.925", "level": "INFO", "logger": "api", "message": "payment charge accepted id=cbb537b2 amount=630"}
+{"timestamp": "2026-05-12 09:03:58.950", "level": "INFO", "logger": "payments", "message": "request handled method=PUT path=/v1/cart status=200 duration=696ms"}
+{"timestamp": "2026-05-12 09:04:00.975", "level": "INFO", "logger": "cache", "message": "request handled method=POST path=/v1/catalog status=200 duration=493ms"}
+{"timestamp": "2026-05-12 09:04:03.000", "level": "DEBUG", "logger": "checkout", "message": "healthcheck ok component=checkout uptime=27s"}
+{"timestamp": "2026-05-12 09:04:05.025", "level": "DEBUG", "logger": "api", "message": "db query completed table=catalog rows=546 duration=116ms"}
+{"timestamp": "2026-05-12 09:04:07.050", "level": "INFO", "logger": "checkout", "message": "kafka consumer lag group=catalog partition=973 lag=1010"}
+{"timestamp": "2026-05-12 09:04:09.075", "level": "DEBUG", "logger": "api", "message": "cache hit key=06856113 ttl=1157s"}
+{"timestamp": "2026-05-12 09:04:11.100", "level": "INFO", "logger": "api", "message": "request handled method=GET path=/v1/catalog status=200 duration=881ms"}
+{"timestamp": "2026-05-12 09:04:13.125", "level": "DEBUG", "logger": "payments", "message": "cache hit key=b3725105 ttl=207s"}
+{"timestamp": "2026-05-12 09:04:15.150", "level": "INFO", "logger": "api", "message": "user /v1/checkout authenticated from 80204"}
+{"timestamp": "2026-05-12 09:04:17.175", "level": "INFO", "logger": "cache", "message": "payment charge accepted id=652bed47 amount=189"}
+{"timestamp": "2026-05-12 09:04:19.200", "level": "INFO", "logger": "cache", "message": "user /v1/search authenticated from /v1/checkout"}
+{"timestamp": "2026-05-12 09:04:21.225", "level": "INFO", "logger": "db", "message": "email queued to=bob@example.com template=reset-password"}
+{"timestamp": "2026-05-12 09:04:23.250", "level": "INFO", "logger": "cache", "message": "request handled method=POST path=/v1/cart status=200 duration=686ms"}
+{"timestamp": "2026-05-12 09:04:25.275", "level": "DEBUG", "logger": "checkout", "message": "healthcheck ok component=payments uptime=142s"}
+{"timestamp": "2026-05-12 09:04:27.300", "level": "DEBUG", "logger": "payments", "message": "cache hit key=90f06713 ttl=220s"}
+{"timestamp": "2026-05-12 09:04:29.325", "level": "INFO", "logger": "cache", "message": "request handled method=PUT path=/v1/checkout status=200 duration=257ms"}
+{"timestamp": "2026-05-12 09:04:31.350", "level": "DEBUG", "logger": "api", "message": "db query completed table=orders rows=672 duration=580ms"}
+{"timestamp": "2026-05-12 09:04:33.375", "level": "DEBUG", "logger": "db", "message": "cache miss key=98380efd fill=448ms"}
+{"timestamp": "2026-05-12 09:04:35.400", "level": "INFO", "logger": "checkout", "message": "request handled method=GET path=/v1/catalog status=200 duration=1121ms"}
+{"timestamp": "2026-05-12 09:04:37.425", "level": "DEBUG", "logger": "cache", "message": "db query completed table=orders rows=308 duration=517ms"}
+{"timestamp": "2026-05-12 09:04:39.450", "level": "INFO", "logger": "cache", "message": "payment charge accepted id=4e7cb893 amount=379"}
+{"timestamp": "2026-05-12 09:04:41.475", "level": "DEBUG", "logger": "payments", "message": "db query completed table=sessions rows=859 duration=107ms"}
+{"timestamp": "2026-05-12 09:04:43.500", "level": "INFO", "logger": "api", "message": "user /v1/checkout authenticated from /v1/search"}
+{"timestamp": "2026-05-12 09:04:45.525", "level": "INFO", "logger": "db", "message": "request handled method=PUT path=/v1/user/me status=200 duration=337ms"}
+{"timestamp": "2026-05-12 09:04:47.550", "level": "INFO", "logger": "payments", "message": "request handled method=PUT path=/v1/cart status=200 duration=162ms"}
+{"timestamp": "2026-05-12 09:04:49.575", "level": "INFO", "logger": "db", "message": "kafka consumer lag group=catalog partition=64 lag=1115"}
+{"timestamp": "2026-05-12 09:04:51.600", "level": "INFO", "logger": "payments", "message": "user 64412 authenticated from 551"}
+{"timestamp": "2026-05-12 09:04:53.625", "level": "DEBUG", "logger": "cache", "message": "db query completed table=orders rows=947 duration=787ms"}
+{"timestamp": "2026-05-12 09:04:55.650", "level": "INFO", "logger": "payments", "message": "kafka consumer lag group=billing partition=601 lag=668"}
+{"timestamp": "2026-05-12 09:04:57.675", "level": "INFO", "logger": "api", "message": "request handled method=POST path=/v1/user/me status=200 duration=408ms"}
+{"timestamp": "2026-05-12 09:04:59.700", "level": "INFO", "logger": "cache", "message": "email queued to=bob@example.com template=reset-password"}
+{"timestamp": "2026-05-12 09:05:01.725", "level": "INFO", "logger": "checkout", "message": "request handled method=POST path=/v1/checkout status=200 duration=575ms"}
+{"timestamp": "2026-05-12 09:05:03.750", "level": "INFO", "logger": "api", "message": "user /v1/search authenticated from 87575"}
+{"timestamp": "2026-05-12 09:05:05.775", "level": "DEBUG", "logger": "worker", "message": "cache miss key=56b2c2e5 fill=853ms"}
+{"timestamp": "2026-05-12 09:05:07.800", "level": "INFO", "logger": "db", "message": "email queued to=bob@example.com template=welcome"}
+{"timestamp": "2026-05-12 09:05:09.825", "level": "INFO", "logger": "cache", "message": "user 313ms authenticated from 539ms"}
+{"timestamp": "2026-05-12 09:05:11.850", "level": "DEBUG", "logger": "db", "message": "healthcheck ok component=cache uptime=1183s"}
+{"timestamp": "2026-05-12 09:05:13.875", "level": "INFO", "logger": "api", "message": "payment charge accepted id=175ca612 amount=973"}
+{"timestamp": "2026-05-12 09:05:15.900", "level": "INFO", "logger": "api", "message": "request handled method=POST path=/v1/checkout status=200 duration=815ms"}
+{"timestamp": "2026-05-12 09:05:17.925", "level": "INFO", "logger": "api", "message": "kafka consumer lag group=billing partition=556 lag=692"}
+{"timestamp": "2026-05-12 09:05:19.950", "level": "INFO", "logger": "payments", "message": "kafka consumer lag group=billing partition=356 lag=329"}
+{"timestamp": "2026-05-12 09:05:21.975", "level": "INFO", "logger": "payments", "message": "user 721ms authenticated from 617ms"}
+{"timestamp": "2026-05-12 09:05:24.000", "level": "INFO", "logger": "cache", "message": "request handled method=POST path=/v1/catalog status=200 duration=148ms"}
+{"timestamp": "2026-05-12 09:05:26.025", "level": "DEBUG", "logger": "payments", "message": "cache miss key=42660fcf fill=399ms"}
+{"timestamp": "2026-05-12 09:05:28.050", "level": "INFO", "logger": "worker", "message": "payment charge accepted id=7df1a162 amount=202"}
+{"timestamp": "2026-05-12 09:05:30.075", "level": "INFO", "logger": "worker", "message": "payment charge accepted id=d722be5f amount=212"}
+{"timestamp": "2026-05-12 09:05:32.100", "level": "DEBUG", "logger": "worker", "message": "db query completed table=users rows=37 duration=993ms"}
+{"timestamp": "2026-05-12 09:05:34.125", "level": "DEBUG", "logger": "api", "message": "db query completed table=sessions rows=320 duration=455ms"}
+{"timestamp": "2026-05-12 09:05:36.150", "level": "INFO", "logger": "api", "message": "request handled method=GET path=/v1/checkout status=200 duration=352ms"}
+{"timestamp": "2026-05-12 09:05:38.175", "level": "DEBUG", "logger": "cache", "message": "db query completed table=users rows=1146 duration=1064ms"}
+{"timestamp": "2026-05-12 09:05:40.200", "level": "INFO", "logger": "worker", "message": "user /v1/catalog authenticated from /v1/user/me"}
+{"timestamp": "2026-05-12 09:05:42.225", "level": "INFO", "logger": "payments", "message": "payment charge accepted id=82322885 amount=521"}
+{"timestamp": "2026-05-12 09:05:44.250", "level": "INFO", "logger": "payments", "message": "request handled method=GET path=/v1/user/me status=200 duration=622ms"}
+{"timestamp": "2026-05-12 09:05:46.275", "level": "INFO", "logger": "db", "message": "request handled method=POST path=/v1/catalog status=200 duration=315ms"}
+{"timestamp": "2026-05-12 09:05:48.300", "level": "DEBUG", "logger": "cache", "message": "cache hit key=50df3ac6 ttl=249s"}
+{"timestamp": "2026-05-12 09:05:50.325", "level": "INFO", "logger": "cache", "message": "request handled method=GET path=/v1/search status=200 duration=1051ms"}
+{"timestamp": "2026-05-12 09:05:52.350", "level": "DEBUG", "logger": "payments", "message": "db query completed table=orders rows=584 duration=12ms"}
+{"timestamp": "2026-05-12 09:05:54.375", "level": "INFO", "logger": "checkout", "message": "request handled method=POST path=/v1/user/me status=200 duration=691ms"}
+{"timestamp": "2026-05-12 09:05:56.400", "level": "INFO", "logger": "db", "message": "request handled method=PUT path=/v1/checkout status=200 duration=84ms"}
+{"timestamp": "2026-05-12 09:05:58.425", "level": "INFO", "logger": "cache", "message": "request handled method=GET path=/v1/catalog status=200 duration=921ms"}
+{"timestamp": "2026-05-12 09:06:00.450", "level": "INFO", "logger": "cache", "message": "request handled method=PUT path=/v1/catalog status=200 duration=478ms"}
+{"timestamp": "2026-05-12 09:06:02.475", "level": "INFO", "logger": "checkout", "message": "user 1019ms authenticated from 87849"}
+{"timestamp": "2026-05-12 09:06:04.500", "level": "INFO", "logger": "api", "message": "request handled method=PUT path=/v1/search status=200 duration=727ms"}
+{"timestamp": "2026-05-12 09:06:06.525", "level": "INFO", "logger": "db", "message": "request handled method=POST path=/v1/search status=200 duration=1149ms"}
+{"timestamp": "2026-05-12 09:06:08.550", "level": "WARNING", "logger": "payments", "message": "slow query table=orders duration=793ms"}
+{"timestamp": "2026-05-12 09:06:10.575", "level": "DEBUG", "logger": "db", "message": "cache miss key=9568e791 fill=843ms"}
+{"timestamp": "2026-05-12 09:06:12.600", "level": "INFO", "logger": "payments", "message": "request handled method=PUT path=/v1/checkout status=200 duration=196ms"}
+{"timestamp": "2026-05-12 09:06:14.625", "level": "INFO", "logger": "db", "message": "request handled method=GET path=/v1/checkout status=200 duration=753ms"}
+{"timestamp": "2026-05-12 09:06:16.650", "level": "DEBUG", "logger": "db", "message": "db query completed table=users rows=97 duration=834ms"}
+{"timestamp": "2026-05-12 09:06:18.675", "level": "INFO", "logger": "api", "message": "request handled method=PUT path=/v1/cart status=200 duration=770ms"}
+{"timestamp": "2026-05-12 09:06:20.700", "level": "DEBUG", "logger": "worker", "message": "healthcheck ok component=cache uptime=380s"}
+{"timestamp": "2026-05-12 09:06:22.725", "level": "INFO", "logger": "api", "message": "request handled method=PUT path=/v1/checkout status=200 duration=584ms"}
+{"timestamp": "2026-05-12 09:06:24.750", "level": "DEBUG", "logger": "checkout", "message": "healthcheck ok component=api uptime=709s"}
+{"timestamp": "2026-05-12 09:06:26.775", "level": "INFO", "logger": "cache", "message": "payment charge accepted id=3c510b44 amount=500"}
+{"timestamp": "2026-05-12 09:06:28.800", "level": "INFO", "logger": "db", "message": "request handled method=GET path=/v1/catalog status=200 duration=854ms"}
+{"timestamp": "2026-05-12 09:06:30.825", "level": "DEBUG", "logger": "worker", "message": "db query completed table=sessions rows=246 duration=414ms"}
+{"timestamp": "2026-05-12 09:06:32.850", "level": "DEBUG", "logger": "payments", "message": "db query completed table=catalog rows=127 duration=677ms"}
+{"timestamp": "2026-05-12 09:06:34.875", "level": "INFO", "logger": "checkout", "message": "request handled method=PUT path=/v1/cart status=200 duration=9ms"}
+{"timestamp": "2026-05-12 09:06:36.900", "level": "INFO", "logger": "cache", "message": "user 154ms authenticated from /v1/checkout"}
+{"timestamp": "2026-05-12 09:06:38.925", "level": "INFO", "logger": "api", "message": "user 543ms authenticated from 106ms"}
+{"timestamp": "2026-05-12 09:06:40.950", "level": "INFO", "logger": "cache", "message": "request handled method=PUT path=/v1/user/me status=200 duration=427ms"}
+{"timestamp": "2026-05-12 09:06:42.975", "level": "DEBUG", "logger": "checkout", "message": "cache hit key=381b4f25 ttl=138s"}
+{"timestamp": "2026-05-12 09:06:45.000", "level": "DEBUG", "logger": "worker", "message": "cache miss key=3c93c9aa fill=303ms"}
+{"timestamp": "2026-05-12 09:06:47.025", "level": "INFO", "logger": "worker", "message": "kafka consumer lag group=orders partition=682 lag=517"}
+{"timestamp": "2026-05-12 09:06:49.050", "level": "INFO", "logger": "payments", "message": "user 538ms authenticated from 5515"}
+{"timestamp": "2026-05-12 09:06:51.075", "level": "INFO", "logger": "worker", "message": "request handled method=POST path=/v1/catalog status=200 duration=83ms"}
+{"timestamp": "2026-05-12 09:06:53.100", "level": "INFO", "logger": "db", "message": "user /v1/catalog authenticated from /v1/search"}
+{"timestamp": "2026-05-12 09:06:55.125", "level": "INFO", "logger": "cache", "message": "payment charge accepted id=26caae56 amount=215"}
+{"timestamp": "2026-05-12 09:06:57.150", "level": "DEBUG", "logger": "checkout", "message": "cache miss key=cc13e1e3 fill=111ms"}
+{"timestamp": "2026-05-12 09:06:59.175", "level": "DEBUG", "logger": "cache", "message": "cache miss key=be47f158 fill=1097ms"}
+{"timestamp": "2026-05-12 09:07:01.200", "level": "INFO", "logger": "checkout", "message": "request handled method=POST path=/v1/catalog status=200 duration=1139ms"}
+{"timestamp": "2026-05-12 09:07:03.225", "level": "DEBUG", "logger": "api", "message": "cache hit key=6a0af03e ttl=82s"}
+{"timestamp": "2026-05-12 09:07:05.250", "level": "INFO", "logger": "worker", "message": "request handled method=POST path=/v1/search status=200 duration=1070ms"}
+{"timestamp": "2026-05-12 09:07:07.275", "level": "DEBUG", "logger": "db", "message": "healthcheck ok component=checkout uptime=137s"}
+{"timestamp": "2026-05-12 09:07:09.300", "level": "INFO", "logger": "api", "message": "request handled method=GET path=/v1/user/me status=200 duration=772ms"}
+{"timestamp": "2026-05-12 09:07:11.325", "level": "DEBUG", "logger": "worker", "message": "cache hit key=8f6cca93 ttl=3s"}
+{"timestamp": "2026-05-12 09:07:13.350", "level": "INFO", "logger": "cache", "message": "request handled method=POST path=/v1/catalog status=200 duration=624ms"}
+{"timestamp": "2026-05-12 09:07:15.375", "level": "WARNING", "logger": "cache", "message": "slow query table=catalog duration=642ms"}
+{"timestamp": "2026-05-12 09:07:17.400", "level": "DEBUG", "logger": "worker", "message": "healthcheck ok component=db uptime=1162s"}
+{"timestamp": "2026-05-12 09:07:19.425", "level": "INFO", "logger": "db", "message": "request handled method=GET path=/v1/checkout status=200 duration=568ms"}
+{"timestamp": "2026-05-12 09:07:21.450", "level": "INFO", "logger": "api", "message": "request handled method=PUT path=/v1/checkout status=200 duration=1145ms"}
+{"timestamp": "2026-05-12 09:07:23.475", "level": "DEBUG", "logger": "db", "message": "cache hit key=d2190d8c ttl=599s"}
+{"timestamp": "2026-05-12 09:07:25.500", "level": "DEBUG", "logger": "db", "message": "healthcheck ok component=worker uptime=564s"}
+{"timestamp": "2026-05-12 09:07:27.525", "level": "INFO", "logger": "api", "message": "request handled method=PUT path=/v1/cart status=200 duration=1012ms"}
+{"timestamp": "2026-05-12 09:07:29.550", "level": "INFO", "logger": "worker", "message": "request handled method=PUT path=/v1/user/me status=200 duration=1007ms"}
+{"timestamp": "2026-05-12 09:07:31.575", "level": "INFO", "logger": "db", "message": "request handled method=POST path=/v1/cart status=200 duration=847ms"}
+{"timestamp": "2026-05-12 09:07:33.600", "level": "INFO", "logger": "worker", "message": "request handled method=GET path=/v1/search status=200 duration=1046ms"}
+{"timestamp": "2026-05-12 09:07:35.625", "level": "DEBUG", "logger": "db", "message": "cache miss key=a7f2c757 fill=274ms"}
+{"timestamp": "2026-05-12 09:07:37.650", "level": "DEBUG", "logger": "payments", "message": "cache miss key=8ae9fd80 fill=670ms"}
+{"timestamp": "2026-05-12 09:07:39.675", "level": "INFO", "logger": "checkout", "message": "user 21252 authenticated from 88561"}
+{"timestamp": "2026-05-12 09:07:41.700", "level": "DEBUG", "logger": "db", "message": "cache miss key=4f2f61e5 fill=902ms"}
+{"timestamp": "2026-05-12 09:07:43.725", "level": "INFO", "logger": "worker", "message": "request handled method=GET path=/v1/catalog status=200 duration=152ms"}
+{"timestamp": "2026-05-12 09:07:45.750", "level": "INFO", "logger": "checkout", "message": "request handled method=PUT path=/v1/search status=200 duration=93ms"}
+{"timestamp": "2026-05-12 09:07:47.775", "level": "DEBUG", "logger": "worker", "message": "healthcheck ok component=checkout uptime=383s"}
+{"timestamp": "2026-05-12 09:07:49.800", "level": "INFO", "logger": "cache", "message": "request handled method=PUT path=/v1/checkout status=200 duration=531ms"}
+{"timestamp": "2026-05-12 09:07:51.825", "level": "INFO", "logger": "checkout", "message": "request handled method=GET path=/v1/search status=200 duration=528ms"}
+{"timestamp": "2026-05-12 09:07:53.850", "level": "DEBUG", "logger": "db", "message": "db query completed table=sessions rows=185 duration=335ms"}
+{"timestamp": "2026-05-12 09:07:55.875", "level": "DEBUG", "logger": "cache", "message": "cache hit key=1e1f66a7 ttl=11s"}
+{"timestamp": "2026-05-12 09:07:57.900", "level": "INFO", "logger": "db", "message": "request handled method=PUT path=/v1/user/me status=200 duration=107ms"}
+{"timestamp": "2026-05-12 09:07:59.925", "level": "INFO", "logger": "cache", "message": "request handled method=POST path=/v1/user/me status=200 duration=1180ms"}
+{"timestamp": "2026-05-12 09:08:01.950", "level": "INFO", "logger": "cache", "message": "kafka consumer lag group=billing partition=1181 lag=477"}
+{"timestamp": "2026-05-12 09:08:03.975", "level": "INFO", "logger": "worker", "message": "payment charge accepted id=035ed462 amount=256"}
+{"timestamp": "2026-05-12 09:08:06.000", "level": "DEBUG", "logger": "cache", "message": "healthcheck ok component=api uptime=27s"}
+{"timestamp": "2026-05-12 09:08:08.025", "level": "INFO", "logger": "db", "message": "user /v1/search authenticated from 837ms"}
+{"timestamp": "2026-05-12 09:08:10.050", "level": "INFO", "logger": "checkout", "message": "request handled method=POST path=/v1/checkout status=200 duration=1122ms"}
+{"timestamp": "2026-05-12 09:08:12.075", "level": "INFO", "logger": "api", "message": "request handled method=GET path=/v1/checkout status=200 duration=1133ms"}
+{"timestamp": "2026-05-12 09:08:14.100", "level": "DEBUG", "logger": "worker", "message": "cache hit key=4ed7f09a ttl=70s"}
+{"timestamp": "2026-05-12 09:08:16.125", "level": "DEBUG", "logger": "worker", "message": "cache hit key=a25f196b ttl=670s"}
+{"timestamp": "2026-05-12 09:08:18.150", "level": "DEBUG", "logger": "checkout", "message": "db query completed table=catalog rows=99 duration=633ms"}
+{"timestamp": "2026-05-12 09:08:20.175", "level": "DEBUG", "logger": "api", "message": "cache miss key=7cfcd3bd fill=255ms"}
+{"timestamp": "2026-05-12 09:08:22.200", "level": "INFO", "logger": "db", "message": "request handled method=POST path=/v1/cart status=200 duration=895ms"}
+{"timestamp": "2026-05-12 09:08:24.225", "level": "DEBUG", "logger": "db", "message": "healthcheck ok component=worker uptime=125s"}
+{"timestamp": "2026-05-12 09:08:26.250", "level": "DEBUG", "logger": "cache", "message": "cache hit key=66e09c0b ttl=1048s"}
+{"timestamp": "2026-05-12 09:08:28.275", "level": "INFO", "logger": "payments", "message": "request handled method=POST path=/v1/cart status=200 duration=130ms"}
+{"timestamp": "2026-05-12 09:08:30.300", "level": "INFO", "logger": "payments", "message": "request handled method=GET path=/v1/checkout status=200 duration=346ms"}
+{"timestamp": "2026-05-12 09:08:32.325", "level": "INFO", "logger": "payments", "message": "user 836ms authenticated from /v1/cart"}
+{"timestamp": "2026-05-12 09:08:34.350", "level": "INFO", "logger": "cache", "message": "email queued to=bob@example.com template=reset-password"}
+{"timestamp": "2026-05-12 09:08:36.375", "level": "INFO", "logger": "db", "message": "kafka consumer lag group=billing partition=182 lag=480"}
+{"timestamp": "2026-05-12 09:08:38.400", "level": "WARNING", "logger": "worker", "message": "slow query table=orders duration=337ms"}
+{"timestamp": "2026-05-12 09:08:40.425", "level": "INFO", "logger": "db", "message": "request handled method=PUT path=/v1/user/me status=200 duration=223ms"}
+{"timestamp": "2026-05-12 09:08:42.450", "level": "INFO", "logger": "db", "message": "request handled method=PUT path=/v1/catalog status=200 duration=1020ms"}
+{"timestamp": "2026-05-12 09:08:44.475", "level": "INFO", "logger": "checkout", "message": "request handled method=POST path=/v1/user/me status=200 duration=742ms"}
+{"timestamp": "2026-05-12 09:08:46.500", "level": "INFO", "logger": "api", "message": "user /v1/cart authenticated from 733ms"}
+{"timestamp": "2026-05-12 09:08:48.525", "level": "DEBUG", "logger": "worker", "message": "db query completed table=catalog rows=418 duration=492ms"}
+{"timestamp": "2026-05-12 09:08:50.550", "level": "INFO", "logger": "checkout", "message": "email queued to=carol@example.com template=welcome"}
+{"timestamp": "2026-05-12 09:08:52.575", "level": "DEBUG", "logger": "db", "message": "cache hit key=ea350ca3 ttl=211s"}
+{"timestamp": "2026-05-12 09:08:54.600", "level": "DEBUG", "logger": "worker", "message": "cache hit key=b7126ee0 ttl=71s"}
+{"timestamp": "2026-05-12 09:08:56.625", "level": "INFO", "logger": "db", "message": "request handled method=PUT path=/v1/user/me status=200 duration=105ms"}
+{"timestamp": "2026-05-12 09:08:58.650", "level": "INFO", "logger": "payments", "message": "request handled method=GET path=/v1/checkout status=200 duration=902ms"}
+{"timestamp": "2026-05-12 09:09:00.675", "level": "DEBUG", "logger": "checkout", "message": "cache hit key=f2611936 ttl=1182s"}
+{"timestamp": "2026-05-12 09:09:02.700", "level": "INFO", "logger": "checkout", "message": "request handled method=PUT path=/v1/cart status=200 duration=610ms"}
+{"timestamp": "2026-05-12 09:09:04.725", "level": "INFO", "logger": "db", "message": "payment charge accepted id=8ac48218 amount=1103"}
+{"timestamp": "2026-05-12 09:09:06.750", "level": "DEBUG", "logger": "db", "message": "cache hit key=6a7705ea ttl=738s"}
+{"timestamp": "2026-05-12 09:09:08.775", "level": "DEBUG", "logger": "payments", "message": "cache miss key=e2e24b02 fill=822ms"}
+{"timestamp": "2026-05-12 09:09:10.800", "level": "INFO", "logger": "checkout", "message": "request handled method=GET path=/v1/search status=200 duration=876ms"}
+{"timestamp": "2026-05-12 09:09:12.825", "level": "INFO", "logger": "checkout", "message": "email queued to=alice@example.com template=reset-password"}
+{"timestamp": "2026-05-12 09:09:14.850", "level": "INFO", "logger": "worker", "message": "request handled method=GET path=/v1/checkout status=200 duration=1139ms"}
+{"timestamp": "2026-05-12 09:09:16.875", "level": "DEBUG", "logger": "checkout", "message": "healthcheck ok component=db uptime=92s"}
+{"timestamp": "2026-05-12 09:09:18.900", "level": "DEBUG", "logger": "payments", "message": "db query completed table=orders rows=964 duration=1056ms"}
+{"timestamp": "2026-05-12 09:09:20.925", "level": "INFO", "logger": "cache", "message": "request handled method=GET path=/v1/search status=200 duration=222ms"}
+{"timestamp": "2026-05-12 09:09:22.950", "level": "INFO", "logger": "cache", "message": "request handled method=PUT path=/v1/catalog status=200 duration=867ms"}
+{"timestamp": "2026-05-12 09:09:24.975", "level": "DEBUG", "logger": "cache", "message": "healthcheck ok component=db uptime=193s"}
+{"timestamp": "2026-05-12 09:09:27.000", "level": "INFO", "logger": "checkout", "message": "payment charge accepted id=be9fe684 amount=776"}
+{"timestamp": "2026-05-12 09:09:29.025", "level": "INFO", "logger": "payments", "message": "user 45491 authenticated from 802ms"}
+{"timestamp": "2026-05-12 09:09:31.050", "level": "INFO", "logger": "db", "message": "request handled method=PUT path=/v1/search status=200 duration=754ms"}
+{"timestamp": "2026-05-12 09:09:33.075", "level": "DEBUG", "logger": "api", "message": "healthcheck ok component=cache uptime=744s"}
+{"timestamp": "2026-05-12 09:09:35.100", "level": "INFO", "logger": "checkout", "message": "request handled method=POST path=/v1/search status=200 duration=847ms"}
+{"timestamp": "2026-05-12 09:09:37.125", "level": "INFO", "logger": "payments", "message": "email queued to=carol@example.com template=reset-password"}
+{"timestamp": "2026-05-12 09:09:39.150", "level": "INFO", "logger": "cache", "message": "request handled method=POST path=/v1/catalog status=200 duration=197ms"}
+{"timestamp": "2026-05-12 09:09:41.175", "level": "INFO", "logger": "db", "message": "request handled method=PUT path=/v1/user/me status=200 duration=1161ms"}
+{"timestamp": "2026-05-12 09:09:43.200", "level": "DEBUG", "logger": "db", "message": "cache hit key=263b9d02 ttl=822s"}
+{"timestamp": "2026-05-12 09:09:45.225", "level": "DEBUG", "logger": "worker", "message": "healthcheck ok component=payments uptime=454s"}
+{"timestamp": "2026-05-12 09:09:47.250", "level": "DEBUG", "logger": "checkout", "message": "db query completed table=catalog rows=908 duration=7ms"}
+{"timestamp": "2026-05-12 09:09:49.275", "level": "INFO", "logger": "db", "message": "request handled method=GET path=/v1/user/me status=200 duration=267ms"}
+{"timestamp": "2026-05-12 09:09:51.300", "level": "DEBUG", "logger": "worker", "message": "cache miss key=2abceeaf fill=61ms"}
+{"timestamp": "2026-05-12 09:09:53.325", "level": "INFO", "logger": "api", "message": "request handled method=POST path=/v1/cart status=200 duration=34ms"}
+{"timestamp": "2026-05-12 09:09:55.350", "level": "DEBUG", "logger": "cache", "message": "db query completed table=users rows=980 duration=39ms"}
+{"timestamp": "2026-05-12 09:09:57.375", "level": "DEBUG", "logger": "payments", "message": "cache hit key=6a4f4ec5 ttl=141s"}
+{"timestamp": "2026-05-12 09:09:59.400", "level": "INFO", "logger": "cache", "message": "request handled method=PUT path=/v1/checkout status=200 duration=44ms"}
+{"timestamp": "2026-05-12 09:10:01.425", "level": "DEBUG", "logger": "api", "message": "cache hit key=63b714ef ttl=456s"}
+{"timestamp": "2026-05-12 09:10:03.450", "level": "INFO", "logger": "cache", "message": "kafka consumer lag group=billing partition=709 lag=582"}
+{"timestamp": "2026-05-12 09:10:05.475", "level": "INFO", "logger": "db", "message": "user 94156 authenticated from 50831"}
+{"timestamp": "2026-05-12 09:10:07.500", "level": "INFO", "logger": "cache", "message": "request handled method=POST path=/v1/checkout status=200 duration=698ms"}
+{"timestamp": "2026-05-12 09:10:09.525", "level": "INFO", "logger": "checkout", "message": "request handled method=PUT path=/v1/checkout status=200 duration=204ms"}
+{"timestamp": "2026-05-12 09:10:11.550", "level": "DEBUG", "logger": "checkout", "message": "db query completed table=sessions rows=120 duration=900ms"}
+{"timestamp": "2026-05-12 09:10:13.575", "level": "INFO", "logger": "checkout", "message": "request handled method=PUT path=/v1/search status=200 duration=1030ms"}
+{"timestamp": "2026-05-12 09:10:15.600", "level": "DEBUG", "logger": "checkout", "message": "cache hit key=2dfae56f ttl=1064s"}
+{"timestamp": "2026-05-12 09:10:17.625", "level": "INFO", "logger": "checkout", "message": "request handled method=GET path=/v1/checkout status=200 duration=696ms"}
+{"timestamp": "2026-05-12 09:10:19.650", "level": "INFO", "logger": "checkout", "message": "user /v1/catalog authenticated from /v1/catalog"}
+{"timestamp": "2026-05-12 09:10:21.675", "level": "INFO", "logger": "payments", "message": "request handled method=PUT path=/v1/user/me status=200 duration=692ms"}
+{"timestamp": "2026-05-12 09:10:23.700", "level": "INFO", "logger": "db", "message": "request handled method=GET path=/v1/catalog status=200 duration=556ms"}
+{"timestamp": "2026-05-12 09:10:25.725", "level": "INFO", "logger": "checkout", "message": "user 596ms authenticated from /v1/user/me"}
+{"timestamp": "2026-05-12 09:10:27.750", "level": "INFO", "logger": "payments", "message": "user /v1/user/me authenticated from 45988"}
+{"timestamp": "2026-05-12 09:10:29.775", "level": "DEBUG", "logger": "payments", "message": "cache miss key=0f01b4e6 fill=324ms"}
+{"timestamp": "2026-05-12 09:10:31.800", "level": "DEBUG", "logger": "db", "message": "healthcheck ok component=db uptime=53s"}
+{"timestamp": "2026-05-12 09:10:33.825", "level": "INFO", "logger": "checkout", "message": "request handled method=GET path=/v1/checkout status=200 duration=104ms"}
+{"timestamp": "2026-05-12 09:10:35.850", "level": "INFO", "logger": "worker", "message": "request handled method=POST path=/v1/cart status=200 duration=662ms"}
+{"timestamp": "2026-05-12 09:10:37.875", "level": "INFO", "logger": "payments", "message": "request handled method=GET path=/v1/search status=200 duration=394ms"}
+{"timestamp": "2026-05-12 09:10:39.900", "level": "DEBUG", "logger": "checkout", "message": "db query completed table=orders rows=424 duration=645ms"}
+{"timestamp": "2026-05-12 09:10:41.925", "level": "INFO", "logger": "cache", "message": "user /v1/search authenticated from /v1/cart"}
+{"timestamp": "2026-05-12 09:10:43.950", "level": "DEBUG", "logger": "checkout", "message": "healthcheck ok component=worker uptime=874s"}
+{"timestamp": "2026-05-12 09:10:45.975", "level": "DEBUG", "logger": "payments", "message": "db query completed table=sessions rows=1052 duration=543ms"}
+{"timestamp": "2026-05-12 09:10:48.000", "level": "INFO", "logger": "cache", "message": "payment charge accepted id=763a6ab8 amount=719"}
+{"timestamp": "2026-05-12 09:10:50.025", "level": "INFO", "logger": "checkout", "message": "request handled method=GET path=/v1/user/me status=200 duration=209ms"}
+{"timestamp": "2026-05-12 09:10:52.050", "level": "INFO", "logger": "worker", "message": "request handled method=PUT path=/v1/search status=200 duration=1170ms"}
+{"timestamp": "2026-05-12 09:10:54.075", "level": "DEBUG", "logger": "api", "message": "cache hit key=3c33e016 ttl=294s"}
+{"timestamp": "2026-05-12 09:10:56.100", "level": "INFO", "logger": "cache", "message": "user 3031 authenticated from 70995"}
+{"timestamp": "2026-05-12 09:10:58.125", "level": "INFO", "logger": "payments", "message": "payment charge accepted id=195b88f4 amount=194"}
+{"timestamp": "2026-05-12 09:11:00.150", "level": "INFO", "logger": "checkout", "message": "request handled method=GET path=/v1/checkout status=200 duration=74ms"}
+{"timestamp": "2026-05-12 09:11:02.175", "level": "INFO", "logger": "api", "message": "request handled method=PUT path=/v1/checkout status=200 duration=462ms"}
+{"timestamp": "2026-05-12 09:11:04.200", "level": "INFO", "logger": "api", "message": "request handled method=GET path=/v1/search status=200 duration=43ms"}
+{"timestamp": "2026-05-12 09:11:06.225", "level": "INFO", "logger": "checkout", "message": "request handled method=GET path=/v1/checkout status=200 duration=990ms"}
+{"timestamp": "2026-05-12 09:11:08.250", "level": "DEBUG", "logger": "api", "message": "cache miss key=fecbc5c1 fill=929ms"}
+{"timestamp": "2026-05-12 09:11:10.275", "level": "INFO", "logger": "payments", "message": "request handled method=GET path=/v1/search status=200 duration=590ms"}
+{"timestamp": "2026-05-12 09:11:12.300", "level": "INFO", "logger": "payments", "message": "request handled method=GET path=/v1/search status=200 duration=458ms"}
+{"timestamp": "2026-05-12 09:11:14.325", "level": "INFO", "logger": "worker", "message": "user /v1/checkout authenticated from 67299"}
+{"timestamp": "2026-05-12 09:11:16.350", "level": "DEBUG", "logger": "payments", "message": "cache hit key=764b0b80 ttl=429s"}
+{"timestamp": "2026-05-12 09:11:18.375", "level": "INFO", "logger": "cache", "message": "request handled method=POST path=/v1/checkout status=200 duration=783ms"}
+{"timestamp": "2026-05-12 09:11:20.400", "level": "DEBUG", "logger": "cache", "message": "cache hit key=021d17e7 ttl=549s"}
+{"timestamp": "2026-05-12 09:11:22.425", "level": "DEBUG", "logger": "worker", "message": "db query completed table=orders rows=186 duration=802ms"}
+{"timestamp": "2026-05-12 09:11:24.450", "level": "INFO", "logger": "api", "message": "request handled method=POST path=/v1/catalog status=200 duration=521ms"}
+{"timestamp": "2026-05-12 09:11:26.475", "level": "DEBUG", "logger": "worker", "message": "cache miss key=30d11d18 fill=32ms"}
+{"timestamp": "2026-05-12 09:11:28.500", "level": "DEBUG", "logger": "api", "message": "db query completed table=users rows=443 duration=381ms"}
+{"timestamp": "2026-05-12 09:11:30.525", "level": "DEBUG", "logger": "payments", "message": "cache hit key=93f5e918 ttl=161s"}
+{"timestamp": "2026-05-12 09:11:32.550", "level": "DEBUG", "logger": "cache", "message": "healthcheck ok component=checkout uptime=11s"}
+{"timestamp": "2026-05-12 09:11:34.575", "level": "DEBUG", "logger": "worker", "message": "db query completed table=catalog rows=672 duration=266ms"}
+{"timestamp": "2026-05-12 09:11:36.600", "level": "INFO", "logger": "worker", "message": "request handled method=PUT path=/v1/catalog status=200 duration=398ms"}
+{"timestamp": "2026-05-12 09:11:38.625", "level": "DEBUG", "logger": "worker", "message": "healthcheck ok component=checkout uptime=1161s"}
+{"timestamp": "2026-05-12 09:11:40.650", "level": "INFO", "logger": "payments", "message": "user /v1/checkout authenticated from 426ms"}
+{"timestamp": "2026-05-12 09:11:42.675", "level": "INFO", "logger": "db", "message": "kafka consumer lag group=orders partition=211 lag=332"}
+{"timestamp": "2026-05-12 09:11:44.700", "level": "DEBUG", "logger": "api", "message": "db query completed table=catalog rows=10 duration=65ms"}
+{"timestamp": "2026-05-12 09:11:46.725", "level": "INFO", "logger": "db", "message": "request handled method=GET path=/v1/catalog status=200 duration=419ms"}
+{"timestamp": "2026-05-12 09:11:48.750", "level": "DEBUG", "logger": "worker", "message": "cache hit key=01c560f0 ttl=177s"}
+{"timestamp": "2026-05-12 09:11:50.775", "level": "INFO", "logger": "worker", "message": "user /v1/cart authenticated from 7668"}
+{"timestamp": "2026-05-12 09:11:52.800", "level": "INFO", "logger": "checkout", "message": "request handled method=PUT path=/v1/checkout status=200 duration=356ms"}
+{"timestamp": "2026-05-12 09:11:54.825", "level": "INFO", "logger": "cache", "message": "payment charge accepted id=a48afa65 amount=775"}
+{"timestamp": "2026-05-12 09:11:56.850", "level": "INFO", "logger": "cache", "message": "request handled method=POST path=/v1/search status=200 duration=990ms"}
+{"timestamp": "2026-05-12 09:11:58.875", "level": "INFO", "logger": "cache", "message": "request handled method=PUT path=/v1/checkout status=200 duration=1167ms"}
+{"timestamp": "2026-05-12 09:12:00.900", "level": "INFO", "logger": "api", "message": "deploy starting version=2.14.0 commit=26431ed8"}
+{"timestamp": "2026-05-12 09:12:02.925", "level": "INFO", "logger": "api", "message": "deploy starting version=2.14.1 commit=22fb0367"}
+{"timestamp": "2026-05-12 09:12:04.950", "level": "INFO", "logger": "checkout", "message": "deploy starting version=2.14.0 commit=d5a12bf8"}
+{"timestamp": "2026-05-12 09:12:06.975", "level": "INFO", "logger": "payments", "message": "deploy starting version=2.14.1 commit=0a35aaee"}
+{"timestamp": "2026-05-12 09:12:09.000", "level": "INFO", "logger": "cache", "message": "deploy finished version=2.14.0 replicas=665 duration=1130s"}
+{"timestamp": "2026-05-12 09:12:11.025", "level": "INFO", "logger": "worker", "message": "deploy finished version=2.15.0 replicas=329 duration=503s"}
+{"timestamp": "2026-05-12 09:12:13.050", "level": "INFO", "logger": "db", "message": "deploy finished version=2.14.1 replicas=516 duration=978s"}
+{"timestamp": "2026-05-12 09:12:15.075", "level": "INFO", "logger": "cache", "message": "config reloaded file=limits.yaml keys=222"}
+{"timestamp": "2026-05-12 09:12:17.100", "level": "INFO", "logger": "api", "message": "config reloaded file=limits.yaml keys=685"}
+{"timestamp": "2026-05-12 09:12:19.125", "level": "INFO", "logger": "api", "message": "config reloaded file=routes.yaml keys=206"}
+{"timestamp": "2026-05-12 09:12:21.150", "level": "INFO", "logger": "api", "message": "config reloaded file=limits.yaml keys=88"}
+{"timestamp": "2026-05-12 09:12:23.175", "level": "INFO", "logger": "cache", "message": "cache warm started shards=16 entries=146"}
+{"timestamp": "2026-05-12 09:12:25.200", "level": "INFO", "logger": "checkout", "message": "cache warm started shards=8 entries=925"}
+{"timestamp": "2026-05-12 09:12:27.225", "level": "DEBUG", "logger": "cache", "message": "cache hit key=5c0904d2 ttl=858s"}
+{"timestamp": "2026-05-12 09:12:29.250", "level": "INFO", "logger": "payments", "message": "kafka consumer lag group=billing partition=350 lag=927"}
+{"timestamp": "2026-05-12 09:12:31.275", "level": "ERROR", "logger": "worker", "message": "upstream timeout path=/v1/catalog after 917ms"}
+{"timestamp": "2026-05-12 09:12:33.300", "level": "INFO", "logger": "cache", "message": "cache warm started shards=32 entries=960"}
+{"timestamp": "2026-05-12 09:12:35.325", "level": "ERROR", "logger": "worker", "message": "upstream timeout path=/v1/user/me after 912ms"}
+{"timestamp": "2026-05-12 09:12:37.350", "level": "DEBUG", "logger": "db", "message": "healthcheck ok component=checkout uptime=750s"}
+{"timestamp": "2026-05-12 09:12:39.375", "level": "INFO", "logger": "payments", "message": "request handled method=PUT path=/v1/catalog status=200 duration=920ms"}
+{"timestamp": "2026-05-12 09:12:41.400", "level": "INFO", "logger": "db", "message": "request handled method=GET path=/v1/cart status=200 duration=849ms"}
+{"timestamp": "2026-05-12 09:12:43.425", "level": "INFO", "logger": "db", "message": "request handled method=POST path=/v1/catalog status=200 duration=702ms"}
+{"timestamp": "2026-05-12 09:12:45.450", "level": "INFO", "logger": "checkout", "message": "payment charge accepted id=fe3d79ad amount=1117"}
+{"timestamp": "2026-05-12 09:12:47.475", "level": "DEBUG", "logger": "checkout", "message": "cache hit key=5aaac64a ttl=1033s"}
+{"timestamp": "2026-05-12 09:12:49.500", "level": "DEBUG", "logger": "db", "message": "cache hit key=a1df58ee ttl=458s"}
+{"timestamp": "2026-05-12 09:12:51.525", "level": "INFO", "logger": "worker", "message": "payment charge accepted id=bd8418dd amount=862"}
+{"timestamp": "2026-05-12 09:12:53.550", "level": "ERROR", "logger": "worker", "message": "connection pool exhausted pool=1059ms waiting=1172ms"}
+{"timestamp": "2026-05-12 09:12:55.575", "level": "INFO", "logger": "payments", "message": "request handled method=POST path=/v1/cart status=200 duration=220ms"}
+{"timestamp": "2026-05-12 09:12:57.600", "level": "INFO", "logger": "api", "message": "cache warm started shards=32 entries=675"}
+{"timestamp": "2026-05-12 09:12:59.625", "level": "DEBUG", "logger": "worker", "message": "healthcheck ok component=checkout uptime=113s"}
+{"timestamp": "2026-05-12 09:13:01.650", "level": "INFO", "logger": "payments", "message": "request handled method=PUT path=/v1/catalog status=200 duration=1053ms"}
+{"timestamp": "2026-05-12 09:13:03.675", "level": "INFO", "logger": "cache", "message": "request handled method=PUT path=/v1/catalog status=200 duration=763ms"}
+{"timestamp": "2026-05-12 09:13:05.700", "level": "INFO", "logger": "worker", "message": "request handled method=PUT path=/v1/checkout status=200 duration=1152ms"}
+{"timestamp": "2026-05-12 09:13:07.725", "level": "DEBUG", "logger": "api", "message": "cache hit key=2971a793 ttl=300s"}
+{"timestamp": "2026-05-12 09:13:09.750", "level": "INFO", "logger": "checkout", "message": "request handled method=POST path=/v1/user/me status=200 duration=977ms"}
+{"timestamp": "2026-05-12 09:13:11.775", "level": "INFO", "logger": "worker", "message": "request handled method=PUT path=/v1/cart status=200 duration=720ms"}
+{"timestamp": "2026-05-12 09:13:13.800", "level": "INFO", "logger": "worker", "message": "request handled method=PUT path=/v1/search status=200 duration=892ms"}
+{"timestamp": "2026-05-12 09:13:15.825", "level": "DEBUG", "logger": "cache", "message": "cache hit key=aa45ba07 ttl=826s"}
+{"timestamp": "2026-05-12 09:13:17.850", "level": "INFO", "logger": "payments", "message": "request handled method=PUT path=/v1/user/me status=200 duration=986ms"}
+{"timestamp": "2026-05-12 09:13:19.875", "level": "INFO", "logger": "payments", "message": "request handled method=PUT path=/v1/checkout status=200 duration=221ms"}
+{"timestamp": "2026-05-12 09:13:21.900", "level": "DEBUG", "logger": "api", "message": "healthcheck ok component=worker uptime=85s"}
+{"timestamp": "2026-05-12 09:13:23.925", "level": "WARNING", "logger": "payments", "message": "retry scheduled attempt=264 operation=order.create backoff=442ms"}
+{"timestamp": "2026-05-12 09:13:25.950", "level": "DEBUG", "logger": "api", "message": "cache hit key=147e9cc7 ttl=178s"}
+{"timestamp": "2026-05-12 09:13:27.975", "level": "INFO", "logger": "worker", "message": "payment charge accepted id=808cc7fc amount=671"}
+{"timestamp": "2026-05-12 09:13:30.000", "level": "ERROR", "logger": "db", "message": "circuit breaker open dependency=payments failures=1060"}
+{"timestamp": "2026-05-12 09:13:32.025", "level": "DEBUG", "logger": "payments", "message": "cache hit key=7deced9f ttl=964s"}
+{"timestamp": "2026-05-12 09:13:34.050", "level": "ERROR", "logger": "payments", "message": "circuit breaker open dependency=payments failures=568"}
+{"timestamp": "2026-05-12 09:13:36.075", "level": "INFO", "logger": "worker", "message": "payment charge accepted id=cffc0fc4 amount=1181"}
+{"timestamp": "2026-05-12 09:13:38.100", "level": "INFO", "logger": "cache", "message": "payment charge accepted id=bbb1fdce amount=360"}
+{"timestamp": "2026-05-12 09:13:40.125", "level": "INFO", "logger": "worker", "message": "request handled method=GET path=/v1/checkout status=200 duration=565ms"}
+{"timestamp": "2026-05-12 09:13:42.150", "level": "ERROR", "logger": "payments", "message": "circuit breaker open dependency=search failures=124"}
+{"timestamp": "2026-05-12 09:13:44.175", "level": "DEBUG", "logger": "db", "message": "db query completed table=orders rows=174 duration=322ms"}
+{"timestamp": "2026-05-12 09:13:46.200", "level": "DEBUG", "logger": "api", "message": "db query completed table=catalog rows=585 duration=904ms"}
+{"timestamp": "2026-05-12 09:13:48.225", "level": "DEBUG", "logger": "checkout", "message": "healthcheck ok component=payments uptime=761s"}
+{"timestamp": "2026-05-12 09:13:50.250", "level": "WARNING", "logger": "worker", "message": "retry scheduled attempt=240 operation=order.create backoff=1006ms"}
+{"timestamp": "2026-05-12 09:13:52.275", "level": "INFO", "logger": "db", "message": "request handled method=PUT path=/v1/cart status=200 duration=500ms"}
+{"timestamp": "2026-05-12 09:13:54.300", "level": "INFO", "logger": "api", "message": "request handled method=PUT path=/v1/checkout status=200 duration=38ms"}
+{"timestamp": "2026-05-12 09:13:56.325", "level": "INFO", "logger": "payments", "message": "request handled method=GET path=/v1/search status=200 duration=850ms"}
+{"timestamp": "2026-05-12 09:13:58.350", "level": "INFO", "logger": "worker", "message": "request handled method=GET path=/v1/user/me status=200 duration=444ms"}
+{"timestamp": "2026-05-12 09:14:00.375", "level": "WARNING", "logger": "cache", "message": "slow query table=users duration=761ms"}
+{"timestamp": "2026-05-12 09:14:02.400", "level": "WARNING", "logger": "cache", "message": "retry scheduled attempt=540 operation=payment.charge backoff=5ms"}
+{"timestamp": "2026-05-12 09:14:04.425", "level": "DEBUG", "logger": "cache", "message": "cache hit key=29a1f4fd ttl=442s"}
+{"timestamp": "2026-05-12 09:14:06.450", "level": "WARNING", "logger": "db", "message": "retry scheduled attempt=1114 operation=payment.charge backoff=381ms"}
+{"timestamp": "2026-05-12 09:14:08.475", "level": "INFO", "logger": "worker", "message": "user /v1/catalog authenticated from 1011ms"}
+{"timestamp": "2026-05-12 09:14:10.500", "level": "ERROR", "logger": "db", "message": "checkout failed user=dave reason=upstream_timeout order=a147707b"}
+{"timestamp": "2026-05-12 09:14:12.525", "level": "WARNING", "logger": "cache", "message": "retry scheduled attempt=422 operation=payment.charge backoff=307ms"}
+{"timestamp": "2026-05-12 09:14:14.550", "level": "WARNING", "logger": "worker", "message": "retry scheduled attempt=764 operation=cart.update backoff=278ms"}
+{"timestamp": "2026-05-12 09:14:16.575", "level": "INFO", "logger": "payments", "message": "kafka consumer lag group=orders partition=1180 lag=728"}
+{"timestamp": "2026-05-12 09:14:18.600", "level": "ERROR", "logger": "api", "message": "checkout failed user=carol reason=upstream_timeout order=dc8b4d23"}
+{"timestamp": "2026-05-12 09:14:20.625", "level": "INFO", "logger": "payments", "message": "request handled method=POST path=/v1/cart status=200 duration=287ms"}
+{"timestamp": "2026-05-12 09:14:22.650", "level": "ERROR", "logger": "worker", "message": "checkout failed user=alice reason=upstream_timeout order=3803ede5"}
+{"timestamp": "2026-05-12 09:14:24.675", "level": "DEBUG", "logger": "payments", "message": "db query completed table=orders rows=649 duration=876ms"}
+{"timestamp": "2026-05-12 09:14:26.700", "level": "DEBUG", "logger": "checkout", "message": "cache miss key=49a07c3f fill=58ms"}
+{"timestamp": "2026-05-12 09:14:28.725", "level": "WARNING", "logger": "api", "message": "slow query table=users duration=1110ms"}
+{"timestamp": "2026-05-12 09:14:30.750", "level": "WARNING", "logger": "cache", "message": "retry scheduled attempt=674 operation=cart.update backoff=617ms"}
+{"timestamp": "2026-05-12 09:14:32.775", "level": "ERROR", "logger": "payments", "message": "circuit breaker open dependency=payments failures=277"}
+{"timestamp": "2026-05-12 09:14:34.800", "level": "INFO", "logger": "checkout", "message": "email queued to=carol@example.com template=welcome"}
+{"timestamp": "2026-05-12 09:14:36.825", "level": "DEBUG", "logger": "cache", "message": "db query completed table=catalog rows=314 duration=64ms"}
+{"timestamp": "2026-05-12 09:14:38.850", "level": "ERROR", "logger": "checkout", "message": "checkout failed user=erin reason=upstream_timeout order=e8882673"}
+{"timestamp": "2026-05-12 09:14:40.875", "level": "WARNING", "logger": "db", "message": "retry scheduled attempt=1162 operation=payment.charge backoff=724ms"}
+{"timestamp": "2026-05-12 09:14:42.900", "level": "INFO", "logger": "api", "message": "user /v1/search authenticated from /v1/cart"}
+{"timestamp": "2026-05-12 09:14:44.925", "level": "INFO", "logger": "payments", "message": "request handled method=POST path=/v1/cart status=200 duration=1101ms"}
+{"timestamp": "2026-05-12 09:14:46.950", "level": "ERROR", "logger": "api", "message": "checkout failed user=carol reason=upstream_timeout order=e7d83740"}
+{"timestamp": "2026-05-12 09:14:48.975", "level": "DEBUG", "logger": "db", "message": "db query completed table=users rows=909 duration=922ms"}
+{"timestamp": "2026-05-12 09:14:51.000", "level": "DEBUG", "logger": "cache", "message": "cache hit key=9c863511 ttl=781s"}
+{"timestamp": "2026-05-12 09:14:53.025", "level": "WARNING", "logger": "db", "message": "retry scheduled attempt=447 operation=cart.update backoff=763ms"}
+{"timestamp": "2026-05-12 09:14:55.050", "level": "DEBUG", "logger": "checkout", "message": "cache miss key=c72abc37 fill=668ms"}
+{"timestamp": "2026-05-12 09:14:57.075", "level": "INFO", "logger": "db", "message": "kafka consumer lag group=catalog partition=7 lag=216"}
+{"timestamp": "2026-05-12 09:14:59.100", "level": "INFO", "logger": "cache", "message": "request handled method=POST path=/v1/search status=200 duration=544ms"}
+{"timestamp": "2026-05-12 09:15:01.125", "level": "ERROR", "logger": "payments", "message": "checkout failed user=alice reason=upstream_timeout order=56afa107"}
+{"timestamp": "2026-05-12 09:15:03.150", "level": "INFO", "logger": "payments", "message": "request handled method=POST path=/v1/checkout status=200 duration=600ms"}
+{"timestamp": "2026-05-12 09:15:05.175", "level": "INFO", "logger": "payments", "message": "request handled method=PUT path=/v1/user/me status=200 duration=1053ms"}
+{"timestamp": "2026-05-12 09:15:07.200", "level": "INFO", "logger": "worker", "message": "request handled method=POST path=/v1/catalog status=200 duration=1014ms"}
+{"timestamp": "2026-05-12 09:15:09.225", "level": "INFO", "logger": "payments", "message": "request handled method=GET path=/v1/search status=200 duration=6ms"}
+{"timestamp": "2026-05-12 09:15:11.250", "level": "DEBUG", "logger": "db", "message": "cache hit key=6669dacb ttl=489s"}
+{"timestamp": "2026-05-12 09:15:13.275", "level": "WARNING", "logger": "payments", "message": "retry scheduled attempt=210 operation=order.create backoff=752ms"}
+{"timestamp": "2026-05-12 09:15:15.300", "level": "INFO", "logger": "payments", "message": "request handled method=POST path=/v1/search status=200 duration=85ms"}
+{"timestamp": "2026-05-12 09:15:17.325", "level": "WARNING", "logger": "cache", "message": "retry scheduled attempt=978 operation=cart.update backoff=100ms"}
+{"timestamp": "2026-05-12 09:15:19.350", "level": "INFO", "logger": "payments", "message": "payment charge accepted id=8efcd50d amount=283"}
+{"timestamp": "2026-05-12 09:15:21.375", "level": "INFO", "logger": "worker", "message": "payment charge accepted id=a884f135 amount=467"}
+{"timestamp": "2026-05-12 09:15:23.400", "level": "INFO", "logger": "payments", "message": "request handled method=POST path=/v1/checkout status=200 duration=225ms"}
+{"timestamp": "2026-05-12 09:15:25.425", "level": "INFO", "logger": "db", "message": "request handled method=PUT path=/v1/cart status=200 duration=1184ms"}
+{"timestamp": "2026-05-12 09:15:27.450", "level": "ERROR", "logger": "payments", "message": "circuit breaker open dependency=search failures=638"}
+{"timestamp": "2026-05-12 09:15:29.475", "level": "DEBUG", "logger": "api", "message": "db query completed table=users rows=1128 duration=353ms"}
+{"timestamp": "2026-05-12 09:15:31.500", "level": "DEBUG", "logger": "checkout", "message": "cache hit key=d161f80d ttl=1040s"}
+{"timestamp": "2026-05-12 09:15:33.525", "level": "INFO", "logger": "checkout", "message": "request handled method=PUT path=/v1/checkout status=200 duration=259ms"}
+{"timestamp": "2026-05-12 09:15:35.550", "level": "WARNING", "logger": "payments", "message": "retry scheduled attempt=41 operation=payment.charge backoff=870ms"}
+{"timestamp": "2026-05-12 09:15:37.575", "level": "INFO", "logger": "api", "message": "request handled method=GET path=/v1/search status=200 duration=1115ms"}
+{"timestamp": "2026-05-12 09:15:39.600", "level": "INFO", "logger": "checkout", "message": "request handled method=POST path=/v1/user/me status=200 duration=377ms"}
+{"timestamp": "2026-05-12 09:15:41.625", "level": "WARNING", "logger": "payments", "message": "retry scheduled attempt=672 operation=cart.update backoff=163ms"}
+{"timestamp": "2026-05-12 09:15:43.650", "level": "WARNING", "logger": "api", "message": "retry scheduled attempt=690 operation=cart.update backoff=423ms"}
+{"timestamp": "2026-05-12 09:15:45.675", "level": "DEBUG", "logger": "payments", "message": "cache hit key=6a646a4c ttl=620s"}
+{"timestamp": "2026-05-12 09:15:47.700", "level": "INFO", "logger": "api", "message": "user 34ms authenticated from /v1/checkout"}
+{"timestamp": "2026-05-12 09:15:49.725", "level": "ERROR", "logger": "cache", "message": "circuit breaker open dependency=search failures=610"}
+{"timestamp": "2026-05-12 09:15:51.750", "level": "INFO", "logger": "cache", "message": "payment charge accepted id=b882ca51 amount=2"}
+{"timestamp": "2026-05-12 09:15:53.775", "level": "ERROR", "logger": "cache", "message": "circuit breaker open dependency=catalog failures=441"}
+{"timestamp": "2026-05-12 09:15:55.800", "level": "DEBUG", "logger": "cache", "message": "db query completed table=orders rows=903 duration=1094ms"}
+{"timestamp": "2026-05-12 09:15:57.825", "level": "DEBUG", "logger": "api", "message": "cache hit key=a7f75269 ttl=831s"}
+{"timestamp": "2026-05-12 09:15:59.850", "level": "INFO", "logger": "db", "message": "request handled method=PUT path=/v1/checkout status=200 duration=111ms"}
+{"timestamp": "2026-05-12 09:16:01.875", "level": "INFO", "logger": "worker", "message": "request handled method=PUT path=/v1/cart status=200 duration=884ms"}
+{"timestamp": "2026-05-12 09:16:03.900", "level": "ERROR", "logger": "checkout", "message": "checkout failed user=frank reason=upstream_timeout order=f4b93399"}
+{"timestamp": "2026-05-12 09:16:05.925", "level": "WARNING", "logger": "worker", "message": "retry scheduled attempt=650 operation=payment.charge backoff=1094ms"}
+{"timestamp": "2026-05-12 09:16:07.950", "level": "ERROR", "logger": "api", "message": "circuit breaker open dependency=catalog failures=588"}
+{"timestamp": "2026-05-12 09:16:09.975", "level": "ERROR", "logger": "checkout", "message": "circuit breaker open dependency=payments failures=448"}
+{"timestamp": "2026-05-12 09:16:12.000", "level": "ERROR", "logger": "checkout", "message": "checkout failed user=dave reason=upstream_timeout order=d6648cb2"}
+{"timestamp": "2026-05-12 09:16:14.025", "level": "INFO", "logger": "api", "message": "request handled method=POST path=/v1/checkout status=200 duration=590ms"}
+{"timestamp": "2026-05-12 09:16:16.050", "level": "INFO", "logger": "db", "message": "request handled method=POST path=/v1/search status=200 duration=1017ms"}
+{"timestamp": "2026-05-12 09:16:18.075", "level": "ERROR", "logger": "api", "message": "checkout failed user=carol reason=upstream_timeout order=4e9246a0"}
+{"timestamp": "2026-05-12 09:16:20.100", "level": "INFO", "logger": "api", "message": "request handled method=POST path=/v1/checkout status=200 duration=528ms"}
+{"timestamp": "2026-05-12 09:16:22.125", "level": "INFO", "logger": "checkout", "message": "payment charge accepted id=59158c9a amount=578"}
+{"timestamp": "2026-05-12 09:16:24.150", "level": "WARNING", "logger": "worker", "message": "retry scheduled attempt=981 operation=cart.update backoff=469ms"}
+{"timestamp": "2026-05-12 09:16:26.175", "level": "INFO", "logger": "worker", "message": "request handled method=POST path=/v1/search status=200 duration=743ms"}
+{"timestamp": "2026-05-12 09:16:28.200", "level": "ERROR", "logger": "db", "message": "circuit breaker open dependency=catalog failures=51"}
+{"timestamp": "2026-05-12 09:16:30.225", "level": "DEBUG", "logger": "api", "message": "db query completed table=users rows=349 duration=955ms"}
+{"timestamp": "2026-05-12 09:16:32.250", "level": "WARNING", "logger": "db", "message": "retry scheduled attempt=613 operation=payment.charge backoff=526ms"}
+{"timestamp": "2026-05-12 09:16:34.275", "level": "ERROR", "logger": "payments", "message": "circuit breaker open dependency=payments failures=1145"}
+{"timestamp": "2026-05-12 09:16:36.300", "level": "ERROR", "logger": "checkout", "message": "checkout failed user=carol reason=upstream_timeout order=56818057"}
+{"timestamp": "2026-05-12 09:16:38.325", "level": "DEBUG", "logger": "worker", "message": "db query completed table=orders rows=297 duration=504ms"}
+{"timestamp": "2026-05-12 09:16:40.350", "level": "WARNING", "logger": "cache", "message": "retry scheduled attempt=791 operation=cart.update backoff=177ms"}
+{"timestamp": "2026-05-12 09:16:42.375", "level": "DEBUG", "logger": "cache", "message": "db query completed table=sessions rows=475 duration=949ms"}
+{"timestamp": "2026-05-12 09:16:44.400", "level": "DEBUG", "logger": "cache", "message": "cache hit key=ecd99e55 ttl=842s"}
+{"timestamp": "2026-05-12 09:16:46.425", "level": "INFO", "logger": "cache", "message": "request handled method=GET path=/v1/checkout status=200 duration=1142ms"}
+{"timestamp": "2026-05-12 09:16:48.450", "level": "WARNING", "logger": "worker", "message": "retry scheduled attempt=1123 operation=order.create backoff=67ms"}
+{"timestamp": "2026-05-12 09:16:50.475", "level": "WARNING", "logger": "checkout", "message": "retry scheduled attempt=821 operation=payment.charge backoff=747ms"}
+{"timestamp": "2026-05-12 09:16:52.500", "level": "DEBUG", "logger": "worker", "message": "healthcheck ok component=checkout uptime=447s"}
+{"timestamp": "2026-05-12 09:16:54.525", "level": "INFO", "logger": "payments", "message": "request handled method=GET path=/v1/checkout status=200 duration=1112ms"}
+{"timestamp": "2026-05-12 09:16:56.550", "level": "INFO", "logger": "api", "message": "request handled method=GET path=/v1/checkout status=200 duration=1165ms"}
+{"timestamp": "2026-05-12 09:16:58.575", "level": "DEBUG", "logger": "api", "message": "cache hit key=0df98f37 ttl=840s"}
+{"timestamp": "2026-05-12 09:17:00.600", "level": "ERROR", "logger": "db", "message": "checkout failed user=frank reason=upstream_timeout order=096e6e80"}
+{"timestamp": "2026-05-12 09:17:02.625", "level": "ERROR", "logger": "payments", "message": "circuit breaker open dependency=payments failures=1042"}
+{"timestamp": "2026-05-12 09:17:04.650", "level": "INFO", "logger": "api", "message": "request handled method=PUT path=/v1/user/me status=200 duration=1110ms"}
+{"timestamp": "2026-05-12 09:17:06.675", "level": "ERROR", "logger": "db", "message": "circuit breaker open dependency=search failures=1054"}
+{"timestamp": "2026-05-12 09:17:08.700", "level": "ERROR", "logger": "checkout", "message": "checkout failed user=alice reason=upstream_timeout order=f451ded8"}
+{"timestamp": "2026-05-12 09:17:10.725", "level": "ERROR", "logger": "checkout", "message": "checkout failed user=bob reason=upstream_timeout order=dfcb6be8"}
+{"timestamp": "2026-05-12 09:17:12.750", "level": "INFO", "logger": "payments", "message": "request handled method=PUT path=/v1/search status=200 duration=255ms"}
+{"timestamp": "2026-05-12 09:17:14.775", "level": "INFO", "logger": "payments", "message": "user 904ms authenticated from /v1/user/me"}
+{"timestamp": "2026-05-12 09:17:16.800", "level": "WARNING", "logger": "checkout", "message": "retry scheduled attempt=1036 operation=payment.charge backoff=262ms"}
+{"timestamp": "2026-05-12 09:17:18.825", "level": "DEBUG", "logger": "worker", "message": "db query completed table=orders rows=930 duration=570ms"}
+{"timestamp": "2026-05-12 09:17:20.850", "level": "ERROR", "logger": "worker", "message": "circuit breaker open dependency=catalog failures=436"}
+{"timestamp": "2026-05-12 09:17:22.875", "level": "ERROR", "logger": "db", "message": "checkout failed user=frank reason=upstream_timeout order=e367237f"}
+{"timestamp": "2026-05-12 09:17:24.900", "level": "DEBUG", "logger": "api", "message": "cache miss key=a8b53f3d fill=332ms"}
+{"timestamp": "2026-05-12 09:17:26.925", "level": "ERROR", "logger": "cache", "message": "circuit breaker open dependency=catalog failures=861"}
+{"timestamp": "2026-05-12 09:17:28.950", "level": "INFO", "logger": "payments", "message": "user 92722 authenticated from 378ms"}
+{"timestamp": "2026-05-12 09:17:30.975", "level": "ERROR", "logger": "db", "message": "circuit breaker open dependency=identity failures=153"}
+{"timestamp": "2026-05-12 09:17:33.000", "level": "DEBUG", "logger": "payments", "message": "db query completed table=users rows=1073 duration=376ms"}
+{"timestamp": "2026-05-12 09:17:35.025", "level": "ERROR", "logger": "api", "message": "circuit breaker open dependency=payments failures=1155"}
+{"timestamp": "2026-05-12 09:17:37.050", "level": "WARNING", "logger": "payments", "message": "retry scheduled attempt=365 operation=payment.charge backoff=539ms"}
+{"timestamp": "2026-05-12 09:17:39.075", "level": "ERROR", "logger": "db", "message": "checkout failed user=carol reason=upstream_timeout order=f8bd408d"}
+{"timestamp": "2026-05-12 09:17:41.100", "level": "DEBUG", "logger": "api", "message": "db query completed table=catalog rows=21 duration=1127ms"}
+{"timestamp": "2026-05-12 09:17:43.125", "level": "ERROR", "logger": "payments", "message": "circuit breaker open dependency=catalog failures=863"}
+{"timestamp": "2026-05-12 09:17:45.150", "level": "WARNING", "logger": "db", "message": "retry scheduled attempt=652 operation=cart.update backoff=978ms"}
+{"timestamp": "2026-05-12 09:17:47.175", "level": "INFO", "logger": "api", "message": "request handled method=GET path=/v1/catalog status=200 duration=999ms"}
+{"timestamp": "2026-05-12 09:17:49.200", "level": "WARNING", "logger": "cache", "message": "retry scheduled attempt=1159 operation=order.create backoff=460ms"}
+{"timestamp": "2026-05-12 09:17:51.225", "level": "DEBUG", "logger": "api", "message": "db query completed table=catalog rows=778 duration=910ms"}
+{"timestamp": "2026-05-12 09:17:53.250", "level": "INFO", "logger": "payments", "message": "user 86192 authenticated from /v1/checkout"}
+{"timestamp": "2026-05-12 09:17:55.275", "level": "DEBUG", "logger": "db", "message": "cache miss key=54447cf0 fill=29ms"}
+{"timestamp": "2026-05-12 09:17:57.300", "level": "WARNING", "logger": "cache", "message": "retry scheduled attempt=1186 operation=cart.update backoff=1025ms"}
+{"timestamp": "2026-05-12 09:17:59.325", "level": "INFO", "logger": "cache", "message": "kafka consumer lag group=billing partition=1198 lag=671"}
+{"timestamp": "2026-05-12 09:18:01.350", "level": "WARNING", "logger": "worker", "message": "retry scheduled attempt=1002 operation=cart.update backoff=19ms"}
+{"timestamp": "2026-05-12 09:18:03.375", "level": "INFO", "logger": "payments", "message": "user 56773 authenticated from /v1/catalog"}
+{"timestamp": "2026-05-12 09:18:05.400", "level": "ERROR", "logger": "api", "message": "checkout failed user=alice reason=upstream_timeout order=7a2e62c6"}
+{"timestamp": "2026-05-12 09:18:07.425", "level": "DEBUG", "logger": "worker", "message": "db query completed table=catalog rows=29 duration=955ms"}
+{"timestamp": "2026-05-12 09:18:09.450", "level": "DEBUG", "logger": "db", "message": "cache hit key=9660bcc6 ttl=1097s"}
+{"timestamp": "2026-05-12 09:18:11.475", "level": "INFO", "logger": "payments", "message": "payment charge accepted id=d86e215d amount=438"}
+{"timestamp": "2026-05-12 09:18:13.500", "level": "INFO", "logger": "api", "message": "kafka consumer lag group=billing partition=106 lag=660"}
+{"timestamp": "2026-05-12 09:18:15.525", "level": "INFO", "logger": "db", "message": "payment charge accepted id=acd15973 amount=438"}
+{"timestamp": "2026-05-12 09:18:17.550", "level": "DEBUG", "logger": "api", "message": "cache hit key=4528f324 ttl=1162s"}
+{"timestamp": "2026-05-12 09:18:19.575", "level": "DEBUG", "logger": "payments", "message": "db query completed table=orders rows=1111 duration=903ms"}
+{"timestamp": "2026-05-12 09:18:21.600", "level": "WARNING", "logger": "worker", "message": "retry scheduled attempt=453 operation=cart.update backoff=1145ms"}
+{"timestamp": "2026-05-12 09:18:23.625", "level": "INFO", "logger": "worker", "message": "request handled method=GET path=/v1/cart status=200 duration=1161ms"}
+{"timestamp": "2026-05-12 09:18:25.650", "level": "ERROR", "logger": "worker", "message": "circuit breaker open dependency=identity failures=501"}
+{"timestamp": "2026-05-12 09:18:27.675", "level": "WARNING", "logger": "payments", "message": "retry scheduled attempt=615 operation=payment.charge backoff=1061ms"}
+{"timestamp": "2026-05-12 09:18:29.700", "level": "INFO", "logger": "worker", "message": "request handled method=GET path=/v1/search status=200 duration=702ms"}
+{"timestamp": "2026-05-12 09:18:31.725", "level": "INFO", "logger": "api", "message": "user 932ms authenticated from /v1/user/me"}
+{"timestamp": "2026-05-12 09:18:33.750", "level": "INFO", "logger": "checkout", "message": "user 13115 authenticated from /v1/catalog"}
+{"timestamp": "2026-05-12 09:18:35.775", "level": "DEBUG", "logger": "cache", "message": "cache miss key=c64a9574 fill=205ms"}
+{"timestamp": "2026-05-12 09:18:37.800", "level": "ERROR", "logger": "cache", "message": "circuit breaker open dependency=payments failures=418"}
+{"timestamp": "2026-05-12 09:18:39.825", "level": "ERROR", "logger": "db", "message": "checkout failed user=bob reason=upstream_timeout order=57a37291"}
+{"timestamp": "2026-05-12 09:18:41.850", "level": "DEBUG", "logger": "checkout", "message": "cache hit key=6b9e22c2 ttl=595s"}
+{"timestamp": "2026-05-12 09:18:43.875", "level": "DEBUG", "logger": "db", "message": "cache hit key=89e03b32 ttl=656s"}
+{"timestamp": "2026-05-12 09:18:45.900", "level": "INFO", "logger": "db", "message": "payment charge accepted id=f997bb82 amount=533"}
+{"timestamp": "2026-05-12 09:18:47.925", "level": "ERROR", "logger": "db", "message": "checkout failed user=carol reason=upstream_timeout order=6bf7a0f3"}
+{"timestamp": "2026-05-12 09:18:49.950", "level": "ERROR", "logger": "api", "message": "checkout failed user=carol reason=upstream_timeout order=a683707d"}
+{"timestamp": "2026-05-12 09:18:51.975", "level": "INFO", "logger": "worker", "message": "email queued to=alice@example.com template=reset-password"}
+{"timestamp": "2026-05-12 09:18:54.000", "level": "ERROR", "logger": "worker", "message": "circuit breaker open dependency=search failures=37"}
+{"timestamp": "2026-05-12 09:18:56.025", "level": "INFO", "logger": "db", "message": "request handled method=POST path=/v1/checkout status=200 duration=1020ms"}
+{"timestamp": "2026-05-12 09:18:58.050", "level": "DEBUG", "logger": "api", "message": "healthcheck ok component=api uptime=930s"}
+{"timestamp": "2026-05-12 09:19:00.075", "level": "INFO", "logger": "api", "message": "email queued to=bob@example.com template=reset-password"}
+{"timestamp": "2026-05-12 09:19:02.100", "level": "WARNING", "logger": "api", "message": "retry scheduled attempt=711 operation=cart.update backoff=888ms"}
+{"timestamp": "2026-05-12 09:19:04.125", "level": "WARNING", "logger": "worker", "message": "retry scheduled attempt=821 operation=cart.update backoff=1112ms"}
+{"timestamp": "2026-05-12 09:19:06.150", "level": "ERROR", "logger": "cache", "message": "circuit breaker open dependency=identity failures=1191"}
+{"timestamp": "2026-05-12 09:19:08.175", "level": "ERROR", "logger": "db", "message": "circuit breaker open dependency=search failures=256"}
+{"timestamp": "2026-05-12 09:19:10.200", "level": "ERROR", "logger": "db", "message": "checkout failed user=frank reason=upstream_timeout order=3b422589"}
+{"timestamp": "2026-05-12 09:19:12.225", "level": "ERROR", "logger": "db", "message": "circuit breaker open dependency=search failures=1198"}
+{"timestamp": "2026-05-12 09:19:14.250", "level": "ERROR", "logger": "cache", "message": "checkout failed user=carol reason=upstream_timeout order=4efb0684"}
+{"timestamp": "2026-05-12 09:19:16.275", "level": "WARNING", "logger": "cache", "message": "retry scheduled attempt=635 operation=order.create backoff=1172ms"}
+{"timestamp": "2026-05-12 09:19:18.300", "level": "DEBUG", "logger": "worker", "message": "db query completed table=users rows=1181 duration=820ms"}
+{"timestamp": "2026-05-12 09:19:20.325", "level": "DEBUG", "logger": "api", "message": "healthcheck ok component=checkout uptime=389s"}
+{"timestamp": "2026-05-12 09:19:22.350", "level": "ERROR", "logger": "db", "message": "circuit breaker open dependency=payments failures=291"}
+{"timestamp": "2026-05-12 09:19:24.375", "level": "INFO", "logger": "checkout", "message": "kafka consumer lag group=billing partition=196 lag=1039"}
+{"timestamp": "2026-05-12 09:19:26.400", "level": "INFO", "logger": "payments", "message": "request handled method=PUT path=/v1/checkout status=200 duration=1176ms"}
+{"timestamp": "2026-05-12 09:19:28.425", "level": "DEBUG", "logger": "db", "message": "cache hit key=b043c446 ttl=608s"}
+{"timestamp": "2026-05-12 09:19:30.450", "level": "ERROR", "logger": "db", "message": "checkout failed user=erin reason=upstream_timeout order=b65e1403"}
+{"timestamp": "2026-05-12 09:19:32.475", "level": "WARNING", "logger": "api", "message": "retry scheduled attempt=1172 operation=order.create backoff=312ms"}
+{"timestamp": "2026-05-12 09:19:34.500", "level": "ERROR", "logger": "checkout", "message": "circuit breaker open dependency=identity failures=791"}
+{"timestamp": "2026-05-12 09:19:36.525", "level": "INFO", "logger": "checkout", "message": "kafka consumer lag group=orders partition=436 lag=334"}
+{"timestamp": "2026-05-12 09:19:38.550", "level": "ERROR", "logger": "cache", "message": "checkout failed user=alice reason=upstream_timeout order=fc620371"}
+{"timestamp": "2026-05-12 09:19:40.575", "level": "DEBUG", "logger": "payments", "message": "cache hit key=dbd3ec98 ttl=964s"}
+{"timestamp": "2026-05-12 09:19:42.600", "level": "WARNING", "logger": "worker", "message": "slow query table=users duration=44ms"}
+{"timestamp": "2026-05-12 09:19:44.625", "level": "DEBUG", "logger": "payments", "message": "cache hit key=cf5758d9 ttl=75s"}
+{"timestamp": "2026-05-12 09:19:46.650", "level": "INFO", "logger": "payments", "message": "payment charge accepted id=1c6e286c amount=959"}
+{"timestamp": "2026-05-12 09:19:48.675", "level": "ERROR", "logger": "checkout", "message": "circuit breaker open dependency=identity failures=171"}
+{"timestamp": "2026-05-12 09:19:50.700", "level": "DEBUG", "logger": "payments", "message": "cache hit key=2ce9beab ttl=994s"}
+{"timestamp": "2026-05-12 09:19:52.725", "level": "ERROR", "logger": "checkout", "message": "circuit breaker open dependency=search failures=308"}
+{"timestamp": "2026-05-12 09:19:54.750", "level": "ERROR", "logger": "checkout", "message": "checkout failed user=alice reason=upstream_timeout order=184c4787"}
+{"timestamp": "2026-05-12 09:19:56.775", "level": "ERROR", "logger": "cache", "message": "checkout failed user=bob reason=upstream_timeout order=8d036988"}
+{"timestamp": "2026-05-12 09:19:58.800", "level": "DEBUG", "logger": "db", "message": "db query completed table=catalog rows=854 duration=1019ms"}
+{"timestamp": "2026-05-12 09:20:00.825", "level": "INFO", "logger": "api", "message": "request handled method=PUT path=/v1/checkout status=200 duration=583ms"}
+{"timestamp": "2026-05-12 09:20:02.850", "level": "ERROR", "logger": "cache", "message": "checkout failed user=bob reason=upstream_timeout order=2dd76a30"}
+{"timestamp": "2026-05-12 09:20:04.875", "level": "WARNING", "logger": "api", "message": "retry scheduled attempt=107 operation=order.create backoff=76ms"}
+{"timestamp": "2026-05-12 09:20:06.900", "level": "ERROR", "logger": "cache", "message": "checkout failed user=alice reason=upstream_timeout order=23395fb9"}
+{"timestamp": "2026-05-12 09:20:08.925", "level": "ERROR", "logger": "db", "message": "circuit breaker open dependency=payments failures=1003"}
+{"timestamp": "2026-05-12 09:20:10.950", "level": "INFO", "logger": "worker", "message": "request handled method=GET path=/v1/catalog status=200 duration=256ms"}
+{"timestamp": "2026-05-12 09:20:12.975", "level": "ERROR", "logger": "api", "message": "circuit breaker open dependency=search failures=219"}
+{"timestamp": "2026-05-12 09:20:15.000", "level": "DEBUG", "logger": "cache", "message": "cache hit key=1b726ea2 ttl=132s"}
+{"timestamp": "2026-05-12 09:20:17.025", "level": "ERROR", "logger": "cache", "message": "checkout failed user=dave reason=upstream_timeout order=85305fee"}
+{"timestamp": "2026-05-12 09:20:19.050", "level": "INFO", "logger": "worker", "message": "email queued to=bob@example.com template=welcome"}
+{"timestamp": "2026-05-12 09:20:21.075", "level": "DEBUG", "logger": "checkout", "message": "db query completed table=sessions rows=766 duration=440ms"}
+{"timestamp": "2026-05-12 09:20:23.100", "level": "ERROR", "logger": "worker", "message": "checkout failed user=frank reason=upstream_timeout order=acacbe06"}
+{"timestamp": "2026-05-12 09:20:25.125", "level": "INFO", "logger": "worker", "message": "kafka consumer lag group=billing partition=365 lag=699"}
+{"timestamp": "2026-05-12 09:20:27.150", "level": "INFO", "logger": "api", "message": "kafka consumer lag group=billing partition=191 lag=709"}
+{"timestamp": "2026-05-12 09:20:29.175", "level": "ERROR", "logger": "payments", "message": "circuit breaker open dependency=catalog failures=1161"}
+{"timestamp": "2026-05-12 09:20:31.200", "level": "WARNING", "logger": "checkout", "message": "retry scheduled attempt=880 operation=payment.charge backoff=1096ms"}
+{"timestamp": "2026-05-12 09:20:33.225", "level": "WARNING", "logger": "api", "message": "retry scheduled attempt=1180 operation=cart.update backoff=837ms"}
+{"timestamp": "2026-05-12 09:20:35.250", "level": "INFO", "logger": "payments", "message": "request handled method=POST path=/v1/catalog status=200 duration=881ms"}
+{"timestamp": "2026-05-12 09:20:37.275", "level": "INFO", "logger": "cache", "message": "request handled method=GET path=/v1/checkout status=200 duration=260ms"}
+{"timestamp": "2026-05-12 09:20:39.300", "level": "ERROR", "logger": "api", "message": "checkout failed user=frank reason=upstream_timeout order=5ee602ff"}
+{"timestamp": "2026-05-12 09:20:41.325", "level": "ERROR", "logger": "checkout", "message": "circuit breaker open dependency=search failures=827"}
+{"timestamp": "2026-05-12 09:20:43.350", "level": "INFO", "logger": "payments", "message": "payment charge accepted id=8ee6ac1c amount=169"}
+{"timestamp": "2026-05-12 09:20:45.375", "level": "INFO", "logger": "cache", "message": "payment charge accepted id=7fb29ac9 amount=854"}
+{"timestamp": "2026-05-12 09:20:47.400", "level": "ERROR", "logger": "checkout", "message": "checkout failed user=erin reason=upstream_timeout order=7fd33e99"}
+{"timestamp": "2026-05-12 09:20:49.425", "level": "INFO", "logger": "api", "message": "request handled method=POST path=/v1/search status=200 duration=222ms"}
+{"timestamp": "2026-05-12 09:20:51.450", "level": "INFO", "logger": "payments", "message": "user 600ms authenticated from /v1/user/me"}
+{"timestamp": "2026-05-12 09:20:53.475", "level": "INFO", "logger": "worker", "message": "kafka consumer lag group=orders partition=508 lag=850"}
+{"timestamp": "2026-05-12 09:20:55.500", "level": "DEBUG", "logger": "payments", "message": "db query completed table=catalog rows=155 duration=1055ms"}
+{"timestamp": "2026-05-12 09:20:57.525", "level": "WARNING", "logger": "db", "message": "slow query table=sessions duration=1156ms"}
+{"timestamp": "2026-05-12 09:20:59.550", "level": "DEBUG", "logger": "cache", "message": "cache hit key=ad9d2905 ttl=414s"}
+{"timestamp": "2026-05-12 09:21:01.575", "level": "WARNING", "logger": "checkout", "message": "slow query table=sessions duration=1127ms"}
+{"timestamp": "2026-05-12 09:21:03.600", "level": "ERROR", "logger": "payments", "message": "circuit breaker open dependency=identity failures=985"}
+{"timestamp": "2026-05-12 09:21:05.625", "level": "ERROR", "logger": "payments", "message": "checkout failed user=bob reason=upstream_timeout order=cfad5f8e"}
+{"timestamp": "2026-05-12 09:21:07.650", "level": "INFO", "logger": "checkout", "message": "email queued to=alice@example.com template=reset-password"}
+{"timestamp": "2026-05-12 09:21:09.675", "level": "INFO", "logger": "cache", "message": "request handled method=GET path=/v1/catalog status=200 duration=1191ms"}
+{"timestamp": "2026-05-12 09:21:11.700", "level": "DEBUG", "logger": "db", "message": "cache hit key=ffe7e3cf ttl=961s"}
+{"timestamp": "2026-05-12 09:21:13.725", "level": "WARNING", "logger": "api", "message": "retry scheduled attempt=711 operation=order.create backoff=1160ms"}
+{"timestamp": "2026-05-12 09:21:15.750", "level": "ERROR", "logger": "checkout", "message": "checkout failed user=alice reason=upstream_timeout order=878cc5db"}
+{"timestamp": "2026-05-12 09:21:17.775", "level": "WARNING", "logger": "worker", "message": "slow query table=orders duration=859ms"}
+{"timestamp": "2026-05-12 09:21:19.800", "level": "INFO", "logger": "payments", "message": "payment charge accepted id=c78fbfb5 amount=511"}
+{"timestamp": "2026-05-12 09:21:21.825", "level": "DEBUG", "logger": "cache", "message": "db query completed table=catalog rows=583 duration=520ms"}
+{"timestamp": "2026-05-12 09:21:23.850", "level": "ERROR", "logger": "payments", "message": "checkout failed user=carol reason=upstream_timeout order=acc26069"}
+{"timestamp": "2026-05-12 09:21:25.875", "level": "ERROR", "logger": "payments", "message": "checkout failed user=dave reason=upstream_timeout order=85f97aa0"}
+{"timestamp": "2026-05-12 09:21:27.900", "level": "DEBUG", "logger": "api", "message": "cache hit key=8db11760 ttl=229s"}
+{"timestamp": "2026-05-12 09:21:29.925", "level": "ERROR", "logger": "checkout", "message": "checkout failed user=frank reason=upstream_timeout order=333dc086"}
+{"timestamp": "2026-05-12 09:21:31.950", "level": "ERROR", "logger": "checkout", "message": "circuit breaker open dependency=search failures=405"}
+{"timestamp": "2026-05-12 09:21:33.975", "level": "DEBUG", "logger": "api", "message": "db query completed table=catalog rows=35 duration=1128ms"}
+{"timestamp": "2026-05-12 09:21:36.000", "level": "DEBUG", "logger": "checkout", "message": "healthcheck ok component=db uptime=974s"}
+{"timestamp": "2026-05-12 09:21:38.025", "level": "INFO", "logger": "payments", "message": "request handled method=GET path=/v1/catalog status=200 duration=194ms"}
+{"timestamp": "2026-05-12 09:21:40.050", "level": "ERROR", "logger": "api", "message": "circuit breaker open dependency=catalog failures=866"}
+{"timestamp": "2026-05-12 09:21:42.075", "level": "WARNING", "logger": "payments", "message": "retry scheduled attempt=240 operation=payment.charge backoff=444ms"}
+{"timestamp": "2026-05-12 09:21:44.100", "level": "INFO", "logger": "checkout", "message": "email queued to=bob@example.com template=receipt"}
+{"timestamp": "2026-05-12 09:21:46.125", "level": "INFO", "logger": "checkout", "message": "request handled method=GET path=/v1/user/me status=200 duration=65ms"}
+{"timestamp": "2026-05-12 09:21:48.150", "level": "DEBUG", "logger": "cache", "message": "cache hit key=a7f3dcb5 ttl=98s"}
+{"timestamp": "2026-05-12 09:21:50.175", "level": "INFO", "logger": "api", "message": "request handled method=PUT path=/v1/cart status=200 duration=833ms"}
+{"timestamp": "2026-05-12 09:21:52.200", "level": "WARNING", "logger": "api", "message": "retry scheduled attempt=178 operation=payment.charge backoff=157ms"}
+{"timestamp": "2026-05-12 09:21:54.225", "level": "ERROR", "logger": "checkout", "message": "circuit breaker open dependency=search failures=755"}
+{"timestamp": "2026-05-12 09:21:56.250", "level": "INFO", "logger": "api", "message": "request handled method=GET path=/v1/catalog status=200 duration=39ms"}
+{"timestamp": "2026-05-12 09:21:58.275", "level": "WARNING", "logger": "worker", "message": "slow query table=orders duration=150ms"}
+{"timestamp": "2026-05-12 09:22:00.300", "level": "DEBUG", "logger": "api", "message": "cache hit key=97ab6acb ttl=144s"}
+{"timestamp": "2026-05-12 09:22:02.325", "level": "INFO", "logger": "payments", "message": "request handled method=POST path=/v1/cart status=200 duration=397ms"}
+{"timestamp": "2026-05-12 09:22:04.350", "level": "INFO", "logger": "db", "message": "request handled method=PUT path=/v1/user/me status=200 duration=454ms"}
+{"timestamp": "2026-05-12 09:22:06.375", "level": "ERROR", "logger": "payments", "message": "checkout failed user=frank reason=upstream_timeout order=b61f9a7c"}
+{"timestamp": "2026-05-12 09:22:08.400", "level": "INFO", "logger": "api", "message": "request handled method=PUT path=/v1/checkout status=200 duration=1138ms"}
+{"timestamp": "2026-05-12 09:22:10.425", "level": "INFO", "logger": "db", "message": "user 676ms authenticated from 1021ms"}
+{"timestamp": "2026-05-12 09:22:12.450", "level": "INFO", "logger": "api", "message": "request handled method=GET path=/v1/cart status=200 duration=1179ms"}
+{"timestamp": "2026-05-12 09:22:14.475", "level": "ERROR", "logger": "api", "message": "checkout failed user=dave reason=upstream_timeout order=dd9608e5"}
+{"timestamp": "2026-05-12 09:22:16.500", "level": "INFO", "logger": "payments", "message": "payment charge accepted id=4a802384 amount=550"}
+{"timestamp": "2026-05-12 09:22:18.525", "level": "INFO", "logger": "db", "message": "request handled method=GET path=/v1/search status=200 duration=58ms"}
+{"timestamp": "2026-05-12 09:22:20.550", "level": "ERROR", "logger": "db", "message": "circuit breaker open dependency=search failures=864"}
+{"timestamp": "2026-05-12 09:22:22.575", "level": "INFO", "logger": "worker", "message": "request handled method=PUT path=/v1/catalog status=200 duration=159ms"}
+{"timestamp": "2026-05-12 09:22:24.600", "level": "ERROR", "logger": "payments", "message": "circuit breaker open dependency=identity failures=128"}
+{"timestamp": "2026-05-12 09:22:26.625", "level": "DEBUG", "logger": "cache", "message": "cache hit key=2a775309 ttl=181s"}
+{"timestamp": "2026-05-12 09:22:28.650", "level": "WARNING", "logger": "checkout", "message": "slow query table=users duration=345ms"}
+{"timestamp": "2026-05-12 09:22:30.675", "level": "ERROR", "logger": "db", "message": "circuit breaker open dependency=search failures=1136"}
+{"timestamp": "2026-05-12 09:22:32.700", "level": "ERROR", "logger": "worker", "message": "checkout failed user=alice reason=upstream_timeout order=b2cce934"}
+{"timestamp": "2026-05-12 09:22:34.725", "level": "DEBUG", "logger": "db", "message": "cache hit key=3c9bb284 ttl=765s"}
+{"timestamp": "2026-05-12 09:22:36.750", "level": "ERROR", "logger": "db", "message": "circuit breaker open dependency=catalog failures=1138"}
+{"timestamp": "2026-05-12 09:22:38.775", "level": "INFO", "logger": "api", "message": "user /v1/cart authenticated from 687ms"}
+{"timestamp": "2026-05-12 09:22:40.800", "level": "DEBUG", "logger": "checkout", "message": "cache hit key=2beab3a3 ttl=966s"}
+{"timestamp": "2026-05-12 09:22:42.825", "level": "DEBUG", "logger": "db", "message": "db query completed table=sessions rows=1089 duration=554ms"}
+{"timestamp": "2026-05-12 09:22:44.850", "level": "DEBUG", "logger": "checkout", "message": "cache hit key=97316893 ttl=686s"}
+{"timestamp": "2026-05-12 09:22:46.875", "level": "DEBUG", "logger": "worker", "message": "db query completed table=users rows=971 duration=129ms"}
+{"timestamp": "2026-05-12 09:22:48.900", "level": "INFO", "logger": "checkout", "message": "request handled method=GET path=/v1/cart status=200 duration=738ms"}
+{"timestamp": "2026-05-12 09:22:50.925", "level": "INFO", "logger": "payments", "message": "request handled method=POST path=/v1/catalog status=200 duration=720ms"}
+{"timestamp": "2026-05-12 09:22:52.950", "level": "DEBUG", "logger": "payments", "message": "cache hit key=ff385c19 ttl=668s"}
+{"timestamp": "2026-05-12 09:22:54.975", "level": "INFO", "logger": "db", "message": "request handled method=GET path=/v1/user/me status=200 duration=373ms"}
+{"timestamp": "2026-05-12 09:22:57.000", "level": "DEBUG", "logger": "worker", "message": "healthcheck ok component=payments uptime=471s"}
+{"timestamp": "2026-05-12 09:22:59.025", "level": "INFO", "logger": "payments", "message": "request handled method=GET path=/v1/user/me status=200 duration=111ms"}
+{"timestamp": "2026-05-12 09:23:01.050", "level": "INFO", "logger": "db", "message": "user 976ms authenticated from 35213"}
+{"timestamp": "2026-05-12 09:23:03.075", "level": "INFO", "logger": "payments", "message": "kafka consumer lag group=catalog partition=784 lag=585"}
+{"timestamp": "2026-05-12 09:23:05.100", "level": "WARNING", "logger": "cache", "message": "slow query table=users duration=919ms"}
+{"timestamp": "2026-05-12 09:23:07.125", "level": "INFO", "logger": "db", "message": "user 6445 authenticated from /v1/checkout"}
+{"timestamp": "2026-05-12 09:23:09.150", "level": "DEBUG", "logger": "api", "message": "db query completed table=catalog rows=1042 duration=572ms"}
+{"timestamp": "2026-05-12 09:23:11.175", "level": "DEBUG", "logger": "payments", "message": "healthcheck ok component=payments uptime=806s"}
+{"timestamp": "2026-05-12 09:23:13.200", "level": "INFO", "logger": "checkout", "message": "user /v1/checkout authenticated from /v1/checkout"}
+{"timestamp": "2026-05-12 09:23:15.225", "level": "INFO", "logger": "cache", "message": "payment charge accepted id=e07c2a47 amount=335"}
+{"timestamp": "2026-05-12 09:23:17.250", "level": "ERROR", "logger": "db", "message": "circuit breaker open dependency=identity failures=222"}
+{"timestamp": "2026-05-12 09:23:19.275", "level": "ERROR", "logger": "cache", "message": "checkout failed user=frank reason=upstream_timeout order=7daf2302"}
+{"timestamp": "2026-05-12 09:23:21.300", "level": "ERROR", "logger": "payments", "message": "checkout failed user=erin reason=upstream_timeout order=5aa97914"}
+{"timestamp": "2026-05-12 09:23:23.325", "level": "INFO", "logger": "api", "message": "payment charge accepted id=92376e7f amount=42"}
+{"timestamp": "2026-05-12 09:23:25.350", "level": "INFO", "logger": "db", "message": "kafka consumer lag group=billing partition=1044 lag=594"}
+{"timestamp": "2026-05-12 09:23:27.375", "level": "ERROR", "logger": "db", "message": "checkout failed user=alice reason=upstream_timeout order=8168b19b"}
+{"timestamp": "2026-05-12 09:23:29.400", "level": "WARNING", "logger": "db", "message": "retry scheduled attempt=896 operation=order.create backoff=1136ms"}
+{"timestamp": "2026-05-12 09:23:31.425", "level": "INFO", "logger": "cache", "message": "user 47381 authenticated from 223ms"}
+{"timestamp": "2026-05-12 09:23:33.450", "level": "INFO", "logger": "checkout", "message": "request handled method=POST path=/v1/cart status=200 duration=750ms"}
+{"timestamp": "2026-05-12 09:23:35.475", "level": "INFO", "logger": "payments", "message": "request handled method=PUT path=/v1/user/me status=200 duration=731ms"}
+{"timestamp": "2026-05-12 09:23:37.500", "level": "INFO", "logger": "api", "message": "request handled method=GET path=/v1/user/me status=200 duration=440ms"}
+{"timestamp": "2026-05-12 09:23:39.525", "level": "INFO", "logger": "db", "message": "request handled method=PUT path=/v1/cart status=200 duration=158ms"}
+{"timestamp": "2026-05-12 09:23:41.550", "level": "INFO", "logger": "worker", "message": "request handled method=GET path=/v1/checkout status=200 duration=70ms"}
+{"timestamp": "2026-05-12 09:23:43.575", "level": "INFO", "logger": "payments", "message": "request handled method=POST path=/v1/cart status=200 duration=568ms"}
+{"timestamp": "2026-05-12 09:23:45.600", "level": "ERROR", "logger": "cache", "message": "checkout failed user=erin reason=upstream_timeout order=f9fc6fa8"}
+{"timestamp": "2026-05-12 09:23:47.625", "level": "INFO", "logger": "db", "message": "kafka consumer lag group=catalog partition=751 lag=1169"}
+{"timestamp": "2026-05-12 09:23:49.650", "level": "WARNING", "logger": "cache", "message": "retry scheduled attempt=909 operation=cart.update backoff=59ms"}
+{"timestamp": "2026-05-12 09:23:51.675", "level": "ERROR", "logger": "api", "message": "circuit breaker open dependency=search failures=920"}
+{"timestamp": "2026-05-12 09:23:53.700", "level": "DEBUG", "logger": "payments", "message": "db query completed table=sessions rows=924 duration=952ms"}
+{"timestamp": "2026-05-12 09:23:55.725", "level": "DEBUG", "logger": "checkout", "message": "db query completed table=users rows=117 duration=36ms"}
+{"timestamp": "2026-05-12 09:23:57.750", "level": "ERROR", "logger": "checkout", "message": "checkout failed user=carol reason=upstream_timeout order=2297abd2"}
+{"timestamp": "2026-05-12 09:23:59.775", "level": "ERROR", "logger": "api", "message": "circuit breaker open dependency=search failures=413"}
+{"timestamp": "2026-05-12 09:24:01.800", "level": "DEBUG", "logger": "payments", "message": "cache miss key=464d61ba fill=1199ms"}
+{"timestamp": "2026-05-12 09:24:03.825", "level": "INFO", "logger": "db", "message": "request handled method=PUT path=/v1/user/me status=200 duration=271ms"}
+{"timestamp": "2026-05-12 09:24:05.850", "level": "INFO", "logger": "worker", "message": "payment charge accepted id=95d167d4 amount=498"}
+{"timestamp": "2026-05-12 09:24:07.875", "level": "INFO", "logger": "cache", "message": "request handled method=PUT path=/v1/cart status=200 duration=27ms"}
+{"timestamp": "2026-05-12 09:24:09.900", "level": "INFO", "logger": "api", "message": "request handled method=GET path=/v1/user/me status=200 duration=83ms"}
+{"timestamp": "2026-05-12 09:24:11.925", "level": "ERROR", "logger": "worker", "message": "circuit breaker open dependency=search failures=134"}
+{"timestamp": "2026-05-12 09:24:13.950", "level": "DEBUG", "logger": "api", "message": "db query completed table=sessions rows=1010 duration=199ms"}
+{"timestamp": "2026-05-12 09:24:15.975", "level": "ERROR", "logger": "db", "message": "circuit breaker open dependency=catalog failures=13"}
+{"timestamp": "2026-05-12 09:24:18.000", "level": "DEBUG", "logger": "api", "message": "cache hit key=92cac2e5 ttl=705s"}
+{"timestamp": "2026-05-12 09:24:20.025", "level": "DEBUG", "logger": "checkout", "message": "db query completed table=orders rows=285 duration=25ms"}
+{"timestamp": "2026-05-12 09:24:22.050", "level": "INFO", "logger": "db", "message": "email queued to=alice@example.com template=welcome"}
+{"timestamp": "2026-05-12 09:24:24.075", "level": "DEBUG", "logger": "cache", "message": "healthcheck ok component=cache uptime=43s"}
+{"timestamp": "2026-05-12 09:24:26.100", "level": "INFO", "logger": "cache", "message": "request handled method=POST path=/v1/catalog status=200 duration=75ms"}
+{"timestamp": "2026-05-12 09:24:28.125", "level": "INFO", "logger": "db", "message": "request handled method=GET path=/v1/cart status=200 duration=1148ms"}
+{"timestamp": "2026-05-12 09:24:30.150", "level": "INFO", "logger": "api", "message": "user /v1/cart authenticated from 803ms"}
+{"timestamp": "2026-05-12 09:24:32.175", "level": "INFO", "logger": "api", "message": "kafka consumer lag group=catalog partition=702 lag=83"}
+{"timestamp": "2026-05-12 09:24:34.200", "level": "DEBUG", "logger": "db", "message": "cache hit key=3b3e3829 ttl=26s"}
+{"timestamp": "2026-05-12 09:24:36.225", "level": "INFO", "logger": "api", "message": "request handled method=PUT path=/v1/checkout status=200 duration=1197ms"}
+{"timestamp": "2026-05-12 09:24:38.250", "level": "DEBUG", "logger": "api", "message": "cache hit key=1697312d ttl=813s"}
+{"timestamp": "2026-05-12 09:24:40.275", "level": "INFO", "logger": "checkout", "message": "request handled method=GET path=/v1/cart status=200 duration=597ms"}
+{"timestamp": "2026-05-12 09:24:42.300", "level": "WARNING", "logger": "api", "message": "retry scheduled attempt=818 operation=order.create backoff=3ms"}
+{"timestamp": "2026-05-12 09:24:44.325", "level": "DEBUG", "logger": "checkout", "message": "cache hit key=6b83bb7e ttl=443s"}
+{"timestamp": "2026-05-12 09:24:46.350", "level": "DEBUG", "logger": "checkout", "message": "healthcheck ok component=cache uptime=406s"}
+{"timestamp": "2026-05-12 09:24:48.375", "level": "DEBUG", "logger": "checkout", "message": "cache miss key=74b1ac7f fill=1062ms"}
+{"timestamp": "2026-05-12 09:24:50.400", "level": "INFO", "logger": "db", "message": "request handled method=GET path=/v1/cart status=200 duration=773ms"}
+{"timestamp": "2026-05-12 09:24:52.425", "level": "INFO", "logger": "payments", "message": "user /v1/checkout authenticated from 69462"}
+{"timestamp": "2026-05-12 09:24:54.450", "level": "DEBUG", "logger": "api", "message": "cache miss key=6204e5eb fill=1092ms"}
+{"timestamp": "2026-05-12 09:24:56.475", "level": "DEBUG", "logger": "checkout", "message": "db query completed table=orders rows=479 duration=822ms"}
+{"timestamp": "2026-05-12 09:24:58.500", "level": "DEBUG", "logger": "worker", "message": "healthcheck ok component=db uptime=798s"}
+{"timestamp": "2026-05-12 09:25:00.525", "level": "INFO", "logger": "worker", "message": "user /v1/search authenticated from 36963"}
+{"timestamp": "2026-05-12 09:25:02.550", "level": "DEBUG", "logger": "api", "message": "cache hit key=e9775112 ttl=24s"}
+{"timestamp": "2026-05-12 09:25:04.575", "level": "INFO", "logger": "cache", "message": "request handled method=GET path=/v1/catalog status=200 duration=232ms"}
+{"timestamp": "2026-05-12 09:25:06.600", "level": "DEBUG", "logger": "db", "message": "db query completed table=catalog rows=630 duration=375ms"}
+{"timestamp": "2026-05-12 09:25:08.625", "level": "INFO", "logger": "payments", "message": "email queued to=bob@example.com template=receipt"}
+{"timestamp": "2026-05-12 09:25:10.650", "level": "INFO", "logger": "worker", "message": "kafka consumer lag group=orders partition=1069 lag=579"}
+{"timestamp": "2026-05-12 09:25:12.675", "level": "DEBUG", "logger": "payments", "message": "cache miss key=36ed7c55 fill=264ms"}
+{"timestamp": "2026-05-12 09:25:14.700", "level": "WARNING", "logger": "db", "message": "slow query table=orders duration=826ms"}
+{"timestamp": "2026-05-12 09:25:16.725", "level": "INFO", "logger": "worker", "message": "payment charge accepted id=8067623e amount=536"}
+{"timestamp": "2026-05-12 09:25:18.750", "level": "DEBUG", "logger": "checkout", "message": "cache hit key=fce5e081 ttl=262s"}
+{"timestamp": "2026-05-12 09:25:20.775", "level": "INFO", "logger": "worker", "message": "payment charge accepted id=0270b361 amount=87"}
+{"timestamp": "2026-05-12 09:25:22.800", "level": "DEBUG", "logger": "payments", "message": "db query completed table=catalog rows=825 duration=620ms"}
+{"timestamp": "2026-05-12 09:25:24.825", "level": "WARNING", "logger": "api", "message": "slow query table=users duration=283ms"}
+{"timestamp": "2026-05-12 09:25:26.850", "level": "DEBUG", "logger": "cache", "message": "cache miss key=5e514e82 fill=915ms"}
+{"timestamp": "2026-05-12 09:25:28.875", "level": "INFO", "logger": "checkout", "message": "request handled method=PUT path=/v1/catalog status=200 duration=74ms"}
+{"timestamp": "2026-05-12 09:25:30.900", "level": "INFO", "logger": "cache", "message": "request handled method=GET path=/v1/catalog status=200 duration=442ms"}
+{"timestamp": "2026-05-12 09:25:32.925", "level": "INFO", "logger": "checkout", "message": "request handled method=PUT path=/v1/catalog status=200 duration=108ms"}
+{"timestamp": "2026-05-12 09:25:34.950", "level": "INFO", "logger": "checkout", "message": "request handled method=POST path=/v1/catalog status=200 duration=545ms"}
+{"timestamp": "2026-05-12 09:25:36.975", "level": "INFO", "logger": "worker", "message": "request handled method=PUT path=/v1/cart status=200 duration=333ms"}
+{"timestamp": "2026-05-12 09:25:39.000", "level": "INFO", "logger": "api", "message": "request handled method=GET path=/v1/checkout status=200 duration=629ms"}
+{"timestamp": "2026-05-12 09:25:41.025", "level": "DEBUG", "logger": "payments", "message": "cache hit key=9f2a126c ttl=891s"}
+{"timestamp": "2026-05-12 09:25:43.050", "level": "DEBUG", "logger": "api", "message": "db query completed table=catalog rows=645 duration=882ms"}
+{"timestamp": "2026-05-12 09:25:45.075", "level": "INFO", "logger": "checkout", "message": "kafka consumer lag group=catalog partition=356 lag=782"}
+{"timestamp": "2026-05-12 09:25:47.100", "level": "INFO", "logger": "worker", "message": "request handled method=GET path=/v1/catalog status=200 duration=326ms"}
+{"timestamp": "2026-05-12 09:25:49.125", "level": "INFO", "logger": "checkout", "message": "request handled method=GET path=/v1/checkout status=200 duration=1111ms"}
+{"timestamp": "2026-05-12 09:25:51.150", "level": "DEBUG", "logger": "db", "message": "cache miss key=13ff3216 fill=1173ms"}
+{"timestamp": "2026-05-12 09:25:53.175", "level": "INFO", "logger": "worker", "message": "email queued to=carol@example.com template=reset-password"}
+{"timestamp": "2026-05-12 09:25:55.200", "level": "DEBUG", "logger": "worker", "message": "cache hit key=72dda3d5 ttl=1085s"}
+{"timestamp": "2026-05-12 09:25:57.225", "level": "DEBUG", "logger": "api", "message": "cache hit key=ccdb6a5b ttl=560s"}
+{"timestamp": "2026-05-12 09:25:59.250", "level": "DEBUG", "logger": "worker", "message": "cache hit key=dde1800e ttl=1154s"}
+{"timestamp": "2026-05-12 09:26:01.275", "level": "INFO", "logger": "payments", "message": "request handled method=GET path=/v1/catalog status=200 duration=952ms"}
+{"timestamp": "2026-05-12 09:26:03.300", "level": "INFO", "logger": "payments", "message": "email queued to=alice@example.com template=welcome"}
+{"timestamp": "2026-05-12 09:26:05.325", "level": "INFO", "logger": "cache", "message": "request handled method=GET path=/v1/cart status=200 duration=777ms"}
+{"timestamp": "2026-05-12 09:26:07.350", "level": "INFO", "logger": "payments", "message": "request handled method=GET path=/v1/cart status=200 duration=262ms"}
+{"timestamp": "2026-05-12 09:26:09.375", "level": "DEBUG", "logger": "db", "message": "cache hit key=6d52e356 ttl=287s"}
+{"timestamp": "2026-05-12 09:26:11.400", "level": "INFO", "logger": "cache", "message": "kafka consumer lag group=catalog partition=389 lag=184"}
+{"timestamp": "2026-05-12 09:26:13.425", "level": "INFO", "logger": "worker", "message": "payment settled id=e11f5aa4 attempts=349ms duration=965ms"}
+{"timestamp": "2026-05-12 09:26:15.450", "level": "DEBUG", "logger": "db", "message": "db query completed table=orders rows=115 duration=55ms"}
+{"timestamp": "2026-05-12 09:26:17.475", "level": "INFO", "logger": "payments", "message": "request handled method=PUT path=/v1/user/me status=200 duration=233ms"}
+{"timestamp": "2026-05-12 09:26:19.500", "level": "DEBUG", "logger": "payments", "message": "cache hit key=d56510a6 ttl=472s"}
+{"timestamp": "2026-05-12 09:26:21.525", "level": "INFO", "logger": "worker", "message": "request handled method=GET path=/v1/user/me status=200 duration=462ms"}
+{"timestamp": "2026-05-12 09:26:23.550", "level": "INFO", "logger": "worker", "message": "kafka consumer lag group=orders partition=248 lag=577"}
+{"timestamp": "2026-05-12 09:26:25.575", "level": "INFO", "logger": "db", "message": "payment charge accepted id=89141bba amount=34"}
+{"timestamp": "2026-05-12 09:26:27.600", "level": "INFO", "logger": "checkout", "message": "request handled method=POST path=/v1/catalog status=200 duration=981ms"}
+{"timestamp": "2026-05-12 09:26:29.625", "level": "INFO", "logger": "checkout", "message": "email queued to=carol@example.com template=reset-password"}
+{"timestamp": "2026-05-12 09:26:31.650", "level": "DEBUG", "logger": "payments", "message": "healthcheck ok component=checkout uptime=351s"}
+{"timestamp": "2026-05-12 09:26:33.675", "level": "INFO", "logger": "payments", "message": "kafka consumer lag group=orders partition=349 lag=1177"}
+{"timestamp": "2026-05-12 09:26:35.700", "level": "INFO", "logger": "payments", "message": "request handled method=PUT path=/v1/checkout status=200 duration=205ms"}
+{"timestamp": "2026-05-12 09:26:37.725", "level": "INFO", "logger": "worker", "message": "request handled method=PUT path=/v1/checkout status=200 duration=842ms"}
+{"timestamp": "2026-05-12 09:26:39.750", "level": "DEBUG", "logger": "api", "message": "db query completed table=users rows=45 duration=1139ms"}
+{"timestamp": "2026-05-12 09:26:41.775", "level": "INFO", "logger": "api", "message": "payment charge accepted id=cefe6e7b amount=755"}
+{"timestamp": "2026-05-12 09:26:43.800", "level": "INFO", "logger": "worker", "message": "request handled method=GET path=/v1/search status=200 duration=380ms"}
+{"timestamp": "2026-05-12 09:26:45.825", "level": "INFO", "logger": "payments", "message": "request handled method=POST path=/v1/search status=200 duration=468ms"}
+{"timestamp": "2026-05-12 09:26:47.850", "level": "DEBUG", "logger": "checkout", "message": "db query completed table=users rows=81 duration=678ms"}
+{"timestamp": "2026-05-12 09:26:49.875", "level": "DEBUG", "logger": "worker", "message": "healthcheck ok component=payments uptime=32s"}
+{"timestamp": "2026-05-12 09:26:51.900", "level": "INFO", "logger": "payments", "message": "request handled method=POST path=/v1/search status=200 duration=694ms"}
+{"timestamp": "2026-05-12 09:26:53.925", "level": "WARNING", "logger": "cache", "message": "slow query table=orders duration=1027ms"}
+{"timestamp": "2026-05-12 09:26:55.950", "level": "INFO", "logger": "db", "message": "request handled method=PUT path=/v1/user/me status=200 duration=140ms"}
+{"timestamp": "2026-05-12 09:26:57.975", "level": "DEBUG", "logger": "cache", "message": "cache hit key=158371c4 ttl=582s"}
+{"timestamp": "2026-05-12 09:27:00.000", "level": "INFO", "logger": "cache", "message": "payment charge accepted id=7695953b amount=559"}
