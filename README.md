@@ -1,5 +1,7 @@
 # logscope
 
+**English** | [简体中文](README.zh-CN.md)
+
 **Point logscope at 20,000 lines of log and get back the incident, its ranked causes, and the exact lines that prove it.**
 
 [![ci](https://github.com/kele-tao/logscope/actions/workflows/ci.yml/badge.svg)](https://github.com/kele-tao/logscope/actions/workflows/ci.yml)
